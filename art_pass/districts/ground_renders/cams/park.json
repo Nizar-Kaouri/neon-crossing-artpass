@@ -1,0 +1,34 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "ground pass view: eye 1.7 m at (6.0, 132.6) looking at (8.0, 138.4), 27 ground boxes ahead",
+   "position": [
+    6.0,
+    1.7,
+    132.6
+   ],
+   "rotation_degrees": [
+    -14.0,
+    -161.1,
+    0.0
+   ],
+   "fov_degrees": 75.0
+  },
+  {
+   "id": 2,
+   "description": "ground pass view: eye 1.7 m at (8.8, 147.3) looking at (8.2, 137.8), 15 ground boxes ahead",
+   "position": [
+    8.85,
+    1.7,
+    147.35
+   ],
+   "rotation_degrees": [
+    -14.0,
+    3.9,
+    0.0
+   ],
+   "fov_degrees": 75.0
+  }
+ ]
+}

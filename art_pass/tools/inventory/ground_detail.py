@@ -26,7 +26,7 @@ MARGIN = 14.0                         # probe beyond the district so roads / ker
 MATERIALS = {   # name: tiling texture, albedo tint, uv scale (world triplanar), roughness, metallic
     'asphalt':       {'tex': 'asphalt',       'tint': 'ffffff', 'uv': 0.25, 'rough': 0.92, 'metal': 0.0, 'why': 'road surface (#4f4d55 texture)'},
     'asphalt_patch': {'tex': 'asphalt',       'tint': 'c9c4cc', 'uv': 0.5,  'rough': 0.97, 'metal': 0.0, 'why': 'repair patches: a duller, greyer asphalt'},
-    'puddle':        {'tex': 'asphalt',       'tint': '6a6474', 'uv': 0.5,  'rough': 0.06, 'metal': 0.0, 'why': 'puddle marks: dark, wet, reflects the lanterns'},
+    'puddle':        {'tex': 'plaster_cream', 'tint': '3c3844', 'uv': 0.5,  'rough': 0.08, 'metal': 0.0, 'why': 'puddle marks: smooth, dark, wet (asphalt grain sparkles at this roughness)'},
     'kerb':          {'tex': 'paving_stone',  'tint': 'f2f0ee', 'uv': 1.0,  'rough': 0.8,  'metal': 0.0, 'why': 'granite kerb line at the road edge'},
     'paint':         {'tex': 'plaster_cream', 'tint': 'fcffff', 'uv': 1.0,  'rough': 0.7,  'metal': 0.0, 'why': 'road paint #e8e2da-ish'},
     'iron':          {'tex': 'metal_panel',   'tint': 'a29a92', 'uv': 2.0,  'rough': 0.7,  'metal': 0.15, 'why': 'cast-iron manholes and drain covers'},
