@@ -1,0 +1,10 @@
+config_version=5
+[application]
+config/name="slice test"
+run/main_scene="res://art_pass/slice/slice.tscn"
+config/features=PackedStringArray("4.7")
+[display]
+window/size/viewport_width=1600
+window/size/viewport_height=900
+[rendering]
+renderer/rendering_method="gl_compatibility"

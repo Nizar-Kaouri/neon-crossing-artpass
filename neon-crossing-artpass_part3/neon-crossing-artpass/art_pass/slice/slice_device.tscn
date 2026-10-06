@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://dldrcw4ggwbdm"]
+
+[ext_resource type="Script" uid="uid://d3mtit5j75hcv" path="res://art_pass/slice/slice_builder.gd" id="1_builder"]
+[ext_resource type="Script" uid="uid://cjysx2leyc532" path="res://art_pass/slice/fly_camera.gd" id="2_cam"]
+[ext_resource type="Shader" path="res://art_pass/shaders/dusk_sky.gdshader" id="3_sky"]
+[ext_resource type="LightmapGIData" uid="uid://s71l3atwb31d" path="res://art_pass/slice/slice.lmbake" id="2_hah2j"]
+
+[sub_resource type="ShaderMaterial" id="sky_mat"]
+shader = ExtResource("3_sky")
+
+[sub_resource type="Sky" id="sky"]
+sky_material = SubResource("sky_mat")
+
+[sub_resource type="Environment" id="env"]
+background_mode = 2
+sky = SubResource("sky")
+ambient_light_source = 3
+ambient_light_color = Color(0.78, 0.62, 0.55, 1)
+ambient_light_sky_contribution = 0.15
+ambient_light_energy = 0.5
+reflected_light_source = 2
+tonemap_mode = 3
+ssao_enabled = true
+ssao_radius = 1.2
+ssao_intensity = 1.6
+glow_enabled = true
+glow_intensity = 0.7
+glow_bloom = 0.08
+glow_hdr_threshold = 1.1
+fog_enabled = true
+fog_light_color = Color(0.72, 0.6, 0.78, 1)
+fog_density = 0.004
+fog_sky_affect = 0.0
+fog_height = 20.0
+adjustment_enabled = true
+adjustment_saturation = 1.0
+
+[node name="Slice" type="Node3D" unique_id=1497846725]
+
+[node name="Builder" type="Node3D" parent="." unique_id=1159736051]
+script = ExtResource("1_builder")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1475192977]
+environment = SubResource("env")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=858752354]
+transform = Transform3D(-0.42261833, 0.2192557, -0.87938654, 0, 0.9702957, 0.2419219, 0.90630776, 0.10224063, -0.41006476, 0, 30, 0)
+light_color = Color(1, 0.66, 0.42, 1)
+light_energy = 1.2
+light_bake_mode = 1
+shadow_enabled = true
+directional_shadow_max_distance = 80.0
+
+[node name="LightmapGI" type="LightmapGI" parent="." unique_id=1707387779]
+max_texture_size = 4096
+light_data = ExtResource("2_hah2j")
+
+[node name="Camera" type="Camera3D" parent="." unique_id=170927754]
+fov = 72.0
+far = 600.0
+script = ExtResource("2_cam")

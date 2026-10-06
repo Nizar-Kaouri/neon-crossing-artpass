@@ -1,0 +1,1314 @@
+{
+ "schema_version": 1,
+ "district": "shrine",
+ "source": "layout_dump.json (Claude, cloud)",
+ "region": {
+  "x": [
+   26,
+   100
+  ],
+  "z": [
+   -85,
+   -48
+  ]
+ },
+ "buildings": [],
+ "structures": [
+  {
+   "dump_index": 600,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1224",
+   "aabb_min": [
+    18.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    42.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 601,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1226",
+   "aabb_min": [
+    18.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    42.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 602,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1228",
+   "aabb_min": [
+    18.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    42.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 603,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1230",
+   "aabb_min": [
+    18.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    42.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 646,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1316",
+   "aabb_min": [
+    42.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    48.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 647,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1318",
+   "aabb_min": [
+    42.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    48.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 648,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1320",
+   "aabb_min": [
+    42.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    48.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 649,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1322",
+   "aabb_min": [
+    42.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    48.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 692,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1408",
+   "aabb_min": [
+    48.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    58.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 693,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1410",
+   "aabb_min": [
+    48.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    58.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 694,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1412",
+   "aabb_min": [
+    48.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    58.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 695,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1414",
+   "aabb_min": [
+    48.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    58.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 738,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1500",
+   "aabb_min": [
+    58.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    70.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 739,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1502",
+   "aabb_min": [
+    58.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    70.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 740,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1504",
+   "aabb_min": [
+    58.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    70.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 741,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1506",
+   "aabb_min": [
+    58.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    70.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 784,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1592",
+   "aabb_min": [
+    70.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    80.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 785,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1594",
+   "aabb_min": [
+    70.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    80.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 786,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1596",
+   "aabb_min": [
+    70.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    80.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 787,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1598",
+   "aabb_min": [
+    70.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    80.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 830,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1684",
+   "aabb_min": [
+    80.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    92.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 831,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1686",
+   "aabb_min": [
+    80.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    92.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 832,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1688",
+   "aabb_min": [
+    80.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    92.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 833,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1690",
+   "aabb_min": [
+    80.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    92.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 1798,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3633",
+   "aabb_min": [
+    30.057,
+    3.2,
+    -49.925
+   ],
+   "aabb_max": [
+    33.949,
+    3.5,
+    -48.175
+   ]
+  },
+  {
+   "dump_index": 1800,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@3637",
+   "aabb_min": [
+    30.57,
+    3.2,
+    -57.724
+   ],
+   "aabb_max": [
+    39.969,
+    8.0,
+    -47.749
+   ],
+   "ends": [
+    {
+     "xz": [
+      33.43,
+      -47.75
+     ],
+     "y": 3.2
+    },
+    {
+     "xz": [
+      37.11,
+      -57.72
+     ],
+     "y": 8.0
+    }
+   ],
+   "along_x": false,
+   "width_m": 9.4,
+   "width_true": 3.801,
+   "axis": {
+    "origin_xz": [
+     35.27,
+     -52.736
+    ],
+    "dir_xz": [
+     0.6584,
+     -0.7526
+    ],
+    "mid_across": 0.0,
+    "along_min": -4.965,
+    "along_max": 4.965,
+    "y_low": 3.2,
+    "y_high": 8.0
+   }
+  },
+  {
+   "dump_index": 1801,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3639",
+   "aabb_min": [
+    37.109,
+    7.7,
+    -58.854
+   ],
+   "aabb_max": [
+    40.957,
+    8.0,
+    -55.222
+   ]
+  },
+  {
+   "dump_index": 1802,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3641",
+   "aabb_min": [
+    30.274,
+    3.2,
+    -50.251
+   ],
+   "aabb_max": [
+    33.43,
+    3.5,
+    -47.411
+   ]
+  },
+  {
+   "dump_index": 1803,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@3643",
+   "aabb_min": [
+    61.063,
+    -0.3,
+    -68.802
+   ],
+   "aabb_max": [
+    67.601,
+    3.5,
+    -63.419
+   ],
+   "ends": [
+    {
+     "xz": [
+      67.6,
+      -65.2
+     ],
+     "y": 0.0
+    },
+    {
+     "xz": [
+      61.06,
+      -67.02
+     ],
+     "y": 3.5
+    }
+   ],
+   "along_x": true,
+   "width_m": 5.38,
+   "width_true": 3.8,
+   "axis": {
+    "origin_xz": [
+     64.332,
+     -66.111
+    ],
+    "dir_xz": [
+     -0.9487,
+     0.3163
+    ],
+    "mid_across": 0.0,
+    "along_min": -2.812,
+    "along_max": 2.812,
+    "y_low": 0.0,
+    "y_high": 3.5
+   }
+  },
+  {
+   "dump_index": 1804,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3645",
+   "aabb_min": [
+    59.641,
+    3.2,
+    -67.024
+   ],
+   "aabb_max": [
+    62.265,
+    3.5,
+    -62.944
+   ]
+  },
+  {
+   "dump_index": 1805,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3647",
+   "aabb_min": [
+    66.399,
+    -0.3,
+    -68.945
+   ],
+   "aabb_max": [
+    68.027,
+    0.0,
+    -65.197
+   ]
+  },
+  {
+   "dump_index": 1806,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@3649",
+   "aabb_min": [
+    54.647,
+    3.2,
+    -66.641
+   ],
+   "aabb_max": [
+    61.957,
+    8.0,
+    -60.212
+   ],
+   "ends": [
+    {
+     "xz": [
+      61.96,
+      -63.36
+     ],
+     "y": 3.2
+    },
+    {
+     "xz": [
+      54.65,
+      -63.49
+     ],
+     "y": 8.0
+    }
+   ],
+   "along_x": true,
+   "width_m": 6.43,
+   "width_true": 3.8,
+   "axis": {
+    "origin_xz": [
+     58.302,
+     -63.427
+    ],
+    "dir_xz": [
+     -0.8638,
+     0.5038
+    ],
+    "mid_across": -0.0,
+    "along_min": -3.123,
+    "along_max": 3.124,
+    "y_low": 3.2,
+    "y_high": 8.0
+   }
+  },
+  {
+   "dump_index": 1807,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3651",
+   "aabb_min": [
+    53.352,
+    7.7,
+    -63.494
+   ],
+   "aabb_max": [
+    56.562,
+    8.0,
+    -59.456
+   ]
+  },
+  {
+   "dump_index": 1808,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3653",
+   "aabb_min": [
+    60.042,
+    3.2,
+    -66.868
+   ],
+   "aabb_max": [
+    62.346,
+    3.5,
+    -63.358
+   ]
+  },
+  {
+   "dump_index": 1810,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3657",
+   "aabb_min": [
+    61.28,
+    3.2,
+    -50.025
+   ],
+   "aabb_max": [
+    64.636,
+    3.5,
+    -46.031
+   ]
+  },
+  {
+   "dump_index": 1812,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@3661",
+   "aabb_min": [
+    55.123,
+    3.2,
+    -53.769
+   ],
+   "aabb_max": [
+    63.978,
+    8.0,
+    -46.371
+   ],
+   "ends": [
+    {
+     "xz": [
+      63.98,
+      -49.63
+     ],
+     "y": 3.2
+    },
+    {
+     "xz": [
+      55.12,
+      -50.51
+     ],
+     "y": 8.0
+    }
+   ],
+   "along_x": true,
+   "width_m": 7.4,
+   "width_true": 3.8,
+   "axis": {
+    "origin_xz": [
+     59.55,
+     -50.07
+    ],
+    "dir_xz": [
+     -0.8575,
+     -0.5145
+    ],
+    "mid_across": 0.0,
+    "along_min": -4.024,
+    "along_max": 4.023,
+    "y_low": 3.2,
+    "y_high": 8.0
+   }
+  },
+  {
+   "dump_index": 1813,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3663",
+   "aabb_min": [
+    53.836,
+    7.7,
+    -54.541
+   ],
+   "aabb_max": [
+    57.078,
+    8.0,
+    -50.511
+   ]
+  },
+  {
+   "dump_index": 4065,
+   "role": "hill_surface",
+   "type": "concave",
+   "path": "ShrineDistrict/Collision/HillSurface",
+   "aabb_min": [
+    27.8,
+    0.012,
+    -74.2
+   ],
+   "aabb_max": [
+    66.2,
+    8.012,
+    -41.4
+   ]
+  },
+  {
+   "dump_index": 4066,
+   "role": "summit_terrace",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/SummitStoneTerrace",
+   "aabb_min": [
+    38.5,
+    8.0,
+    -63.0
+   ],
+   "aabb_max": [
+    55.5,
+    8.08,
+    -51.0
+   ]
+  },
+  {
+   "dump_index": 4067,
+   "role": "torii",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/ToriiStoneFoot",
+   "aabb_min": [
+    42.45,
+    8.0,
+    -61.55
+   ],
+   "aabb_max": [
+    43.55,
+    8.36,
+    -60.45
+   ]
+  },
+  {
+   "dump_index": 4068,
+   "role": "torii",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/ExistingToriiPost",
+   "aabb_min": [
+    42.7,
+    8.1,
+    -61.3
+   ],
+   "aabb_max": [
+    43.3,
+    15.1,
+    -60.7
+   ]
+  },
+  {
+   "dump_index": 4069,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3669",
+   "aabb_min": [
+    42.45,
+    8.0,
+    -53.55
+   ],
+   "aabb_max": [
+    43.55,
+    8.36,
+    -52.45
+   ]
+  },
+  {
+   "dump_index": 4070,
+   "role": "torii",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3672",
+   "aabb_min": [
+    42.7,
+    8.1,
+    -53.3
+   ],
+   "aabb_max": [
+    43.3,
+    15.1,
+    -52.7
+   ]
+  },
+  {
+   "dump_index": 4071,
+   "role": "torii",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/ExistingToriiTopBeam",
+   "aabb_min": [
+    42.5,
+    14.4,
+    -62.5
+   ],
+   "aabb_max": [
+    43.5,
+    15.0,
+    -51.5
+   ]
+  },
+  {
+   "dump_index": 4072,
+   "role": "torii",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/ToriiTieBeam",
+   "aabb_min": [
+    42.75,
+    13.1,
+    -61.85
+   ],
+   "aabb_max": [
+    43.25,
+    13.5,
+    -52.15
+   ]
+  },
+  {
+   "dump_index": 4073,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/OfferingPavilionBase",
+   "aabb_min": [
+    49.8,
+    8.045,
+    -59.4
+   ],
+   "aabb_max": [
+    54.6,
+    8.395,
+    -54.6
+   ]
+  },
+  {
+   "dump_index": 4074,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/PavilionTimberPost",
+   "aabb_min": [
+    50.11,
+    8.35,
+    -59.09
+   ],
+   "aabb_max": [
+    50.29,
+    11.85,
+    -58.91
+   ]
+  },
+  {
+   "dump_index": 4075,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3680",
+   "aabb_min": [
+    50.11,
+    8.35,
+    -55.09
+   ],
+   "aabb_max": [
+    50.29,
+    11.85,
+    -54.91
+   ]
+  },
+  {
+   "dump_index": 4076,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3683",
+   "aabb_min": [
+    54.11,
+    8.35,
+    -59.09
+   ],
+   "aabb_max": [
+    54.29,
+    11.85,
+    -58.91
+   ]
+  },
+  {
+   "dump_index": 4077,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3686",
+   "aabb_min": [
+    54.11,
+    8.35,
+    -55.09
+   ],
+   "aabb_max": [
+    54.29,
+    11.85,
+    -54.91
+   ]
+  },
+  {
+   "dump_index": 4078,
+   "role": "offering_table",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/OfferingTable",
+   "aabb_min": [
+    51.2,
+    8.255,
+    -57.425
+   ],
+   "aabb_max": [
+    53.2,
+    9.405,
+    -56.575
+   ]
+  },
+  {
+   "dump_index": 4079,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/SummitLowCover",
+   "aabb_min": [
+    40.8,
+    8.055,
+    -51.25
+   ],
+   "aabb_max": [
+    43.2,
+    9.105,
+    -50.75
+   ]
+  },
+  {
+   "dump_index": 4080,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3694",
+   "aabb_min": [
+    46.8,
+    8.055,
+    -51.25
+   ],
+   "aabb_max": [
+    49.2,
+    9.105,
+    -50.75
+   ]
+  },
+  {
+   "dump_index": 4081,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3697",
+   "aabb_min": [
+    53.3,
+    8.055,
+    -51.25
+   ],
+   "aabb_max": [
+    55.7,
+    9.105,
+    -50.75
+   ]
+  },
+  {
+   "dump_index": 4082,
+   "role": "tree_trunk",
+   "type": "cylinder",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3701",
+   "aabb_min": [
+    36.74,
+    3.879,
+    -67.26
+   ],
+   "aabb_max": [
+    37.26,
+    7.679,
+    -66.74
+   ]
+  },
+  {
+   "dump_index": 4083,
+   "role": "tree_trunk",
+   "type": "cylinder",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3706",
+   "aabb_min": [
+    42.74,
+    2.241,
+    -71.26
+   ],
+   "aabb_max": [
+    43.26,
+    6.041,
+    -70.74
+   ]
+  },
+  {
+   "dump_index": 4084,
+   "role": "tree_trunk",
+   "type": "cylinder",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3711",
+   "aabb_min": [
+    53.74,
+    2.271,
+    -70.26
+   ],
+   "aabb_max": [
+    54.26,
+    6.071,
+    -69.74
+   ]
+  },
+  {
+   "dump_index": 4085,
+   "role": "tree_trunk",
+   "type": "cylinder",
+   "path": "ShrineDistrict/Collision/@StaticBody3D@3716",
+   "aabb_min": [
+    32.74,
+    5.259,
+    -56.26
+   ],
+   "aabb_max": [
+    33.26,
+    9.059,
+    -55.74
+   ]
+  },
+  {
+   "dump_index": 10339,
+   "role": "pavilion_roof",
+   "type": "convex",
+   "path": "FullMapNativeRebuild/Collision/PavilionRoofSlope",
+   "aabb_min": [
+    49.45,
+    11.27,
+    -59.8
+   ],
+   "aabb_max": [
+    54.95,
+    12.15,
+    -57.0
+   ]
+  },
+  {
+   "dump_index": 10340,
+   "role": "pavilion_roof",
+   "type": "convex",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@30006",
+   "aabb_min": [
+    49.45,
+    11.27,
+    -57.0
+   ],
+   "aabb_max": [
+    54.95,
+    12.15,
+    -54.2
+   ]
+  }
+ ],
+ "summary": "No enterable buildings. Hill (concave surface to y 8) with a stone summit terrace (38.5..55.5, -63..-51, y 8.0), a torii at x 43 (posts z -61 / -53, top beam y 15), an open offering pavilion (49.8..54.6, -59.4..-54.6) with a sloped roof at y 11.3-12.2, low stone walls at z -51, 3 stair flights up the hill (west 30-41/-58..-47, south-east 54-68/-69..-59, east 55-65/-54..-46) each with a mid landing, 4 trees.",
+ "dressing_plan": "materials by role (vermilion torii, granite stairs/terrace/walls, moss+grass hill, dark timber pavilion with tiled roof), stone lanterns along each flight, foliage around the trunks. Visual only; no new collision.",
+ "props": [
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    30.419,
+    0.411,
+    -50.914
+   ],
+   "rot": 138.8,
+   "for": 1800
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    34.108,
+    1.722,
+    -47.687
+   ],
+   "rot": 138.8,
+   "for": 1800
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    36.431,
+    7.594,
+    -57.786
+   ],
+   "rot": 138.8,
+   "for": 1800
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    40.12,
+    8.06,
+    -54.559
+   ],
+   "rot": 138.8,
+   "for": 1800
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    67.396,
+    -0.0,
+    -64.55
+   ],
+   "rot": -71.6,
+   "for": 1803
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    65.846,
+    -0.0,
+    -69.198
+   ],
+   "rot": -71.6,
+   "for": 1803
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    62.819,
+    1.03,
+    -63.024
+   ],
+   "rot": -71.6,
+   "for": 1803
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    61.269,
+    0.092,
+    -67.672
+   ],
+   "rot": -71.6,
+   "for": 1803
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    61.889,
+    2.203,
+    -62.682
+   ],
+   "rot": -59.8,
+   "for": 1806
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    59.42,
+    1.631,
+    -66.915
+   ],
+   "rot": -59.8,
+   "for": 1806
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    57.184,
+    7.528,
+    -59.938
+   ],
+   "rot": -59.8,
+   "for": 1806
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    54.715,
+    7.5,
+    -64.171
+   ],
+   "rot": -59.8,
+   "for": 1806
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    61.397,
+    0.027,
+    -46.105
+   ],
+   "rot": -121.0,
+   "for": 1812
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    63.918,
+    0.126,
+    -50.306
+   ],
+   "rot": -121.0,
+   "for": 1812
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    55.183,
+    7.5,
+    -49.833
+   ],
+   "rot": -121.0,
+   "for": 1812
+  },
+  {
+   "piece": "H_stone_lantern",
+   "pos": [
+    57.704,
+    7.5,
+    -54.035
+   ],
+   "rot": -121.0,
+   "for": 1812
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    37.0,
+    7.279,
+    -67.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    43.0,
+    5.641,
+    -71.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    54.0,
+    5.671,
+    -70.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    33.0,
+    8.659,
+    -56.0
+   ],
+   "rot": 0.0
+  }
+ ]
+}

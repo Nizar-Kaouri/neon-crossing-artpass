@@ -1,0 +1,155 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "West stair foot, eye 1.7 m, looking up the hill",
+   "position": [
+    30,
+    1.7,
+    -40
+   ],
+   "look_at": [
+    40,
+    8,
+    -58
+   ],
+   "rotation_degrees": [
+    17.01,
+    -29.05,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_1.png"
+  },
+  {
+   "id": 2,
+   "description": "Summit terrace, eye 1.7 m, torii and pavilion",
+   "position": [
+    40,
+    9.7,
+    -57
+   ],
+   "look_at": [
+    56,
+    9.5,
+    -57
+   ],
+   "rotation_degrees": [
+    -0.72,
+    -90.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_2.png"
+  },
+  {
+   "id": 3,
+   "description": "South-east stair foot, eye 1.7 m",
+   "position": [
+    70,
+    1.7,
+    -62
+   ],
+   "look_at": [
+    56,
+    6,
+    -62
+   ],
+   "rotation_degrees": [
+    17.07,
+    90.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_3.png"
+  },
+  {
+   "id": 4,
+   "description": "From the alley rear lane, looking south at the hill",
+   "position": [
+    50,
+    1.7,
+    -42
+   ],
+   "look_at": [
+    50,
+    6,
+    -62
+   ],
+   "rotation_degrees": [
+    12.13,
+    0.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_4.png"
+  },
+  {
+   "id": 5,
+   "description": "East stair landing, looking west across the summit",
+   "position": [
+    66,
+    5,
+    -50
+   ],
+   "look_at": [
+    40,
+    8,
+    -58
+   ],
+   "rotation_degrees": [
+    6.29,
+    72.9,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_5.png"
+  },
+  {
+   "id": 6,
+   "description": "Overview from the north-east, high",
+   "position": [
+    80,
+    30,
+    -25
+   ],
+   "look_at": [
+    46,
+    4,
+    -60
+   ],
+   "rotation_degrees": [
+    -28.05,
+    44.17,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_6.png"
+  }
+ ],
+ "note": "Claude 2026-10-06; viewer keys 1/2/3 = cameras 1/5/6"
+}

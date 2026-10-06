@@ -1,0 +1,93 @@
+{
+ "note": "District regions on the old lab map (Claude, 2026-10-06). World metres, rect = [x0, z0, x1, z1], half-open. A collider belongs to the region containing its AABB centre. Underground = any collider whose top is below y -1.5, across all regions. Underground count here is mostly foundation slabs (top y -1); the real underground needs its own inventory.",
+ "regions": {
+  "alley": [
+   [
+    26,
+    -48,
+    100,
+    2
+   ]
+  ],
+  "shrine": [
+   [
+    26,
+    -85,
+    100,
+    -48
+   ]
+  ],
+  "crossing": [
+   [
+    -72,
+    -85,
+    26,
+    30
+   ],
+   [
+    26,
+    2,
+    31,
+    30
+   ]
+  ],
+  "homes": [
+   [
+    31,
+    2,
+    100,
+    110
+   ],
+   [
+    2,
+    30,
+    31,
+    110
+   ]
+  ],
+  "mall": [
+   [
+    -72,
+    30,
+    2,
+    125
+   ]
+  ],
+  "park": [
+   [
+    -72,
+    125,
+    2,
+    180
+   ],
+   [
+    2,
+    110,
+    100,
+    180
+   ]
+  ],
+  "station": [
+   [
+    -120,
+    -90,
+    -72,
+    180
+   ]
+  ]
+ },
+ "underground": {
+  "rule": "collider AABB top y < -1.5"
+ },
+ "collider_counts": {
+  "alley": 738,
+  "shrine": 60,
+  "crossing": 3201,
+  "homes": 523,
+  "mall": 4679,
+  "park": 252,
+  "station": 413,
+  "underground": 475,
+  "unassigned": 0
+ }
+}

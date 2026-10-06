@@ -1,0 +1,302 @@
+{
+  "cameras": [
+    {
+      "description": "Main lane west to east, eye1.7m",
+      "far": 500.0,
+      "file": "before_1.png",
+      "fov_degrees": 75.0,
+      "id": 1,
+      "image_save_error": 0,
+      "look_at": [
+        87.0,
+        1.70000004768372,
+        -23.5
+      ],
+      "near": 0.0500000007450581,
+      "position": [
+        31.0,
+        1.70000004768372,
+        -23.5
+      ],
+      "projection": "perspective",
+      "resolution": [
+        1600,
+        900
+      ],
+      "rotation_degrees": [
+        0.0,
+        -90.0,
+        0.0
+      ],
+      "rotation_radians": [
+        0.0,
+        -1.57079637050629,
+        0.0
+      ],
+      "transform": [
+        -4.37113882867379e-08,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        -4.37113882867379e-08,
+        31.0,
+        1.70000004768372,
+        -23.5
+      ]
+    },
+    {
+      "description": "Main lane east to west, eye1.7m",
+      "far": 500.0,
+      "file": "before_2.png",
+      "fov_degrees": 75.0,
+      "id": 2,
+      "image_save_error": 0,
+      "look_at": [
+        31.0,
+        1.70000004768372,
+        -23.5
+      ],
+      "near": 0.0500000007450581,
+      "position": [
+        88.0,
+        1.70000004768372,
+        -23.5
+      ],
+      "projection": "perspective",
+      "resolution": [
+        1600,
+        900
+      ],
+      "rotation_degrees": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "rotation_radians": [
+        0.0,
+        1.57079637050629,
+        0.0
+      ],
+      "transform": [
+        -4.37113882867379e-08,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -4.37113882867379e-08,
+        88.0,
+        1.70000004768372,
+        -23.5
+      ]
+    },
+    {
+      "description": "Ramen rooftop toward east shops",
+      "far": 500.0,
+      "file": "before_3.png",
+      "fov_degrees": 75.0,
+      "id": 3,
+      "image_save_error": 0,
+      "look_at": [
+        79.0,
+        5.0,
+        -19.0
+      ],
+      "near": 0.0500000007450581,
+      "position": [
+        54.0,
+        9.19999980926514,
+        -32.0999984741211
+      ],
+      "projection": "perspective",
+      "resolution": [
+        1600,
+        900
+      ],
+      "rotation_degrees": [
+        -8.46396350860596,
+        -117.654525756836,
+        0.0
+      ],
+      "rotation_radians": [
+        -0.1477240473032,
+        -2.05345892906189,
+        0.0
+      ],
+      "transform": [
+        -0.464139252901077,
+        0.0,
+        0.885762274265289,
+        0.130373001098633,
+        0.989108681678772,
+        0.0683154314756393,
+        -0.876115083694458,
+        0.147187352180481,
+        -0.459084123373032,
+        54.0,
+        9.19999980926514,
+        -32.0999984741211
+      ]
+    },
+    {
+      "description": "Office rooftop toward west roof network",
+      "far": 500.0,
+      "file": "before_4.png",
+      "fov_degrees": 75.0,
+      "id": 4,
+      "image_save_error": 0,
+      "look_at": [
+        48.0,
+        7.0,
+        -30.0
+      ],
+      "near": 0.0500000007450581,
+      "position": [
+        86.0,
+        14.3000001907349,
+        -12.0
+      ],
+      "projection": "perspective",
+      "resolution": [
+        1600,
+        900
+      ],
+      "rotation_degrees": [
+        -9.8491096496582,
+        64.6538238525391,
+        0.0
+      ],
+      "rotation_radians": [
+        -0.171899393200874,
+        1.12842214107513,
+        0.0
+      ],
+      "transform": [
+        0.428086340427399,
+        0.0,
+        -0.903737902641296,
+        -0.154588028788567,
+        0.985261678695679,
+        -0.0732259005308151,
+        0.890418231487274,
+        0.171054050326347,
+        0.421777009963989,
+        86.0,
+        14.3000001907349,
+        -12.0
+      ]
+    },
+    {
+      "description": "Crossing-side alley entrance",
+      "far": 500.0,
+      "file": "before_5.png",
+      "fov_degrees": 75.0,
+      "id": 5,
+      "image_save_error": 0,
+      "look_at": [
+        55.0,
+        2.29999995231628,
+        -24.0
+      ],
+      "near": 0.0500000007450581,
+      "position": [
+        26.0,
+        1.70000004768372,
+        -23.5
+      ],
+      "projection": "perspective",
+      "resolution": [
+        1600,
+        900
+      ],
+      "rotation_degrees": [
+        1.18508458137512,
+        -89.0122375488281,
+        0.0
+      ],
+      "rotation_radians": [
+        0.0206836294382811,
+        -1.55355668067932,
+        0.0
+      ],
+      "transform": [
+        0.0172387920320034,
+        0.0,
+        0.999851405620575,
+        -0.0206790808588266,
+        0.999786138534546,
+        0.000356535339960828,
+        -0.999637544155121,
+        -0.0206821542233229,
+        0.0172351039946079,
+        26.0,
+        1.70000004768372,
+        -23.5
+      ]
+    },
+    {
+      "description": "High oblique alley overview",
+      "far": 500.0,
+      "file": "before_6.png",
+      "fov_degrees": 75.0,
+      "id": 6,
+      "image_save_error": 0,
+      "look_at": [
+        61.0,
+        2.0,
+        -24.0
+      ],
+      "near": 0.0500000007450581,
+      "position": [
+        99.0,
+        66.0,
+        20.0
+      ],
+      "projection": "perspective",
+      "resolution": [
+        1600,
+        900
+      ],
+      "rotation_degrees": [
+        -47.7479133605957,
+        40.8150787353516,
+        0.0
+      ],
+      "rotation_radians": [
+        -0.833358347415924,
+        0.712357521057129,
+        0.0
+      ],
+      "transform": [
+        0.756823062896729,
+        0.0,
+        -0.653619825839996,
+        -0.483805239200592,
+        0.67239373922348,
+        -0.560195624828339,
+        0.439489901065826,
+        0.740193665027618,
+        0.508883118629456,
+        99.0,
+        66.0,
+        20.0
+      ]
+    }
+  ],
+  "environment": "current play camera environment; no lighting edits",
+  "hud": "hidden in capture viewport",
+  "north": "-z",
+  "scene": "res://neon_crossing/full_rebuild/play.tscn",
+  "units": "metres/radians",
+  "engine": "Godot 4.7.2 stable",
+  "renderer": "Vulkan Forward+ on Intel Arc 130V",
+  "capture_script": "res://art_pass/districts/alley/capture_inventory.gd",
+  "msaa_3d": "4x, as current play.gd",
+  "lighting": "current scene lights and environment; no lighting edits"
+}

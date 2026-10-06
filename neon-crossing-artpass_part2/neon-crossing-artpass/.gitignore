@@ -1,0 +1,5 @@
+.godot/
+renders/
+*.exr
+*.lmbake
+__pycache__/

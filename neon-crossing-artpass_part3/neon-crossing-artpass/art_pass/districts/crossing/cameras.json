@@ -1,0 +1,155 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "Crossing centre, eye 1.7 m, looking north to the towers",
+   "position": [
+    -8,
+    1.7,
+    10
+   ],
+   "look_at": [
+    -8,
+    1.7,
+    -60
+   ],
+   "rotation_degrees": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_1.png"
+  },
+  {
+   "id": 2,
+   "description": "East street, eye 1.7 m, looking west across the crossing",
+   "position": [
+    22,
+    1.7,
+    -15
+   ],
+   "look_at": [
+    -40,
+    1.7,
+    -15
+   ],
+   "rotation_degrees": [
+    0.0,
+    90.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_2.png"
+  },
+  {
+   "id": 3,
+   "description": "Tower row street, eye 1.7 m, looking east",
+   "position": [
+    -55,
+    1.7,
+    -64
+   ],
+   "look_at": [
+    20,
+    1.7,
+    -64
+   ],
+   "rotation_degrees": [
+    0.0,
+    -90.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_3.png"
+  },
+  {
+   "id": 4,
+   "description": "West street, eye 1.7 m, looking south",
+   "position": [
+    -50,
+    1.7,
+    -40
+   ],
+   "look_at": [
+    -50,
+    1.7,
+    25
+   ],
+   "rotation_degrees": [
+    0.0,
+    180.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_4.png"
+  },
+  {
+   "id": 5,
+   "description": "Roof C08 level, looking over the crossing",
+   "position": [
+    -30,
+    26,
+    -40
+   ],
+   "look_at": [
+    -5,
+    0,
+    -5
+   ],
+   "rotation_degrees": [
+    -31.15,
+    -144.46,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_5.png"
+  },
+  {
+   "id": 6,
+   "description": "Overview from south-east, high",
+   "position": [
+    25,
+    45,
+    35
+   ],
+   "look_at": [
+    -15,
+    0,
+    -35
+   ],
+   "rotation_degrees": [
+    -29.17,
+    29.74,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_6.png"
+  }
+ ],
+ "note": "Claude 2026-10-06; viewer keys 1/2/3 = cameras 1/5/6"
+}
