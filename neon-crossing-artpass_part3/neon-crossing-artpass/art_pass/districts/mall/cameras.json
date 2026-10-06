@@ -1,0 +1,155 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "North forecourt (crossing side), eye 1.7 m, looking south at the north entrance and the two screens",
+   "position": [
+    -35,
+    1.7,
+    22
+   ],
+   "look_at": [
+    -35,
+    7,
+    60
+   ],
+   "rotation_degrees": [
+    7.94,
+    180.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "mall_1.png"
+  },
+  {
+   "id": 2,
+   "description": "East street, eye 1.7 m, looking west at the curved glass facade and the east entrance",
+   "position": [
+    1,
+    1.7,
+    104
+   ],
+   "look_at": [
+    -30,
+    5,
+    80
+   ],
+   "rotation_degrees": [
+    4.81,
+    52.25,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "mall_2.png"
+  },
+  {
+   "id": 3,
+   "description": "INSIDE THE ATRIUM: ground-floor atrium edge, eye 1.7 m, looking north along the void at all three promenades",
+   "position": [
+    -35,
+    1.7,
+    108
+   ],
+   "look_at": [
+    -35,
+    9,
+    50
+   ],
+   "rotation_degrees": [
+    7.17,
+    0.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "mall_3.png"
+  },
+  {
+   "id": 4,
+   "description": "Level-1 promenade (y 5.5), eye 1.7 m, looking along the shop fronts and across the atrium",
+   "position": [
+    -54.5,
+    7.2,
+    84
+   ],
+   "look_at": [
+    -28,
+    6.2,
+    50
+   ],
+   "rotation_degrees": [
+    -1.33,
+    -37.93,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "mall_4.png"
+  },
+  {
+   "id": 5,
+   "description": "Roof / top edge (y 15), looking south over the open atrium",
+   "position": [
+    -35,
+    16.7,
+    37
+   ],
+   "look_at": [
+    -35,
+    4,
+    85
+   ],
+   "rotation_degrees": [
+    -14.82,
+    180.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "mall_5.png"
+  },
+  {
+   "id": 6,
+   "description": "High overview from the north-east",
+   "position": [
+    30,
+    60,
+    10
+   ],
+   "look_at": [
+    -35,
+    0,
+    80
+   ],
+   "rotation_degrees": [
+    -32.13,
+    137.12,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "mall_6.png"
+  }
+ ],
+ "note": "Claude (cloud) 2026-10-06; viewer keys 1/2/3 = cameras 1/5/6; camera 3 is inside the atrium"
+}
