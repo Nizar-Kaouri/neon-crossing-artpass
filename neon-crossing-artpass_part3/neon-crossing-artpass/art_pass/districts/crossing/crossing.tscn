@@ -45,6 +45,7 @@ adjustment_enabled = true
 
 [node name="Builder" type="Node3D" parent="."]
 script = ExtResource("1_builder")
+DRESS = "res://art_pass/districts/crossing/STREET_DRESS.json"
 INV = "res://art_pass/districts/crossing/CROSSING_INVENTORY.json"
 HULLS = "res://art_pass/districts/crossing/old_convex_hulls.json"
 REGION = Rect2(-72, -85, 103, 115)

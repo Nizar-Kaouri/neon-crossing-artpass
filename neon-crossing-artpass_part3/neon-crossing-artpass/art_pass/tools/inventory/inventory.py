@@ -1,5 +1,4 @@
 """Building inventory for a district, from layout_dump.json only (Claude, cloud). Same fields the builder reads as
-# Run from art_pass/:  cd art_pass && python tools/inventory/inventory.py <name> x0 z0 x1 z1 <ID prefix> <out.json>   (numpy + scipy)
 ALLEY_INVENTORY.json: id, kind, name, footprint{centre_xz,width_m,depth_m}, roof{roof_y}, street_facing_sides[{normal_xz,
 openings[{centre_xyz,width_m,height_m,sill_y}]}]. Openings = gaps >= 0.9 m in the ground-floor wall line at y 1.2."""
 import sys, json, numpy as np

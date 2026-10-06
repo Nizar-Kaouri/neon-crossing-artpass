@@ -24,7 +24,7 @@ sky = SubResource("sky")
 ambient_light_source = 3
 ambient_light_color = Color(0.78, 0.62, 0.55, 1)
 ambient_light_sky_contribution = 0.15
-ambient_light_energy = 0.65
+ambient_light_energy = 0.4
 reflected_light_source = 2
 tonemap_mode = 3
 ssao_enabled = false
@@ -41,11 +41,16 @@ fog_sky_affect = 0.0
 fog_height = 20.0
 adjustment_enabled = true
 
-[node name="Alley" type="Node3D"]
+[node name="Underground" type="Node3D"]
 
 [node name="Builder" type="Node3D" parent="."]
 script = ExtResource("1_builder")
-DRESS = "res://art_pass/districts/alley/STREET_DRESS.json"
+INV = "res://art_pass/districts/underground/UNDERGROUND_INVENTORY.json"
+HULLS = "res://art_pass/districts/underground/old_convex_hulls.json"
+REGION = Rect2(-95, -70, 32.5, 156)
+TRAD = Array[String]([])
+SKIP_IDS = Array[String]([])
+CABLES = PackedVector3Array()
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("env")
@@ -65,4 +70,4 @@ max_texture_size = 4096
 fov = 72.0
 far = 600.0
 script = ExtResource("2_cam")
-views_file = "res://art_pass/districts/alley/cameras.json"
+views_file = "res://art_pass/districts/underground/cameras.json"

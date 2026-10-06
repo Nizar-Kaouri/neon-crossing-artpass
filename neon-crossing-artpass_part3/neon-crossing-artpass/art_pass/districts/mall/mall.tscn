@@ -1,6 +1,6 @@
 [gd_scene format=3]
 
-[ext_resource type="Script" path="res://art_pass/districts/alley/alley_builder.gd" id="1_builder"]
+[ext_resource type="Script" path="res://art_pass/districts/mall/mall_builder.gd" id="1_builder"]
 [ext_resource type="Script" path="res://art_pass/slice/fly_camera.gd" id="2_cam"]
 [ext_resource type="Shader" path="res://art_pass/shaders/dusk_sky.gdshader" id="3_sky"]
 
@@ -41,11 +41,16 @@ fog_sky_affect = 0.0
 fog_height = 20.0
 adjustment_enabled = true
 
-[node name="Alley" type="Node3D"]
+[node name="Mall" type="Node3D"]
 
 [node name="Builder" type="Node3D" parent="."]
 script = ExtResource("1_builder")
-DRESS = "res://art_pass/districts/alley/STREET_DRESS.json"
+INV = "res://art_pass/districts/mall/MALL_INVENTORY.json"
+HULLS = "res://art_pass/districts/mall/old_convex_hulls.json"
+REGION = Rect2(-72, 30, 74, 95)
+TRAD = Array[String]([])
+SKIP_IDS = Array[String]([])
+CABLES = PackedVector3Array()
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("env")
@@ -65,4 +70,4 @@ max_texture_size = 4096
 fov = 72.0
 far = 600.0
 script = ExtResource("2_cam")
-views_file = "res://art_pass/districts/alley/cameras.json"
+views_file = "res://art_pass/districts/mall/cameras.json"

@@ -1,0 +1,3042 @@
+{
+ "schema_version": 1,
+ "district": "homes",
+ "source": "layout_dump.json (Claude, cloud): named FullMapNativeRebuild houses A1-A3, V1-V7",
+ "region": {
+  "rects": [
+   [
+    31,
+    2,
+    100,
+    110
+   ],
+   [
+    2,
+    30,
+    31,
+    110
+   ]
+  ]
+ },
+ "buildings": [
+  {
+   "id": "A1",
+   "kind": "apartment_block",
+   "name": "A1 house",
+   "footprint": {
+    "centre_xz": [
+     12.0,
+     31.0
+    ],
+    "width_m": 13.76,
+    "depth_m": 11.2
+   },
+   "roof": {
+    "roof_y": 17.6,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9731,
+    9732
+   ]
+  },
+  {
+   "id": "A2",
+   "kind": "apartment_block",
+   "name": "A2 house",
+   "footprint": {
+    "centre_xz": [
+     11.0,
+     62.25
+    ],
+    "width_m": 12.04,
+    "depth_m": 10.0
+   },
+   "roof": {
+    "roof_y": 14.2,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.11,
+   "plain_faces": [
+    [
+     -1,
+     0
+    ]
+   ],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9784,
+    9785
+   ]
+  },
+  {
+   "id": "A3",
+   "kind": "apartment_block",
+   "name": "A3 house",
+   "footprint": {
+    "centre_xz": [
+     37.0,
+     32.16
+    ],
+    "width_m": 20.64,
+    "depth_m": 13.44
+   },
+   "roof": {
+    "roof_y": 12.9,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9827,
+    9828
+   ]
+  },
+  {
+   "id": "A3w",
+   "kind": "house_wing",
+   "name": "A3 garden wing",
+   "footprint": {
+    "centre_xz": [
+     31.24,
+     41.28
+    ],
+    "width_m": 9.12,
+    "depth_m": 8.64
+   },
+   "roof": {
+    "roof_y": 6.966,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9832,
+    9833
+   ]
+  },
+  {
+   "id": "V1",
+   "kind": "house",
+   "name": "V1 house",
+   "footprint": {
+    "centre_xz": [
+     30.5,
+     59.4
+    ],
+    "width_m": 9.46,
+    "depth_m": 5.6
+   },
+   "roof": {
+    "roof_y": 6.8,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.11,
+   "plain_faces": [
+    [
+     -1,
+     0
+    ]
+   ],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9870,
+    9871
+   ]
+  },
+  {
+   "id": "V1w",
+   "kind": "house_wing",
+   "name": "V1 garden wing",
+   "footprint": {
+    "centre_xz": [
+     27.86,
+     63.2
+    ],
+    "width_m": 4.18,
+    "depth_m": 3.6
+   },
+   "roof": {
+    "roof_y": 3.672,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.11,
+   "plain_faces": [
+    [
+     -1,
+     0
+    ]
+   ],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9875,
+    9876
+   ]
+  },
+  {
+   "id": "V2",
+   "kind": "house",
+   "name": "V2 house",
+   "footprint": {
+    "centre_xz": [
+     52.0,
+     82.726
+    ],
+    "width_m": 13.76,
+    "depth_m": 7.784
+   },
+   "roof": {
+    "roof_y": 8.3,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9897,
+    9898
+   ]
+  },
+  {
+   "id": "V2w",
+   "kind": "house_wing",
+   "name": "V2 garden wing",
+   "footprint": {
+    "centre_xz": [
+     48.16,
+     88.008
+    ],
+    "width_m": 6.08,
+    "depth_m": 5.004
+   },
+   "roof": {
+    "roof_y": 4.482,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9902,
+    9903
+   ]
+  },
+  {
+   "id": "V3",
+   "kind": "house",
+   "name": "V3 house",
+   "footprint": {
+    "centre_xz": [
+     74.0,
+     83.576
+    ],
+    "width_m": 13.76,
+    "depth_m": 9.184
+   },
+   "roof": {
+    "roof_y": 9.4,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9925,
+    9926
+   ]
+  },
+  {
+   "id": "V3w",
+   "kind": "house_wing",
+   "name": "V3 garden wing",
+   "footprint": {
+    "centre_xz": [
+     70.16,
+     89.808
+    ],
+    "width_m": 6.08,
+    "depth_m": 5.904
+   },
+   "roof": {
+    "roof_y": 5.076,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9930,
+    9931
+   ]
+  },
+  {
+   "id": "V4",
+   "kind": "house",
+   "name": "V4 house",
+   "footprint": {
+    "centre_xz": [
+     75.0,
+     30.324
+    ],
+    "width_m": 15.48,
+    "depth_m": 10.416
+   },
+   "roof": {
+    "roof_y": 7.8,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9953,
+    9954
+   ]
+  },
+  {
+   "id": "V4w",
+   "kind": "house_wing",
+   "name": "V4 garden wing",
+   "footprint": {
+    "centre_xz": [
+     70.68,
+     37.392
+    ],
+    "width_m": 6.84,
+    "depth_m": 6.696
+   },
+   "roof": {
+    "roof_y": 4.212,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9958,
+    9959
+   ]
+  },
+  {
+   "id": "V5",
+   "kind": "house",
+   "name": "V5 house",
+   "footprint": {
+    "centre_xz": [
+     76.0,
+     57.664
+    ],
+    "width_m": 17.2,
+    "depth_m": 10.976
+   },
+   "roof": {
+    "roof_y": 7.1,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9981,
+    9982
+   ]
+  },
+  {
+   "id": "V5w",
+   "kind": "house_wing",
+   "name": "V5 garden wing",
+   "footprint": {
+    "centre_xz": [
+     71.2,
+     65.112
+    ],
+    "width_m": 7.6,
+    "depth_m": 7.056
+   },
+   "roof": {
+    "roof_y": 3.834,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    9986,
+    9987
+   ]
+  },
+  {
+   "id": "V6",
+   "kind": "house",
+   "name": "V6 house",
+   "footprint": {
+    "centre_xz": [
+     12.0,
+     84.576
+    ],
+    "width_m": 13.76,
+    "depth_m": 9.184
+   },
+   "roof": {
+    "roof_y": 9.6,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    10009,
+    10010
+   ]
+  },
+  {
+   "id": "V6w",
+   "kind": "house_wing",
+   "name": "V6 garden wing",
+   "footprint": {
+    "centre_xz": [
+     8.16,
+     90.808
+    ],
+    "width_m": 6.08,
+    "depth_m": 5.904
+   },
+   "roof": {
+    "roof_y": 5.184,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    10014,
+    10015
+   ]
+  },
+  {
+   "id": "V7",
+   "kind": "house",
+   "name": "V7 house",
+   "footprint": {
+    "centre_xz": [
+     33.0,
+     83.372
+    ],
+    "width_m": 13.76,
+    "depth_m": 8.848
+   },
+   "roof": {
+    "roof_y": 9.3,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    10037,
+    10038
+   ]
+  },
+  {
+   "id": "V7w",
+   "kind": "house_wing",
+   "name": "V7 garden wing",
+   "footprint": {
+    "centre_xz": [
+     29.16,
+     89.376
+    ],
+    "width_m": 6.08,
+    "depth_m": 5.688
+   },
+   "roof": {
+    "roof_y": 5.022,
+    "can_players_stand": "yes (route)"
+   },
+   "roof_is_route": true,
+   "enterable": false,
+   "cornice_depth": 0.12,
+   "plain_faces": [],
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "wall_cover": 1.0,
+     "openings": []
+    }
+   ],
+   "dump_shapes": [
+    10042,
+    10043
+   ]
+  }
+ ],
+ "structures": [
+  {
+   "dump_index": 9664,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "ResidentialDistrict/Collision/@StaticBody3D@25393",
+   "aabb_min": [
+    44.7,
+    0.02,
+    56.0
+   ],
+   "aabb_max": [
+    47.3,
+    0.62,
+    58.0
+   ]
+  },
+  {
+   "dump_index": 9665,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "ResidentialDistrict/Collision/@StaticBody3D@25397",
+   "aabb_min": [
+    51.7,
+    0.02,
+    65.0
+   ],
+   "aabb_max": [
+    54.3,
+    0.62,
+    67.0
+   ]
+  },
+  {
+   "dump_index": 9666,
+   "role": "tree_trunk",
+   "type": "cylinder",
+   "path": "ResidentialDistrict/Collision/@StaticBody3D@25402",
+   "aabb_min": [
+    48.8,
+    0.001,
+    60.8
+   ],
+   "aabb_max": [
+    49.2,
+    4.876,
+    61.2
+   ]
+  },
+  {
+   "dump_index": 9667,
+   "role": "lamp_post",
+   "type": "cylinder",
+   "path": "ResidentialDistrict/Collision/@StaticBody3D@25406",
+   "aabb_min": [
+    42.8,
+    -0.001,
+    67.8
+   ],
+   "aabb_max": [
+    43.2,
+    2.275,
+    68.2
+   ]
+  },
+  {
+   "dump_index": 9668,
+   "role": "lamp_post",
+   "type": "cylinder",
+   "path": "ResidentialDistrict/Collision/@StaticBody3D@25410",
+   "aabb_min": [
+    54.8,
+    -0.001,
+    54.8
+   ],
+   "aabb_max": [
+    55.2,
+    2.275,
+    55.2
+   ]
+  },
+  {
+   "dump_index": 9692,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Residence courtyard screenWall",
+   "aabb_min": [
+    25.2,
+    0.0,
+    51.66
+   ],
+   "aabb_max": [
+    28.8,
+    2.05,
+    51.94
+   ]
+  },
+  {
+   "dump_index": 9693,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Residence courtyard screenFoundation",
+   "aabb_min": [
+    25.125,
+    0.0,
+    51.585
+   ],
+   "aabb_max": [
+    28.875,
+    0.2,
+    52.015
+   ]
+  },
+  {
+   "dump_index": 9694,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Residence courtyard screenCap",
+   "aabb_min": [
+    25.16,
+    2.025,
+    51.62
+   ],
+   "aabb_max": [
+    28.84,
+    2.125,
+    51.98
+   ]
+  },
+  {
+   "dump_index": 9782,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/A1GardenEdge",
+   "aabb_min": [
+    2.01,
+    0.0,
+    23.0
+   ],
+   "aabb_max": [
+    2.29,
+    0.64,
+    40.0
+   ]
+  },
+  {
+   "dump_index": 9783,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29035",
+   "aabb_min": [
+    19.26,
+    0.0,
+    23.0
+   ],
+   "aabb_max": [
+    19.54,
+    0.64,
+    40.0
+   ]
+  },
+  {
+   "dump_index": 9825,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/A2GardenEdge",
+   "aabb_min": [
+    2.01,
+    0.0,
+    54.0
+   ],
+   "aabb_max": [
+    2.29,
+    0.64,
+    70.0
+   ]
+  },
+  {
+   "dump_index": 9826,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29110",
+   "aabb_min": [
+    19.26,
+    0.0,
+    54.0
+   ],
+   "aabb_max": [
+    19.54,
+    0.64,
+    70.0
+   ]
+  },
+  {
+   "dump_index": 9868,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/A3GardenEdge",
+   "aabb_min": [
+    23.01,
+    0.0,
+    23.0
+   ],
+   "aabb_max": [
+    23.29,
+    0.64,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 9869,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29179",
+   "aabb_min": [
+    50.26,
+    0.0,
+    23.0
+   ],
+   "aabb_max": [
+    50.54,
+    0.64,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 9896,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/V1GardenEdge",
+   "aabb_min": [
+    38.26,
+    0.0,
+    54.0
+   ],
+   "aabb_max": [
+    38.54,
+    0.64,
+    70.0
+   ]
+  },
+  {
+   "dump_index": 9923,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/V2GardenEdge",
+   "aabb_min": [
+    42.01,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    42.29,
+    0.64,
+    97.0
+   ]
+  },
+  {
+   "dump_index": 9924,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29261",
+   "aabb_min": [
+    60.26,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    60.54,
+    0.64,
+    97.0
+   ]
+  },
+  {
+   "dump_index": 9951,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/V3GardenEdge",
+   "aabb_min": [
+    64.01,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    64.29,
+    0.64,
+    97.0
+   ]
+  },
+  {
+   "dump_index": 9952,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29303",
+   "aabb_min": [
+    87.26,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    87.54,
+    0.64,
+    97.0
+   ]
+  },
+  {
+   "dump_index": 9979,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/V4GardenEdge",
+   "aabb_min": [
+    64.01,
+    0.0,
+    23.0
+   ],
+   "aabb_max": [
+    64.29,
+    0.64,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 9980,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29345",
+   "aabb_min": [
+    87.26,
+    0.0,
+    23.0
+   ],
+   "aabb_max": [
+    87.54,
+    0.64,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 10007,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/V5GardenEdge",
+   "aabb_min": [
+    64.01,
+    0.0,
+    49.0
+   ],
+   "aabb_max": [
+    64.29,
+    0.64,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 10008,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29387",
+   "aabb_min": [
+    87.26,
+    0.0,
+    49.0
+   ],
+   "aabb_max": [
+    87.54,
+    0.64,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 10035,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/V6GardenEdge",
+   "aabb_min": [
+    2.01,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    2.29,
+    0.64,
+    97.0
+   ]
+  },
+  {
+   "dump_index": 10036,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29429",
+   "aabb_min": [
+    19.26,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    19.54,
+    0.64,
+    97.0
+   ]
+  },
+  {
+   "dump_index": 10063,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/V7GardenEdge",
+   "aabb_min": [
+    23.01,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    23.29,
+    0.64,
+    97.0
+   ]
+  },
+  {
+   "dump_index": 10064,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29471",
+   "aabb_min": [
+    41.26,
+    0.0,
+    78.0
+   ],
+   "aabb_max": [
+    41.54,
+    0.64,
+    97.0
+   ]
+  }
+ ],
+ "route_tops": [
+  {
+   "house": "A1",
+   "part": "BalconyTerrace",
+   "dump_index": 9736,
+   "top_y": 3.52,
+   "rect_xz": [
+    5.44,
+    36.22,
+    18.56,
+    37.82
+   ]
+  },
+  {
+   "house": "A1",
+   "part": "Roof",
+   "dump_index": 9732,
+   "top_y": 17.6,
+   "rect_xz": [
+    5.1,
+    25.38,
+    18.9,
+    36.62
+   ]
+  },
+  {
+   "house": "A2",
+   "part": "BalconyTerrace",
+   "dump_index": 9789,
+   "top_y": 3.55,
+   "rect_xz": [
+    5.26,
+    66.825,
+    16.74,
+    68.425
+   ]
+  },
+  {
+   "house": "A2",
+   "part": "FoldLandingTerrace",
+   "dump_index": 9806,
+   "top_y": 3.55,
+   "rect_xz": [
+    1.88,
+    57.4,
+    4.96,
+    58.6
+   ]
+  },
+  {
+   "house": "A2",
+   "part": "Roof",
+   "dump_index": 9785,
+   "top_y": 14.2,
+   "rect_xz": [
+    4.96,
+    57.23,
+    17.04,
+    67.27
+   ]
+  },
+  {
+   "house": "A2",
+   "part": "RoofThreshold",
+   "dump_index": 9824,
+   "top_y": 14.2,
+   "rect_xz": [
+    4.01,
+    66.45,
+    5.69,
+    67.8
+   ]
+  },
+  {
+   "house": "A2",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 9805,
+   "top_y": 3.55,
+   "rect_xz": [
+    1.98,
+    57.3,
+    3.38,
+    58.7
+   ]
+  },
+  {
+   "house": "A3",
+   "part": "BalconyTerrace",
+   "dump_index": 9842,
+   "top_y": 4.3,
+   "rect_xz": [
+    27.16,
+    45.52,
+    46.84,
+    47.12
+   ]
+  },
+  {
+   "house": "A3",
+   "part": "GardenWingRoof",
+   "dump_index": 9833,
+   "top_y": 6.966,
+   "rect_xz": [
+    26.66,
+    36.94,
+    35.82,
+    45.62
+   ]
+  },
+  {
+   "house": "A3",
+   "part": "Roof",
+   "dump_index": 9828,
+   "top_y": 12.9,
+   "rect_xz": [
+    26.66,
+    25.42,
+    47.34,
+    38.9
+   ]
+  },
+  {
+   "house": "A3",
+   "part": "SunTerraceEdge",
+   "dump_index": 9838,
+   "top_y": 7.686,
+   "rect_xz": [
+    35.49,
+    36.72,
+    35.63,
+    44.88
+   ]
+  },
+  {
+   "house": "A3",
+   "part": "SunTerraceTerrace",
+   "dump_index": 9837,
+   "top_y": 6.966,
+   "rect_xz": [
+    35.56,
+    36.72,
+    45.64,
+    44.88
+   ]
+  },
+  {
+   "house": "V1",
+   "part": "FoldLandingTerrace",
+   "dump_index": 9887,
+   "top_y": 3.4,
+   "rect_xz": [
+    22.79,
+    57.0,
+    25.87,
+    58.2
+   ]
+  },
+  {
+   "house": "V1",
+   "part": "GardenWingRoof",
+   "dump_index": 9876,
+   "top_y": 3.672,
+   "rect_xz": [
+    25.75,
+    61.38,
+    29.97,
+    65.02
+   ]
+  },
+  {
+   "house": "V1",
+   "part": "Roof",
+   "dump_index": 9871,
+   "top_y": 6.8,
+   "rect_xz": [
+    25.75,
+    56.58,
+    35.25,
+    62.22
+   ]
+  },
+  {
+   "house": "V1",
+   "part": "RoofThreshold",
+   "dump_index": 9895,
+   "top_y": 6.8,
+   "rect_xz": [
+    24.92,
+    64.225,
+    26.36,
+    65.575
+   ]
+  },
+  {
+   "house": "V1",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 9886,
+   "top_y": 3.4,
+   "rect_xz": [
+    22.89,
+    56.9,
+    24.29,
+    58.3
+   ]
+  },
+  {
+   "house": "V1",
+   "part": "SunTerraceEdge",
+   "dump_index": 9881,
+   "top_y": 4.392,
+   "rect_xz": [
+    29.77,
+    61.3,
+    29.91,
+    64.7
+   ]
+  },
+  {
+   "house": "V1",
+   "part": "SunTerraceTerrace",
+   "dump_index": 9880,
+   "top_y": 3.672,
+   "rect_xz": [
+    29.84,
+    61.3,
+    34.46,
+    64.7
+   ]
+  },
+  {
+   "house": "V2",
+   "part": "FoldLandingTerrace",
+   "dump_index": 9914,
+   "top_y": 4.15,
+   "rect_xz": [
+    41.94,
+    79.624,
+    45.02,
+    80.824
+   ]
+  },
+  {
+   "house": "V2",
+   "part": "GardenWingRoof",
+   "dump_index": 9903,
+   "top_y": 4.482,
+   "rect_xz": [
+    45.1,
+    85.486,
+    51.22,
+    90.53
+   ]
+  },
+  {
+   "house": "V2",
+   "part": "Roof",
+   "dump_index": 9898,
+   "top_y": 8.3,
+   "rect_xz": [
+    45.1,
+    78.814,
+    58.9,
+    86.638
+   ]
+  },
+  {
+   "house": "V2",
+   "part": "RoofThreshold",
+   "dump_index": 9922,
+   "top_y": 8.3,
+   "rect_xz": [
+    44.07,
+    89.696,
+    45.91,
+    91.046
+   ]
+  },
+  {
+   "house": "V2",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 9913,
+   "top_y": 4.15,
+   "rect_xz": [
+    42.04,
+    79.524,
+    43.44,
+    80.924
+   ]
+  },
+  {
+   "house": "V2",
+   "part": "SunTerraceEdge",
+   "dump_index": 9908,
+   "top_y": 5.202,
+   "rect_xz": [
+    50.97,
+    85.367,
+    51.11,
+    90.093
+   ]
+  },
+  {
+   "house": "V2",
+   "part": "SunTerraceTerrace",
+   "dump_index": 9907,
+   "top_y": 4.482,
+   "rect_xz": [
+    51.04,
+    85.367,
+    57.76,
+    90.093
+   ]
+  },
+  {
+   "house": "V3",
+   "part": "FoldLandingTerrace",
+   "dump_index": 9942,
+   "top_y": 4.7,
+   "rect_xz": [
+    63.94,
+    80.024,
+    67.02,
+    81.224
+   ]
+  },
+  {
+   "house": "V3",
+   "part": "GardenWingRoof",
+   "dump_index": 9931,
+   "top_y": 5.076,
+   "rect_xz": [
+    67.1,
+    86.836,
+    73.22,
+    92.78
+   ]
+  },
+  {
+   "house": "V3",
+   "part": "Roof",
+   "dump_index": 9926,
+   "top_y": 9.4,
+   "rect_xz": [
+    67.1,
+    78.964,
+    80.9,
+    88.188
+   ]
+  },
+  {
+   "house": "V3",
+   "part": "RoofThreshold",
+   "dump_index": 9950,
+   "top_y": 9.4,
+   "rect_xz": [
+    66.07,
+    91.921,
+    67.91,
+    93.271
+   ]
+  },
+  {
+   "house": "V3",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 9941,
+   "top_y": 4.7,
+   "rect_xz": [
+    64.04,
+    79.924,
+    65.44,
+    81.324
+   ]
+  },
+  {
+   "house": "V3",
+   "part": "SunTerraceEdge",
+   "dump_index": 9936,
+   "top_y": 5.796,
+   "rect_xz": [
+    72.97,
+    86.692,
+    73.11,
+    92.268
+   ]
+  },
+  {
+   "house": "V3",
+   "part": "SunTerraceTerrace",
+   "dump_index": 9935,
+   "top_y": 5.076,
+   "rect_xz": [
+    73.04,
+    86.692,
+    79.76,
+    92.268
+   ]
+  },
+  {
+   "house": "V4",
+   "part": "FoldLandingTerrace",
+   "dump_index": 9970,
+   "top_y": 3.9,
+   "rect_xz": [
+    64.0,
+    26.376,
+    67.08,
+    27.576
+   ]
+  },
+  {
+   "house": "V4",
+   "part": "GardenWingRoof",
+   "dump_index": 9959,
+   "top_y": 4.212,
+   "rect_xz": [
+    67.24,
+    34.024,
+    74.12,
+    40.76
+   ]
+  },
+  {
+   "house": "V4",
+   "part": "Roof",
+   "dump_index": 9954,
+   "top_y": 7.8,
+   "rect_xz": [
+    67.24,
+    25.096,
+    82.76,
+    35.552
+   ]
+  },
+  {
+   "house": "V4",
+   "part": "RoofThreshold",
+   "dump_index": 9978,
+   "top_y": 7.8,
+   "rect_xz": [
+    66.13,
+    39.879,
+    68.13,
+    41.229
+   ]
+  },
+  {
+   "house": "V4",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 9969,
+   "top_y": 3.9,
+   "rect_xz": [
+    64.1,
+    26.276,
+    65.5,
+    27.676
+   ]
+  },
+  {
+   "house": "V4",
+   "part": "SunTerraceEdge",
+   "dump_index": 9964,
+   "top_y": 4.932,
+   "rect_xz": [
+    73.85,
+    33.858,
+    73.99,
+    40.182
+   ]
+  },
+  {
+   "house": "V4",
+   "part": "SunTerraceTerrace",
+   "dump_index": 9963,
+   "top_y": 4.212,
+   "rect_xz": [
+    73.92,
+    33.858,
+    81.48,
+    40.182
+   ]
+  },
+  {
+   "house": "V5",
+   "part": "FoldLandingTerrace",
+   "dump_index": 9998,
+   "top_y": 3.55,
+   "rect_xz": [
+    64.06,
+    53.536,
+    67.14,
+    54.736
+   ]
+  },
+  {
+   "house": "V5",
+   "part": "GardenWingRoof",
+   "dump_index": 9987,
+   "top_y": 3.834,
+   "rect_xz": [
+    67.38,
+    61.564,
+    75.02,
+    68.66
+   ]
+  },
+  {
+   "house": "V5",
+   "part": "Roof",
+   "dump_index": 9982,
+   "top_y": 7.1,
+   "rect_xz": [
+    67.38,
+    52.156,
+    84.62,
+    63.172
+   ]
+  },
+  {
+   "house": "V5",
+   "part": "RoofThreshold",
+   "dump_index": 10006,
+   "top_y": 7.1,
+   "rect_xz": [
+    66.19,
+    67.769,
+    68.35,
+    69.119
+   ]
+  },
+  {
+   "house": "V5",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 9997,
+   "top_y": 3.55,
+   "rect_xz": [
+    64.16,
+    53.436,
+    65.56,
+    54.836
+   ]
+  },
+  {
+   "house": "V5",
+   "part": "SunTerraceEdge",
+   "dump_index": 9992,
+   "top_y": 4.554,
+   "rect_xz": [
+    74.73,
+    61.388,
+    74.87,
+    68.052
+   ]
+  },
+  {
+   "house": "V5",
+   "part": "SunTerraceTerrace",
+   "dump_index": 9991,
+   "top_y": 3.834,
+   "rect_xz": [
+    74.8,
+    61.388,
+    83.2,
+    68.052
+   ]
+  },
+  {
+   "house": "V6",
+   "part": "FoldLandingTerrace",
+   "dump_index": 10026,
+   "top_y": 4.8,
+   "rect_xz": [
+    1.94,
+    81.024,
+    5.02,
+    82.224
+   ]
+  },
+  {
+   "house": "V6",
+   "part": "GardenWingRoof",
+   "dump_index": 10015,
+   "top_y": 5.184,
+   "rect_xz": [
+    5.1,
+    87.836,
+    11.22,
+    93.78
+   ]
+  },
+  {
+   "house": "V6",
+   "part": "Roof",
+   "dump_index": 10010,
+   "top_y": 9.6,
+   "rect_xz": [
+    5.1,
+    79.964,
+    18.9,
+    89.188
+   ]
+  },
+  {
+   "house": "V6",
+   "part": "RoofThreshold",
+   "dump_index": 10034,
+   "top_y": 9.6,
+   "rect_xz": [
+    4.07,
+    92.921,
+    5.91,
+    94.271
+   ]
+  },
+  {
+   "house": "V6",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 10025,
+   "top_y": 4.8,
+   "rect_xz": [
+    2.04,
+    80.924,
+    3.44,
+    82.324
+   ]
+  },
+  {
+   "house": "V6",
+   "part": "SunTerraceEdge",
+   "dump_index": 10020,
+   "top_y": 5.904,
+   "rect_xz": [
+    10.97,
+    87.692,
+    11.11,
+    93.268
+   ]
+  },
+  {
+   "house": "V6",
+   "part": "SunTerraceTerrace",
+   "dump_index": 10019,
+   "top_y": 5.184,
+   "rect_xz": [
+    11.04,
+    87.692,
+    17.76,
+    93.268
+   ]
+  },
+  {
+   "house": "V7",
+   "part": "FoldLandingTerrace",
+   "dump_index": 10054,
+   "top_y": 4.65,
+   "rect_xz": [
+    22.94,
+    79.928,
+    26.02,
+    81.128
+   ]
+  },
+  {
+   "house": "V7",
+   "part": "GardenWingRoof",
+   "dump_index": 10043,
+   "top_y": 5.022,
+   "rect_xz": [
+    26.1,
+    86.512,
+    32.22,
+    92.24
+   ]
+  },
+  {
+   "house": "V7",
+   "part": "Roof",
+   "dump_index": 10038,
+   "top_y": 9.3,
+   "rect_xz": [
+    26.1,
+    78.928,
+    39.9,
+    87.816
+   ]
+  },
+  {
+   "house": "V7",
+   "part": "RoofThreshold",
+   "dump_index": 10062,
+   "top_y": 9.3,
+   "rect_xz": [
+    25.07,
+    91.387,
+    26.91,
+    92.737
+   ]
+  },
+  {
+   "house": "V7",
+   "part": "ServiceFlightLandingDeck",
+   "dump_index": 10053,
+   "top_y": 4.65,
+   "rect_xz": [
+    23.04,
+    79.828,
+    24.44,
+    81.228
+   ]
+  },
+  {
+   "house": "V7",
+   "part": "SunTerraceEdge",
+   "dump_index": 10048,
+   "top_y": 5.742,
+   "rect_xz": [
+    31.97,
+    86.374,
+    32.11,
+    91.746
+   ]
+  },
+  {
+   "house": "V7",
+   "part": "SunTerraceTerrace",
+   "dump_index": 10047,
+   "top_y": 5.022,
+   "rect_xz": [
+    32.04,
+    86.374,
+    38.76,
+    91.746
+   ]
+  }
+ ],
+ "props": [
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    49.0,
+    4.276,
+    61.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    49.5,
+    4.676,
+    60.7
+   ],
+   "rot": 40.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    48.6,
+    3.976,
+    61.4
+   ],
+   "rot": 10.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    43.0,
+    0.0,
+    68.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    55.0,
+    0.0,
+    55.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    18.4,
+    0.0,
+    39.1
+   ],
+   "rot": 246.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    18.4,
+    0.0,
+    23.9
+   ],
+   "rot": 200.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    18.4,
+    0.0,
+    69.1
+   ],
+   "rot": 336.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    18.4,
+    0.0,
+    54.9
+   ],
+   "rot": 293.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    49.4,
+    0.0,
+    47.1
+   ],
+   "rot": 127.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    49.4,
+    0.0,
+    23.9
+   ],
+   "rot": 57.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    37.4,
+    0.0,
+    69.1
+   ],
+   "rot": 109.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    86.4,
+    0.0,
+    96.1
+   ],
+   "rot": 173.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    86.4,
+    0.0,
+    78.9
+   ],
+   "rot": 121.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    86.4,
+    0.0,
+    42.1
+   ],
+   "rot": 11.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    86.4,
+    0.0,
+    23.9
+   ],
+   "rot": 316.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    86.4,
+    0.0,
+    70.1
+   ],
+   "rot": 95.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    18.4,
+    0.0,
+    96.1
+   ],
+   "rot": 57.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    18.4,
+    0.0,
+    78.9
+   ],
+   "rot": 5.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    40.4,
+    0.0,
+    96.1
+   ],
+   "rot": 211.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    40.4,
+    0.0,
+    78.9
+   ],
+   "rot": 159.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    94.5,
+    0.0,
+    8.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    94.5,
+    2.5,
+    8.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    97.0,
+    0.0,
+    17.0
+   ],
+   "rot": 37.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    97.0,
+    2.5,
+    17.0
+   ],
+   "rot": 53.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    94.5,
+    0.0,
+    26.0
+   ],
+   "rot": 74.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    94.5,
+    2.5,
+    26.0
+   ],
+   "rot": 106.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    97.0,
+    0.0,
+    35.0
+   ],
+   "rot": 111.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    97.0,
+    2.5,
+    35.0
+   ],
+   "rot": 159.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    94.5,
+    0.0,
+    44.0
+   ],
+   "rot": 148.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    94.5,
+    2.5,
+    44.0
+   ],
+   "rot": 212.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    97.0,
+    0.0,
+    53.0
+   ],
+   "rot": 185.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    97.0,
+    2.5,
+    53.0
+   ],
+   "rot": 265.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    94.5,
+    0.0,
+    62.0
+   ],
+   "rot": 222.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    94.5,
+    2.5,
+    62.0
+   ],
+   "rot": 318.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    97.0,
+    0.0,
+    71.0
+   ],
+   "rot": 259.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    97.0,
+    2.5,
+    71.0
+   ],
+   "rot": 11.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    94.5,
+    0.0,
+    80.0
+   ],
+   "rot": 296.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    94.5,
+    2.5,
+    80.0
+   ],
+   "rot": 64.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    97.0,
+    0.0,
+    89.0
+   ],
+   "rot": 333.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    97.0,
+    2.5,
+    89.0
+   ],
+   "rot": 117.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    94.5,
+    0.0,
+    98.0
+   ],
+   "rot": 10.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    94.5,
+    2.5,
+    98.0
+   ],
+   "rot": 170.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    22.0,
+    0.0,
+    102.5
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    22.0,
+    2.5,
+    102.5
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    31.0,
+    0.0,
+    105.0
+   ],
+   "rot": 41.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    31.0,
+    2.5,
+    105.0
+   ],
+   "rot": 29.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    40.0,
+    0.0,
+    102.5
+   ],
+   "rot": 82.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    40.0,
+    2.5,
+    102.5
+   ],
+   "rot": 58.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    49.0,
+    0.0,
+    105.0
+   ],
+   "rot": 123.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    49.0,
+    2.5,
+    105.0
+   ],
+   "rot": 87.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    58.0,
+    0.0,
+    102.5
+   ],
+   "rot": 164.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    58.0,
+    2.5,
+    102.5
+   ],
+   "rot": 116.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    67.0,
+    0.0,
+    105.0
+   ],
+   "rot": 205.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    67.0,
+    2.5,
+    105.0
+   ],
+   "rot": 145.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    76.0,
+    0.0,
+    102.5
+   ],
+   "rot": 246.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    76.0,
+    2.5,
+    102.5
+   ],
+   "rot": 174.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    85.0,
+    0.0,
+    105.0
+   ],
+   "rot": 287.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    85.0,
+    2.5,
+    105.0
+   ],
+   "rot": 203.0
+  }
+ ],
+ "lights_in_or_affecting_region": [
+  {
+   "path": "homes/lamp_9667",
+   "class": "OmniLight3D",
+   "position": [
+    43.0,
+    2.45,
+    68.0
+   ]
+  },
+  {
+   "path": "homes/lamp_9668",
+   "class": "OmniLight3D",
+   "position": [
+    55.0,
+    2.45,
+    55.0
+   ]
+  }
+ ],
+ "ground_patches": [
+  {
+   "rect_xz": [
+    2.3,
+    23.0,
+    19.3,
+    40.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "A1 garden plot"
+  },
+  {
+   "rect_xz": [
+    2.3,
+    54.0,
+    19.3,
+    70.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "A2 garden plot"
+  },
+  {
+   "rect_xz": [
+    23.3,
+    23.0,
+    50.3,
+    48.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "A3 garden plot"
+  },
+  {
+   "rect_xz": [
+    23.3,
+    54.0,
+    38.3,
+    70.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "V1 garden plot"
+  },
+  {
+   "rect_xz": [
+    42.3,
+    78.0,
+    60.3,
+    97.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "V2 garden plot"
+  },
+  {
+   "rect_xz": [
+    64.3,
+    78.0,
+    87.3,
+    97.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "V3 garden plot"
+  },
+  {
+   "rect_xz": [
+    64.3,
+    23.0,
+    87.3,
+    43.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "V4 garden plot"
+  },
+  {
+   "rect_xz": [
+    64.3,
+    49.0,
+    87.3,
+    71.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "V5 garden plot"
+  },
+  {
+   "rect_xz": [
+    2.3,
+    78.0,
+    19.3,
+    97.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "V6 garden plot"
+  },
+  {
+   "rect_xz": [
+    23.3,
+    78.0,
+    41.3,
+    97.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "V7 garden plot"
+  },
+  {
+   "rect_xz": [
+    42.5,
+    54.0,
+    57.5,
+    68.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "residential green (tree, beds, lamps)"
+  },
+  {
+   "rect_xz": [
+    92.3,
+    2.0,
+    104.0,
+    112.0
+   ],
+   "top_y": 0.0,
+   "thick": 0.6,
+   "mat": "lawn",
+   "note": "backdrop east (outside boundary)"
+  },
+  {
+   "rect_xz": [
+    17.0,
+    100.3,
+    104.0,
+    112.0
+   ],
+   "top_y": 0.0,
+   "thick": 0.6,
+   "mat": "lawn",
+   "note": "backdrop south (outside boundary)"
+  }
+ ],
+ "summary": "10 houses that cannot be entered (3 apartment blocks A1-A3 with 4-5 storey service flights, 7 villas V1-V7 with a garden wing). Routes: the outdoor service flights (zig-zag ramps on the west side), fold landings, balcony terraces, sun terraces, garden-wing roofs, roof thresholds and the main roofs. Each house sits in a flat garden plot bounded by 0.6 m kerbs. Residential green at x 42-58, z 54-68: one tree trunk, two lamp posts, two raised beds.",
+ "dressing_plan": "Cladding + windows + cornice from the shared builder (kinds apartment_block/house/house_wing: plain, not traditional - no eaves, noren, porch posts or ivy over the balconies and flights; cornice 12 cm, R3). Nothing on any roof, balcony, terrace, landing or flight (roof antenna off via roof_is_route, R1). Lawns as flat patches (R2). Stone kerbs, crowns on the old trunk, lantern posts on the old posts, shrubs in plot corners, backdrop trees outside the boundary."
+}

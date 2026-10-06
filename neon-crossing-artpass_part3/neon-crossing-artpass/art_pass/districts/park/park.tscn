@@ -41,11 +41,16 @@ fog_sky_affect = 0.0
 fog_height = 20.0
 adjustment_enabled = true
 
-[node name="Alley" type="Node3D"]
+[node name="Park" type="Node3D"]
 
 [node name="Builder" type="Node3D" parent="."]
 script = ExtResource("1_builder")
-DRESS = "res://art_pass/districts/alley/STREET_DRESS.json"
+INV = "res://art_pass/districts/park/PARK_INVENTORY.json"
+HULLS = "res://art_pass/districts/park/old_convex_hulls.json"
+REGION = Rect2(-72, 110, 172, 70)
+TRAD = Array[String]([])
+SKIP_IDS = Array[String]([])
+CABLES = PackedVector3Array()
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("env")
@@ -65,4 +70,4 @@ max_texture_size = 4096
 fov = 72.0
 far = 600.0
 script = ExtResource("2_cam")
-views_file = "res://art_pass/districts/alley/cameras.json"
+views_file = "res://art_pass/districts/park/cameras.json"

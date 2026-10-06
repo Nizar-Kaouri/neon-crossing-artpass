@@ -1,0 +1,155 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "North stair foot, eye 1.7 m (y -3.3), looking south down the main corridor",
+   "position": [
+    -79.5,
+    -3.3,
+    -45.0
+   ],
+   "look_at": [
+    -77.0,
+    -3.0,
+    -10.0
+   ],
+   "rotation_degrees": [
+    0.49,
+    -175.91,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_1.png"
+  },
+  {
+   "id": 2,
+   "description": "Main corridor at the south side room, eye 1.7 m, looking north",
+   "position": [
+    -74.5,
+    -3.3,
+    22.0
+   ],
+   "look_at": [
+    -78.0,
+    -3.0,
+    -10.0
+   ],
+   "rotation_degrees": [
+    0.53,
+    6.24,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_2.png"
+  },
+  {
+   "id": 3,
+   "description": "Inside the north side room, eye 1.7 m, looking west out through the gap",
+   "position": [
+    -64.5,
+    -3.3,
+    -27.0
+   ],
+   "look_at": [
+    -80.0,
+    -3.3,
+    -31.0
+   ],
+   "rotation_degrees": [
+    0.0,
+    75.53,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_3.png"
+  },
+  {
+   "id": 4,
+   "description": "South branch towards the mall, eye 1.7 m, looking south (bench, mall B1 sign, link to the oval hall)",
+   "position": [
+    -77.5,
+    -3.3,
+    60.0
+   ],
+   "look_at": [
+    -74.0,
+    -3.6,
+    84.0
+   ],
+   "rotation_degrees": [
+    -0.71,
+    -171.7,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_4.png"
+  },
+  {
+   "id": 5,
+   "description": "Street level at the north stair well (\"roof\" of the tunnel), eye 1.7 m, looking down the stairs",
+   "position": [
+    -81.0,
+    1.7,
+    -71.0
+   ],
+   "look_at": [
+    -81.0,
+    -4.0,
+    -50.0
+   ],
+   "rotation_degrees": [
+    -15.19,
+    -180.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_5.png"
+  },
+  {
+   "id": 6,
+   "description": "High view from the west down into the south stair well",
+   "position": [
+    -106.0,
+    9.0,
+    64.0
+   ],
+   "look_at": [
+    -86.0,
+    -4.0,
+    50.0
+   ],
+   "rotation_degrees": [
+    -28.04,
+    -55.01,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_6.png"
+  }
+ ],
+ "note": "Claude 2026-10-06; viewer keys 1/2/3 = cameras 1/5/6"
+}

@@ -1,0 +1,155 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "Central path x -35, eye 1.7 m, looking south between the lawns",
+   "position": [
+    -35,
+    1.7,
+    131
+   ],
+   "look_at": [
+    -35,
+    1.7,
+    165
+   ],
+   "rotation_degrees": [
+    0.0,
+    180.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_1.png"
+  },
+  {
+   "id": 2,
+   "description": "Middle cross path z 146, eye 1.7 m, looking east across the lawns",
+   "position": [
+    -69,
+    1.7,
+    146
+   ],
+   "look_at": [
+    0,
+    1.7,
+    146
+   ],
+   "rotation_degrees": [
+    0.0,
+    -90.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_2.png"
+  },
+  {
+   "id": 3,
+   "description": "South cross path z 160, eye 1.7 m, looking west past the garden corners",
+   "position": [
+    -3,
+    1.7,
+    160
+   ],
+   "look_at": [
+    -70,
+    1.7,
+    156
+   ],
+   "rotation_degrees": [
+    0.0,
+    86.58,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_3.png"
+  },
+  {
+   "id": 4,
+   "description": "West bench, eye 1.7 m, looking south-east to the lawns and the treeline",
+   "position": [
+    -60.5,
+    1.7,
+    141.5
+   ],
+   "look_at": [
+    -35,
+    0.5,
+    152
+   ],
+   "rotation_degrees": [
+    -2.49,
+    -112.38,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_4.png"
+  },
+  {
+   "id": 5,
+   "description": "West garden wall cap (y 2.1) eye 3.8 m, looking east over the park",
+   "position": [
+    -58,
+    3.8,
+    151
+   ],
+   "look_at": [
+    0,
+    0,
+    140
+   ],
+   "rotation_degrees": [
+    -3.68,
+    -79.26,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_5.png"
+  },
+  {
+   "id": 6,
+   "description": "Overview from south-east, high",
+   "position": [
+    25,
+    48,
+    190
+   ],
+   "look_at": [
+    -35,
+    0,
+    145
+   ],
+   "rotation_degrees": [
+    -32.62,
+    53.13,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_6.png"
+  }
+ ],
+ "note": "Claude 2026-10-06; viewer keys 1/2/3 = cameras 1/5/6"
+}

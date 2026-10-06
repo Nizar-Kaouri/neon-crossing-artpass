@@ -136,3 +136,64 @@ static func merge_quads(root: Node3D, cell := 48.0) -> int:
 		root.add_child(out)
 		made += 1
 	return made
+
+
+
+## Convex / concave collider visuals ("Old<n>" ArrayMesh, probe-lit) -> one mesh per (material, cell) with flat
+## per-triangle normals (smoothed hull normals shade ring segments as gradients). From the mall session, request #2.
+static func merge_hulls(root: Node3D, cell := 48.0) -> int:
+	var groups := {}
+	for mi in root.get_children():
+		if not (mi is MeshInstance3D) or not str(mi.name).begins_with("Old"):
+			continue
+		var mesh: Mesh = (mi as MeshInstance3D).mesh
+		if not (mesh is ArrayMesh) or mi.material_override == null:
+			continue
+		var t: Transform3D = (mi as MeshInstance3D).transform
+		var key := "%d|%d|%d" % [mi.material_override.get_instance_id(), floori(t.origin.x / cell), floori(t.origin.z / cell)]
+		if not groups.has(key):
+			groups[key] = {"mat": mi.material_override, "pos": PackedVector3Array(), "nor": PackedVector3Array()}
+		var arr: Array = mesh.surface_get_arrays(0)
+		var v: PackedVector3Array = arr[Mesh.ARRAY_VERTEX]
+		var vn: PackedVector3Array = arr[Mesh.ARRAY_NORMAL] if arr[Mesh.ARRAY_NORMAL] != null else PackedVector3Array()
+		var order := PackedInt32Array()
+		if arr[Mesh.ARRAY_INDEX] != null and (arr[Mesh.ARRAY_INDEX] as PackedInt32Array).size() > 0:
+			order = arr[Mesh.ARRAY_INDEX]
+		else:
+			order.resize(v.size())
+			for k in v.size():
+				order[k] = k
+		var pos: PackedVector3Array = groups[key].pos
+		var nor: PackedVector3Array = groups[key].nor
+		for k in range(0, order.size(), 3):
+			var a: Vector3 = t * v[order[k]]
+			var b: Vector3 = t * v[order[k + 1]]
+			var c: Vector3 = t * v[order[k + 2]]
+			var fn := (c - a).cross(b - a)
+			if fn.length_squared() < 1e-12:
+				continue
+			fn = fn.normalized()
+			if vn.size() == v.size() and fn.dot(t.basis * (vn[order[k]] + vn[order[k + 1]] + vn[order[k + 2]])) < 0.0:
+				fn = -fn
+			pos.append_array([a, b, c])
+			nor.append_array([fn, fn, fn])
+		groups[key].pos = pos
+		groups[key].nor = nor
+		root.remove_child(mi)
+		mi.queue_free()
+	var made := 0
+	for key in groups:
+		var arrays := []
+		arrays.resize(Mesh.ARRAY_MAX)
+		arrays[Mesh.ARRAY_VERTEX] = groups[key].pos
+		arrays[Mesh.ARRAY_NORMAL] = groups[key].nor
+		var am := ArrayMesh.new()
+		am.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, arrays)
+		var out := MeshInstance3D.new()
+		out.name = "MergedHulls_%d" % made
+		out.mesh = am
+		out.material_override = groups[key].mat
+		out.gi_mode = GeometryInstance3D.GI_MODE_DYNAMIC
+		root.add_child(out)
+		made += 1
+	return made
