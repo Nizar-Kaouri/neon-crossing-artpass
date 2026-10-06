@@ -1,0 +1,35 @@
+{
+ "district": "mall",
+ "boxes": 46,
+ "boxes_per_material": {
+  "asphalt": 6,
+  "kerb": 13,
+  "paint": 5,
+  "iron": 11,
+  "asphalt_patch": 1,
+  "puddle": 10
+ },
+ "meshes_after_merge": 17,
+ "top_y_range_above_level": [
+  0.007,
+  0.019
+ ],
+ "cross_layer_overlaps": 28,
+ "fails": {
+  "height": [],
+  "ground": [],
+  "obstacle": [],
+  "covered": [],
+  "volumes": [],
+  "overlap": []
+ },
+ "fail_counts": {
+  "height": 0,
+  "ground": 0,
+  "obstacle": 0,
+  "covered": 0,
+  "volumes": 0,
+  "overlap": 0
+ },
+ "ok": true
+}

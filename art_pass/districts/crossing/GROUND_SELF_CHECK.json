@@ -1,0 +1,35 @@
+{
+ "district": "crossing",
+ "boxes": 931,
+ "boxes_per_material": {
+  "asphalt": 142,
+  "kerb": 224,
+  "paint": 187,
+  "iron": 117,
+  "asphalt_patch": 25,
+  "puddle": 236
+ },
+ "meshes_after_merge": 23,
+ "top_y_range_above_level": [
+  0.007,
+  0.019
+ ],
+ "cross_layer_overlaps": 961,
+ "fails": {
+  "height": [],
+  "ground": [],
+  "obstacle": [],
+  "covered": [],
+  "volumes": [],
+  "overlap": []
+ },
+ "fail_counts": {
+  "height": 0,
+  "ground": 0,
+  "obstacle": 0,
+  "covered": 0,
+  "volumes": 0,
+  "overlap": 0
+ },
+ "ok": true
+}

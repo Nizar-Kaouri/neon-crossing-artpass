@@ -1,0 +1,31 @@
+{
+ "district": "park",
+ "boxes": 49,
+ "boxes_per_material": {
+  "iron": 9,
+  "puddle": 40
+ },
+ "meshes_after_merge": 3,
+ "top_y_range_above_level": [
+  0.019,
+  0.019
+ ],
+ "cross_layer_overlaps": 0,
+ "fails": {
+  "height": [],
+  "ground": [],
+  "obstacle": [],
+  "covered": [],
+  "volumes": [],
+  "overlap": []
+ },
+ "fail_counts": {
+  "height": 0,
+  "ground": 0,
+  "obstacle": 0,
+  "covered": 0,
+  "volumes": 0,
+  "overlap": 0
+ },
+ "ok": true
+}
