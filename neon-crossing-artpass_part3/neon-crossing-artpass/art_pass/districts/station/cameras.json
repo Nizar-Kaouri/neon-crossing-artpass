@@ -1,0 +1,155 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "Street under the viaduct, eye 1.7 m, west side looking east at the north information island",
+   "position": [
+    -104,
+    1.7,
+    -2
+   ],
+   "look_at": [
+    -84,
+    2.5,
+    -14
+   ],
+   "rotation_degrees": [
+    1.96,
+    -59.04,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_1.png"
+  },
+  {
+   "id": 2,
+   "description": "Side platform, eye 1.7 m (y 12.7), looking south along the tracks and the express line",
+   "position": [
+    -92.2,
+    12.7,
+    -70
+   ],
+   "look_at": [
+    -84,
+    11.5,
+    -30
+   ],
+   "rotation_degrees": [
+    -1.68,
+    -168.41,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_2.png"
+  },
+  {
+   "id": 3,
+   "description": "Raised platform (y 5.5), eye 1.7 m, under the lantern roof looking south",
+   "position": [
+    -100,
+    7.2,
+    -33
+   ],
+   "look_at": [
+    -95,
+    7.6,
+    10
+   ],
+   "rotation_degrees": [
+    0.53,
+    -173.37,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_3.png"
+  },
+  {
+   "id": 4,
+   "description": "Street, eye 1.7 m, north stair well and the north island door",
+   "position": [
+    -70,
+    1.7,
+    -72
+   ],
+   "look_at": [
+    -83,
+    1.0,
+    -40
+   ],
+   "rotation_degrees": [
+    -1.16,
+    157.89,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_4.png"
+  },
+  {
+   "id": 5,
+   "description": "Track canopy roof (y 14.5), eye 1.7 m, at its south edge looking south over the stair and the viaduct",
+   "position": [
+    -79,
+    16.2,
+    -30
+   ],
+   "look_at": [
+    -90,
+    11,
+    5
+   ],
+   "rotation_degrees": [
+    -8.07,
+    162.55,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_5.png"
+  },
+  {
+   "id": 6,
+   "description": "Overview from the north-west, high",
+   "position": [
+    -140,
+    45,
+    -100
+   ],
+   "look_at": [
+    -85,
+    5,
+    -10
+   ],
+   "rotation_degrees": [
+    -20.77,
+    -148.57,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_6.png"
+  }
+ ],
+ "note": "Claude 2026-10-06; viewer keys 1/2/3 = cameras 1/5/6"
+}

@@ -1,0 +1,18 @@
+{
+ "district": "underground",
+ "scene": "res://art_pass/districts/underground/underground.tscn",
+ "volumes": {
+  "doorway": 8,
+  "stair_flight": 2,
+  "stair_landing": 4
+ },
+ "meshes_sampled": 24,
+ "intrusions": {},
+ "skyline_cards_crossing_volumes": [],
+ "props": {
+  "ok_high": 54,
+  "ok_wall": 21,
+  "ok_flush": 14,
+  "floor_prop": []
+ }
+}
