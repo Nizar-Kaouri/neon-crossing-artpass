@@ -13,5 +13,9 @@ Shared builder features you can use from inventory data (no code needed):
 - Tools: `tools/check_openings.gd` (doorway self-check, incl. MultiMesh), `tools/district_check.sh <district>`
   (build + check + 6 renders), `tools/inventory/street_dress.py`.
 
-Repo layout is messy (three part folders). First task of the next session: flatten it so the project root holds
-project.godot + art_pass/ + render_cams.* + tools/ (git mv, one commit), keeping every file once (newest wins).
+Repo layout: flattened (2026-10-06): project.godot + art_pass/ + render_cams.* + tools/ at the root.
+
+Ground pass (2026-10-06, `art_pass/districts/REPORT_GROUND.md`): `districts/<d>/GROUND_DETAIL.json` for all 8
+districts (asphalt, kerbs, scramble paint, manholes, drain covers, patches, puddles; flat, +0.7..1.9 cm, no collision),
+made by `art_pass/tools/inventory/ground_detail.py`, checked by `ground_check.py`. Drawn only once builder request G1
+(`districts/GROUND_BUILDER_REQUEST.md` / `.patch`, `_ground_detail()`) is merged.
