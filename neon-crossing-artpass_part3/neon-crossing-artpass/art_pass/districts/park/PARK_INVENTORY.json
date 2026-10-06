@@ -1,0 +1,2576 @@
+{
+ "schema_version": 1,
+ "district": "park",
+ "source": "layout_dump.json + regions_map.png (Claude, cloud)",
+ "region": {
+  "rects": [
+   [
+    -72,
+    125,
+    2,
+    180
+   ],
+   [
+    2,
+    110,
+    100,
+    180
+   ]
+  ]
+ },
+ "buildings": [],
+ "structures": [
+  {
+   "dump_index": 463,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@950",
+   "aabb_min": [
+    -71.5,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    -65.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 481,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@986",
+   "aabb_min": [
+    -65.0,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    -63.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 499,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1022",
+   "aabb_min": [
+    -63.0,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    -5.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 549,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1122",
+   "aabb_min": [
+    -5.0,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    0.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 597,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1218",
+   "aabb_min": [
+    0.0,
+    -1.0,
+    100.0
+   ],
+   "aabb_max": [
+    18.0,
+    0.0,
+    129.0
+   ]
+  },
+  {
+   "dump_index": 599,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1222",
+   "aabb_min": [
+    0.0,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    18.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 8281,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -67.5,
+    0.39,
+    139.6
+   ],
+   "aabb_max": [
+    -64.5,
+    0.55,
+    140.4
+   ]
+  },
+  {
+   "dump_index": 8282,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -67.16,
+    0.0,
+    139.675
+   ],
+   "aabb_max": [
+    -67.04,
+    0.4,
+    140.325
+   ]
+  },
+  {
+   "dump_index": 8283,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -64.96,
+    0.0,
+    139.675
+   ],
+   "aabb_max": [
+    -64.84,
+    0.4,
+    140.325
+   ]
+  },
+  {
+   "dump_index": 8284,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -67.5,
+    0.55,
+    140.28
+   ],
+   "aabb_max": [
+    -64.5,
+    1.25,
+    140.4
+   ]
+  },
+  {
+   "dump_index": 8285,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -67.5,
+    0.39,
+    153.6
+   ],
+   "aabb_max": [
+    -64.5,
+    0.55,
+    154.4
+   ]
+  },
+  {
+   "dump_index": 8286,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -67.16,
+    0.0,
+    153.675
+   ],
+   "aabb_max": [
+    -67.04,
+    0.4,
+    154.325
+   ]
+  },
+  {
+   "dump_index": 8287,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -64.96,
+    0.0,
+    153.675
+   ],
+   "aabb_max": [
+    -64.84,
+    0.4,
+    154.325
+   ]
+  },
+  {
+   "dump_index": 8288,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -67.5,
+    0.55,
+    154.28
+   ],
+   "aabb_max": [
+    -64.5,
+    1.25,
+    154.4
+   ]
+  },
+  {
+   "dump_index": 8289,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -5.5,
+    0.39,
+    139.6
+   ],
+   "aabb_max": [
+    -2.5,
+    0.55,
+    140.4
+   ]
+  },
+  {
+   "dump_index": 8290,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -5.16,
+    0.0,
+    139.675
+   ],
+   "aabb_max": [
+    -5.04,
+    0.4,
+    140.325
+   ]
+  },
+  {
+   "dump_index": 8291,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -2.96,
+    0.0,
+    139.675
+   ],
+   "aabb_max": [
+    -2.84,
+    0.4,
+    140.325
+   ]
+  },
+  {
+   "dump_index": 8292,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -5.5,
+    0.55,
+    140.28
+   ],
+   "aabb_max": [
+    -2.5,
+    1.25,
+    140.4
+   ]
+  },
+  {
+   "dump_index": 8293,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -5.5,
+    0.39,
+    153.6
+   ],
+   "aabb_max": [
+    -2.5,
+    0.55,
+    154.4
+   ]
+  },
+  {
+   "dump_index": 8294,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -5.16,
+    0.0,
+    153.675
+   ],
+   "aabb_max": [
+    -5.04,
+    0.4,
+    154.325
+   ]
+  },
+  {
+   "dump_index": 8295,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -2.96,
+    0.0,
+    153.675
+   ],
+   "aabb_max": [
+    -2.84,
+    0.4,
+    154.325
+   ]
+  },
+  {
+   "dump_index": 8296,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -5.5,
+    0.55,
+    154.28
+   ],
+   "aabb_max": [
+    -2.5,
+    1.25,
+    154.4
+   ]
+  },
+  {
+   "dump_index": 8297,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -69.25,
+    0.0,
+    136.75
+   ],
+   "aabb_max": [
+    -68.75,
+    2.8,
+    137.25
+   ]
+  },
+  {
+   "dump_index": 8298,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -69.25,
+    0.0,
+    156.75
+   ],
+   "aabb_max": [
+    -68.75,
+    2.8,
+    157.25
+   ]
+  },
+  {
+   "dump_index": 8299,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -57.25,
+    0.0,
+    136.75
+   ],
+   "aabb_max": [
+    -56.75,
+    2.8,
+    137.25
+   ]
+  },
+  {
+   "dump_index": 8300,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -57.25,
+    0.0,
+    156.75
+   ],
+   "aabb_max": [
+    -56.75,
+    2.8,
+    157.25
+   ]
+  },
+  {
+   "dump_index": 8301,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -13.25,
+    0.0,
+    136.75
+   ],
+   "aabb_max": [
+    -12.75,
+    2.8,
+    137.25
+   ]
+  },
+  {
+   "dump_index": 8302,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -13.25,
+    0.0,
+    156.75
+   ],
+   "aabb_max": [
+    -12.75,
+    2.8,
+    157.25
+   ]
+  },
+  {
+   "dump_index": 8303,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -1.25,
+    0.0,
+    136.75
+   ],
+   "aabb_max": [
+    -0.75,
+    2.8,
+    137.25
+   ]
+  },
+  {
+   "dump_index": 8304,
+   "role": "tree_trunk",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -1.25,
+    0.0,
+    156.75
+   ],
+   "aabb_max": [
+    -0.75,
+    2.8,
+    157.25
+   ]
+  },
+  {
+   "dump_index": 8398,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -50.0,
+    0.0,
+    139.75
+   ],
+   "aabb_max": [
+    -44.0,
+    1.05,
+    142.25
+   ]
+  },
+  {
+   "dump_index": 8399,
+   "role": "hill_surface",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -49.8,
+    1.05,
+    139.95
+   ],
+   "aabb_max": [
+    -44.2,
+    1.17,
+    142.05
+   ]
+  },
+  {
+   "dump_index": 8400,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -50.0,
+    0.0,
+    149.75
+   ],
+   "aabb_max": [
+    -44.0,
+    1.05,
+    152.25
+   ]
+  },
+  {
+   "dump_index": 8401,
+   "role": "hill_surface",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -49.8,
+    1.05,
+    149.95
+   ],
+   "aabb_max": [
+    -44.2,
+    1.17,
+    152.05
+   ]
+  },
+  {
+   "dump_index": 8402,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -26.0,
+    0.0,
+    139.75
+   ],
+   "aabb_max": [
+    -20.0,
+    1.05,
+    142.25
+   ]
+  },
+  {
+   "dump_index": 8403,
+   "role": "hill_surface",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -25.8,
+    1.05,
+    139.95
+   ],
+   "aabb_max": [
+    -20.2,
+    1.17,
+    142.05
+   ]
+  },
+  {
+   "dump_index": 8404,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -26.0,
+    0.0,
+    149.75
+   ],
+   "aabb_max": [
+    -20.0,
+    1.05,
+    152.25
+   ]
+  },
+  {
+   "dump_index": 8405,
+   "role": "hill_surface",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -25.8,
+    1.05,
+    149.95
+   ],
+   "aabb_max": [
+    -20.2,
+    1.17,
+    152.05
+   ]
+  },
+  {
+   "dump_index": 8406,
+   "role": "offering_table",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -59.7,
+    0.0,
+    149.8
+   ],
+   "aabb_max": [
+    -56.3,
+    1.15,
+    152.2
+   ]
+  },
+  {
+   "dump_index": 8407,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -56.66,
+    0.0,
+    149.8
+   ],
+   "aabb_max": [
+    -56.44,
+    2.2,
+    152.2
+   ]
+  },
+  {
+   "dump_index": 8408,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -59.56,
+    0.0,
+    149.94
+   ],
+   "aabb_max": [
+    -59.44,
+    2.6,
+    150.06
+   ]
+  },
+  {
+   "dump_index": 8409,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -56.56,
+    0.0,
+    149.94
+   ],
+   "aabb_max": [
+    -56.44,
+    2.6,
+    150.06
+   ]
+  },
+  {
+   "dump_index": 8410,
+   "role": "pavilion_roof",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -59.9,
+    2.6,
+    149.5
+   ],
+   "aabb_max": [
+    -56.1,
+    2.75,
+    152.5
+   ]
+  },
+  {
+   "dump_index": 8411,
+   "role": "offering_table",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -13.7,
+    0.0,
+    149.8
+   ],
+   "aabb_max": [
+    -10.3,
+    1.15,
+    152.2
+   ]
+  },
+  {
+   "dump_index": 8412,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -10.66,
+    0.0,
+    149.8
+   ],
+   "aabb_max": [
+    -10.44,
+    2.2,
+    152.2
+   ]
+  },
+  {
+   "dump_index": 8413,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -13.56,
+    0.0,
+    149.94
+   ],
+   "aabb_max": [
+    -13.44,
+    2.6,
+    150.06
+   ]
+  },
+  {
+   "dump_index": 8414,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -10.56,
+    0.0,
+    149.94
+   ],
+   "aabb_max": [
+    -10.44,
+    2.6,
+    150.06
+   ]
+  },
+  {
+   "dump_index": 8415,
+   "role": "pavilion_roof",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -13.9,
+    2.6,
+    149.5
+   ],
+   "aabb_max": [
+    -10.1,
+    2.75,
+    152.5
+   ]
+  },
+  {
+   "dump_index": 9678,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park west gardenRearWall",
+   "aabb_min": [
+    -59.8,
+    0.0,
+    152.86
+   ],
+   "aabb_max": [
+    -56.2,
+    2.05,
+    153.14
+   ]
+  },
+  {
+   "dump_index": 9679,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park west gardenRearFoundation",
+   "aabb_min": [
+    -59.875,
+    0.0,
+    152.785
+   ],
+   "aabb_max": [
+    -56.125,
+    0.2,
+    153.215
+   ]
+  },
+  {
+   "dump_index": 9680,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park west gardenRearCap",
+   "aabb_min": [
+    -59.84,
+    2.025,
+    152.82
+   ],
+   "aabb_max": [
+    -56.16,
+    2.125,
+    153.18
+   ]
+  },
+  {
+   "dump_index": 9681,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park west gardenSideWall",
+   "aabb_min": [
+    -56.14,
+    0.0,
+    149.2
+   ],
+   "aabb_max": [
+    -55.86,
+    2.05,
+    152.8
+   ]
+  },
+  {
+   "dump_index": 9682,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park west gardenSideFoundation",
+   "aabb_min": [
+    -56.215,
+    0.0,
+    149.125
+   ],
+   "aabb_max": [
+    -55.785,
+    0.2,
+    152.875
+   ]
+  },
+  {
+   "dump_index": 9683,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park west gardenSideCap",
+   "aabb_min": [
+    -56.18,
+    2.025,
+    149.16
+   ],
+   "aabb_max": [
+    -55.82,
+    2.125,
+    152.84
+   ]
+  },
+  {
+   "dump_index": 9684,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park west gardenPlanter",
+   "aabb_min": [
+    -60.3,
+    0.0,
+    153.05
+   ],
+   "aabb_max": [
+    -58.1,
+    0.9,
+    153.95
+   ]
+  },
+  {
+   "dump_index": 9685,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park east gardenRearWall",
+   "aabb_min": [
+    -17.8,
+    0.0,
+    152.86
+   ],
+   "aabb_max": [
+    -14.2,
+    2.05,
+    153.14
+   ]
+  },
+  {
+   "dump_index": 9686,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park east gardenRearFoundation",
+   "aabb_min": [
+    -17.875,
+    0.0,
+    152.785
+   ],
+   "aabb_max": [
+    -14.125,
+    0.2,
+    153.215
+   ]
+  },
+  {
+   "dump_index": 9687,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park east gardenRearCap",
+   "aabb_min": [
+    -17.84,
+    2.025,
+    152.82
+   ],
+   "aabb_max": [
+    -14.16,
+    2.125,
+    153.18
+   ]
+  },
+  {
+   "dump_index": 9688,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park east gardenSideWall",
+   "aabb_min": [
+    -14.14,
+    0.0,
+    149.2
+   ],
+   "aabb_max": [
+    -13.86,
+    2.05,
+    152.8
+   ]
+  },
+  {
+   "dump_index": 9689,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park east gardenSideFoundation",
+   "aabb_min": [
+    -14.215,
+    0.0,
+    149.125
+   ],
+   "aabb_max": [
+    -13.785,
+    0.2,
+    152.875
+   ]
+  },
+  {
+   "dump_index": 9690,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park east gardenSideCap",
+   "aabb_min": [
+    -14.18,
+    2.025,
+    149.16
+   ],
+   "aabb_max": [
+    -13.82,
+    2.125,
+    152.84
+   ]
+  },
+  {
+   "dump_index": 9691,
+   "role": "stone_low_wall",
+   "type": "box",
+   "path": "Step4Layout/Collision/Park east gardenPlanter",
+   "aabb_min": [
+    -18.3,
+    0.0,
+    153.05
+   ],
+   "aabb_max": [
+    -16.1,
+    0.9,
+    153.95
+   ]
+  },
+  {
+   "dump_index": 10327,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/ParkBench",
+   "aabb_min": [
+    -59.6,
+    0.33,
+    138.64
+   ],
+   "aabb_max": [
+    -56.4,
+    0.51,
+    139.36
+   ]
+  },
+  {
+   "dump_index": 10328,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/BenchFoot",
+   "aabb_min": [
+    -59.3,
+    0.0,
+    138.75
+   ],
+   "aabb_max": [
+    -59.14,
+    0.34,
+    139.25
+   ]
+  },
+  {
+   "dump_index": 10329,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29984",
+   "aabb_min": [
+    -56.86,
+    0.0,
+    138.75
+   ],
+   "aabb_max": [
+    -56.7,
+    0.34,
+    139.25
+   ]
+  },
+  {
+   "dump_index": 10330,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29986",
+   "aabb_min": [
+    -59.6,
+    0.33,
+    152.64
+   ],
+   "aabb_max": [
+    -56.4,
+    0.51,
+    153.36
+   ]
+  },
+  {
+   "dump_index": 10331,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29988",
+   "aabb_min": [
+    -59.3,
+    0.0,
+    152.75
+   ],
+   "aabb_max": [
+    -59.14,
+    0.34,
+    153.25
+   ]
+  },
+  {
+   "dump_index": 10332,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29990",
+   "aabb_min": [
+    -56.86,
+    0.0,
+    152.75
+   ],
+   "aabb_max": [
+    -56.7,
+    0.34,
+    153.25
+   ]
+  },
+  {
+   "dump_index": 10333,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29992",
+   "aabb_min": [
+    -13.6,
+    0.33,
+    138.64
+   ],
+   "aabb_max": [
+    -10.4,
+    0.51,
+    139.36
+   ]
+  },
+  {
+   "dump_index": 10334,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29994",
+   "aabb_min": [
+    -13.3,
+    0.0,
+    138.75
+   ],
+   "aabb_max": [
+    -13.14,
+    0.34,
+    139.25
+   ]
+  },
+  {
+   "dump_index": 10335,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29996",
+   "aabb_min": [
+    -10.86,
+    0.0,
+    138.75
+   ],
+   "aabb_max": [
+    -10.7,
+    0.34,
+    139.25
+   ]
+  },
+  {
+   "dump_index": 10336,
+   "role": "pavilion_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29998",
+   "aabb_min": [
+    -13.6,
+    0.33,
+    152.64
+   ],
+   "aabb_max": [
+    -10.4,
+    0.51,
+    153.36
+   ]
+  },
+  {
+   "dump_index": 10337,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@30000",
+   "aabb_min": [
+    -13.3,
+    0.0,
+    152.75
+   ],
+   "aabb_max": [
+    -13.14,
+    0.34,
+    153.25
+   ]
+  },
+  {
+   "dump_index": 10338,
+   "role": "bench_foot",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@30002",
+   "aabb_min": [
+    -10.86,
+    0.0,
+    152.75
+   ],
+   "aabb_max": [
+    -10.7,
+    0.34,
+    153.25
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "from": [
+    -70.0,
+    0.1,
+    132.0
+   ],
+   "kind": "Park north-south path",
+   "to": [
+    -70.0,
+    0.1,
+    160.0
+   ],
+   "width": 3.8
+  },
+  {
+   "from": [
+    0.0,
+    0.1,
+    132.0
+   ],
+   "kind": "Park north-south path",
+   "to": [
+    0.0,
+    0.1,
+    160.0
+   ],
+   "width": 3.8
+  },
+  {
+   "from": [
+    -35.0,
+    0.1,
+    132.0
+   ],
+   "kind": "Park north-south path",
+   "to": [
+    -35.0,
+    0.1,
+    160.0
+   ],
+   "width": 3.8
+  },
+  {
+   "from": [
+    -70.0,
+    0.1,
+    160.0
+   ],
+   "kind": "Park southern cross path",
+   "to": [
+    0.0,
+    0.1,
+    160.0
+   ],
+   "width": 3.8
+  },
+  {
+   "from": [
+    -70.0,
+    0.1,
+    146.0
+   ],
+   "kind": "Park middle cross path",
+   "to": [
+    0.0,
+    0.1,
+    146.0
+   ],
+   "width": 3.2
+  }
+ ],
+ "props": [
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -69.0,
+    2.4,
+    137.0
+   ],
+   "rot": 0.0,
+   "for": 8297
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -68.55,
+    2.95,
+    136.65
+   ],
+   "rot": 0.0,
+   "for": 8297
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -69.4,
+    3.3,
+    137.3
+   ],
+   "rot": 0.0,
+   "for": 8297
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -69.0,
+    2.4,
+    157.0
+   ],
+   "rot": 47.0,
+   "for": 8298
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -68.55,
+    2.95,
+    156.65
+   ],
+   "rot": 71.0,
+   "for": 8298
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -69.4,
+    3.3,
+    157.3
+   ],
+   "rot": 29.0,
+   "for": 8298
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    -57.0,
+    2.4,
+    137.0
+   ],
+   "rot": 94.0,
+   "for": 8299
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -56.55,
+    2.95,
+    136.65
+   ],
+   "rot": 142.0,
+   "for": 8299
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -57.4,
+    3.3,
+    137.3
+   ],
+   "rot": 58.0,
+   "for": 8299
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -57.0,
+    2.4,
+    157.0
+   ],
+   "rot": 141.0,
+   "for": 8300
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -56.55,
+    2.95,
+    156.65
+   ],
+   "rot": 213.0,
+   "for": 8300
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -57.4,
+    3.3,
+    157.3
+   ],
+   "rot": 87.0,
+   "for": 8300
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -13.0,
+    2.4,
+    137.0
+   ],
+   "rot": 188.0,
+   "for": 8301
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -12.55,
+    2.95,
+    136.65
+   ],
+   "rot": 284.0,
+   "for": 8301
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -13.4,
+    3.3,
+    137.3
+   ],
+   "rot": 116.0,
+   "for": 8301
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    -13.0,
+    2.4,
+    157.0
+   ],
+   "rot": 235.0,
+   "for": 8302
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -12.55,
+    2.95,
+    156.65
+   ],
+   "rot": 355.0,
+   "for": 8302
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -13.4,
+    3.3,
+    157.3
+   ],
+   "rot": 145.0,
+   "for": 8302
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -1.0,
+    2.4,
+    137.0
+   ],
+   "rot": 282.0,
+   "for": 8303
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -0.55,
+    2.95,
+    136.65
+   ],
+   "rot": 66.0,
+   "for": 8303
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -1.4,
+    3.3,
+    137.3
+   ],
+   "rot": 174.0,
+   "for": 8303
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -1.0,
+    2.4,
+    157.0
+   ],
+   "rot": 329.0,
+   "for": 8304
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -0.55,
+    2.95,
+    156.65
+   ],
+   "rot": 137.0,
+   "for": 8304
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -1.4,
+    3.3,
+    157.3
+   ],
+   "rot": 203.0,
+   "for": 8304
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    -60.2,
+    0.0,
+    139.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    -9.8,
+    0.0,
+    139.0
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    -12.0,
+    0.0,
+    154.2
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    -37.8,
+    0.0,
+    137.2
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    -37.8,
+    0.0,
+    156.5
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    -32.2,
+    0.0,
+    137.2
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_lamp_lantern_post",
+   "pos": [
+    -32.2,
+    0.0,
+    156.5
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_bollard_lamp",
+   "pos": [
+    -51.3,
+    0.0,
+    137.3
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_bollard_lamp",
+   "pos": [
+    -51.3,
+    0.0,
+    156.4
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_bollard_lamp",
+   "pos": [
+    -18.5,
+    0.0,
+    137.3
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "P_bollard_lamp",
+   "pos": [
+    -18.5,
+    0.0,
+    156.4
+   ],
+   "rot": 0.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -51.0,
+    0.0,
+    140.05
+   ],
+   "rot": 198.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -43.0,
+    0.0,
+    141.95
+   ],
+   "rot": 303.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -51.0,
+    0.0,
+    141.95
+   ],
+   "rot": 199.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -43.0,
+    0.0,
+    140.05
+   ],
+   "rot": 302.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -51.0,
+    0.0,
+    150.05
+   ],
+   "rot": 208.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -43.0,
+    0.0,
+    151.95
+   ],
+   "rot": 313.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -51.0,
+    0.0,
+    151.95
+   ],
+   "rot": 209.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -43.0,
+    0.0,
+    150.05
+   ],
+   "rot": 312.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -27.0,
+    0.0,
+    140.05
+   ],
+   "rot": 150.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -19.0,
+    0.0,
+    141.95
+   ],
+   "rot": 255.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -27.0,
+    0.0,
+    141.95
+   ],
+   "rot": 151.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -19.0,
+    0.0,
+    140.05
+   ],
+   "rot": 254.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -27.0,
+    0.0,
+    150.05
+   ],
+   "rot": 160.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -19.0,
+    0.0,
+    151.95
+   ],
+   "rot": 265.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -27.0,
+    0.0,
+    151.95
+   ],
+   "rot": 161.0
+  },
+  {
+   "piece": "F_shrub",
+   "pos": [
+    -19.0,
+    0.0,
+    150.05
+   ],
+   "rot": 264.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -61.3,
+    0.0,
+    153.35
+   ],
+   "rot": 77.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -61.3,
+    0.0,
+    153.65
+   ],
+   "rot": 77.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -19.3,
+    0.0,
+    153.35
+   ],
+   "rot": 263.0
+  },
+  {
+   "piece": "F_shrub_small",
+   "pos": [
+    -19.3,
+    0.0,
+    153.65
+   ],
+   "rot": 263.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -70.0,
+    0.0,
+    166.5
+   ],
+   "rot": 10.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -70.0,
+    2.45,
+    166.5
+   ],
+   "rot": 110.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -69.55,
+    2.95,
+    166.15
+   ],
+   "rot": 350.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -63.0,
+    0.0,
+    169.1
+   ],
+   "rot": 47.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    -63.0,
+    2.45,
+    169.1
+   ],
+   "rot": 157.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -62.55,
+    2.95,
+    168.75
+   ],
+   "rot": 61.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -56.0,
+    0.0,
+    166.5
+   ],
+   "rot": 84.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -56.0,
+    2.45,
+    166.5
+   ],
+   "rot": 204.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -55.55,
+    2.95,
+    166.15
+   ],
+   "rot": 132.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -49.0,
+    0.0,
+    169.1
+   ],
+   "rot": 121.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -49.0,
+    2.45,
+    169.1
+   ],
+   "rot": 251.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -48.55,
+    2.95,
+    168.75
+   ],
+   "rot": 203.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -42.0,
+    0.0,
+    166.5
+   ],
+   "rot": 158.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -42.0,
+    2.45,
+    166.5
+   ],
+   "rot": 298.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -41.55,
+    2.95,
+    166.15
+   ],
+   "rot": 274.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -35.0,
+    0.0,
+    169.1
+   ],
+   "rot": 195.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    -35.0,
+    2.45,
+    169.1
+   ],
+   "rot": 345.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -34.55,
+    2.95,
+    168.75
+   ],
+   "rot": 345.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -28.0,
+    0.0,
+    166.5
+   ],
+   "rot": 232.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -28.0,
+    2.45,
+    166.5
+   ],
+   "rot": 32.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -27.55,
+    2.95,
+    166.15
+   ],
+   "rot": 56.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -21.0,
+    0.0,
+    169.1
+   ],
+   "rot": 269.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -21.0,
+    2.45,
+    169.1
+   ],
+   "rot": 79.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -20.55,
+    2.95,
+    168.75
+   ],
+   "rot": 127.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -14.0,
+    0.0,
+    166.5
+   ],
+   "rot": 306.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -14.0,
+    2.45,
+    166.5
+   ],
+   "rot": 126.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -13.55,
+    2.95,
+    166.15
+   ],
+   "rot": 198.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    -7.0,
+    0.0,
+    169.1
+   ],
+   "rot": 343.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    -7.0,
+    2.45,
+    169.1
+   ],
+   "rot": 173.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    -6.55,
+    2.95,
+    168.75
+   ],
+   "rot": 269.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    0.0,
+    0.0,
+    166.5
+   ],
+   "rot": 20.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    0.0,
+    2.45,
+    166.5
+   ],
+   "rot": 220.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    0.45,
+    2.95,
+    166.15
+   ],
+   "rot": 340.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    7.0,
+    0.0,
+    169.1
+   ],
+   "rot": 57.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    7.0,
+    2.45,
+    169.1
+   ],
+   "rot": 267.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    7.45,
+    2.95,
+    168.75
+   ],
+   "rot": 51.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    14.0,
+    0.0,
+    166.5
+   ],
+   "rot": 94.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    14.0,
+    2.45,
+    166.5
+   ],
+   "rot": 314.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    14.45,
+    2.95,
+    166.15
+   ],
+   "rot": 122.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    21.0,
+    0.0,
+    169.1
+   ],
+   "rot": 131.0
+  },
+  {
+   "piece": "F_sakura_cloud",
+   "pos": [
+    21.0,
+    2.45,
+    169.1
+   ],
+   "rot": 1.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    21.45,
+    2.95,
+    168.75
+   ],
+   "rot": 193.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    20.5,
+    0.0,
+    104.0
+   ],
+   "rot": 30.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.5,
+    2.45,
+    104.0
+   ],
+   "rot": 330.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.95,
+    2.95,
+    103.65
+   ],
+   "rot": 330.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    22.9,
+    0.0,
+    112.0
+   ],
+   "rot": 67.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    22.9,
+    2.45,
+    112.0
+   ],
+   "rot": 17.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    23.35,
+    2.95,
+    111.65
+   ],
+   "rot": 41.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    20.5,
+    0.0,
+    120.0
+   ],
+   "rot": 104.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.5,
+    2.45,
+    120.0
+   ],
+   "rot": 64.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.95,
+    2.95,
+    119.65
+   ],
+   "rot": 112.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    22.9,
+    0.0,
+    128.0
+   ],
+   "rot": 141.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    22.9,
+    2.45,
+    128.0
+   ],
+   "rot": 111.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    23.35,
+    2.95,
+    127.65
+   ],
+   "rot": 183.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    20.5,
+    0.0,
+    136.0
+   ],
+   "rot": 178.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.5,
+    2.45,
+    136.0
+   ],
+   "rot": 158.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.95,
+    2.95,
+    135.65
+   ],
+   "rot": 254.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    22.9,
+    0.0,
+    144.0
+   ],
+   "rot": 215.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    22.9,
+    2.45,
+    144.0
+   ],
+   "rot": 205.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    23.35,
+    2.95,
+    143.65
+   ],
+   "rot": 325.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    20.5,
+    0.0,
+    152.0
+   ],
+   "rot": 252.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.5,
+    2.45,
+    152.0
+   ],
+   "rot": 252.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    20.95,
+    2.95,
+    151.65
+   ],
+   "rot": 36.0
+  },
+  {
+   "piece": "P_tree_trunk_pine",
+   "pos": [
+    22.9,
+    0.0,
+    160.0
+   ],
+   "rot": 289.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    22.9,
+    2.45,
+    160.0
+   ],
+   "rot": 299.0
+  },
+  {
+   "piece": "F_pine_cloud",
+   "pos": [
+    23.35,
+    2.95,
+    159.65
+   ],
+   "rot": 107.0
+  }
+ ],
+ "lights_in_or_affecting_region": [
+  {
+   "path": "park/P_lamp_lantern_post",
+   "class": "OmniLight3D",
+   "position": [
+    -60.2,
+    2.4,
+    139.0
+   ]
+  },
+  {
+   "path": "park/P_lamp_lantern_post",
+   "class": "OmniLight3D",
+   "position": [
+    -9.8,
+    2.4,
+    139.0
+   ]
+  },
+  {
+   "path": "park/P_lamp_lantern_post",
+   "class": "OmniLight3D",
+   "position": [
+    -12.0,
+    2.4,
+    154.2
+   ]
+  },
+  {
+   "path": "park/P_lamp_lantern_post",
+   "class": "OmniLight3D",
+   "position": [
+    -37.8,
+    2.4,
+    137.2
+   ]
+  },
+  {
+   "path": "park/P_lamp_lantern_post",
+   "class": "OmniLight3D",
+   "position": [
+    -37.8,
+    2.4,
+    156.5
+   ]
+  },
+  {
+   "path": "park/P_lamp_lantern_post",
+   "class": "OmniLight3D",
+   "position": [
+    -32.2,
+    2.4,
+    137.2
+   ]
+  },
+  {
+   "path": "park/P_lamp_lantern_post",
+   "class": "OmniLight3D",
+   "position": [
+    -32.2,
+    2.4,
+    156.5
+   ]
+  }
+ ],
+ "ground_patches": [
+  {
+   "rect_xz": [
+    -50.9,
+    137.7,
+    -37.0,
+    156.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "west lawn (old map)"
+  },
+  {
+   "rect_xz": [
+    -33.1,
+    137.7,
+    -18.9,
+    156.0
+   ],
+   "top_y": 0.012,
+   "mat": "lawn",
+   "note": "east lawn (old map)"
+  },
+  {
+   "rect_xz": [
+    -36.9,
+    130.0,
+    -33.1,
+    162.0
+   ],
+   "top_y": 0.01,
+   "mat": "paving",
+   "note": "central path x -35 (route)"
+  },
+  {
+   "rect_xz": [
+    -71.9,
+    130.0,
+    -68.1,
+    162.0
+   ],
+   "top_y": 0.01,
+   "mat": "paving",
+   "note": "west path x -70 (route)"
+  },
+  {
+   "rect_xz": [
+    -1.9,
+    130.0,
+    1.9,
+    162.0
+   ],
+   "top_y": 0.01,
+   "mat": "paving",
+   "note": "east path x 0 (route)"
+  },
+  {
+   "rect_xz": [
+    -68.1,
+    158.1,
+    -1.9,
+    161.9
+   ],
+   "top_y": 0.01,
+   "mat": "paving",
+   "note": "south cross path z 160 (route)"
+  },
+  {
+   "rect_xz": [
+    -68.1,
+    144.4,
+    -50.9,
+    147.6
+   ],
+   "top_y": 0.01,
+   "mat": "paving",
+   "note": "middle cross path z 146, west part"
+  },
+  {
+   "rect_xz": [
+    -18.9,
+    144.4,
+    -1.9,
+    147.6
+   ],
+   "top_y": 0.01,
+   "mat": "paving",
+   "note": "middle cross path z 146, east part"
+  },
+  {
+   "rect_xz": [
+    -72.0,
+    164.3,
+    26.0,
+    176.0
+   ],
+   "top_y": 0.0,
+   "thick": 0.6,
+   "mat": "lawn",
+   "note": "backdrop south (outside boundary z 164)"
+  },
+  {
+   "rect_xz": [
+    18.3,
+    100.0,
+    26.0,
+    164.3
+   ],
+   "top_y": 0.0,
+   "thick": 0.6,
+   "mat": "lawn",
+   "note": "backdrop east (outside boundary x 18)"
+  }
+ ],
+ "summary": "Flat park, no buildings. Ground slab top y 0 (x -72..18, z 100..164), boundary walls z 164 / x 18. 8 benches (x -58 / -12 at z 139 / 153; with backs x -66 / -4 at z 140 / 154), 2 garden corners (2 m stone L-walls + 0.9 m planter), 2 shelters (x -59.7..-56.3 / -13.7..-10.3, z 149.5..152.5, roof 2.6-2.75 m), 4 raised planting beds on the lawns (1.17 m), 8 tree trunks (2.8 m). Routes: N-S paths x -70 / -35 / 0 (3.8 m), cross paths z 146 (3.2 m) and z 160 (3.8 m). Lawns had no collision.",
+ "dressing_plan": "Park painting style on the old flat layout: lawns + paved paths as 1 cm patches, pines with layered crowns (2 sakura accents), wooden benches on the old bench colliders, lantern posts + bollard lamps (baked light), shrubs on the planters and lawn corners, treeline backdrop outside the boundary."
+}

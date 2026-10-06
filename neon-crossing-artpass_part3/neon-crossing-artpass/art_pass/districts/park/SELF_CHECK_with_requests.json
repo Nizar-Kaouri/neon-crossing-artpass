@@ -1,0 +1,451 @@
+{
+ "district": "park",
+ "triangles": 22286,
+ "checked_triangles": 3939,
+ "routes": 5,
+ "walkable_tops": 18,
+ "openings": 0,
+ "results": {
+  "ROUTE CORRIDOR": [],
+  "STAIR / FLIGHT VOLUME": [],
+  "WALKABLE TOP": [],
+  "OPENING": [],
+  "DRESSING ON OPEN GROUND (allowed, listed)": [
+   {
+    "mesh": "Builder/Built/StructureProps/P_lamp_lantern_post_32",
+    "samples": 7800,
+    "aabb_min": [
+     -60.25,
+     0.08,
+     138.95
+    ],
+    "aabb_max": [
+     -60.15,
+     2.04,
+     139.05
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_lamp_lantern_post_33",
+    "samples": 7800,
+    "aabb_min": [
+     -9.85,
+     0.08,
+     138.95
+    ],
+    "aabb_max": [
+     -9.75,
+     2.04,
+     139.05
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_lamp_lantern_post_34",
+    "samples": 7800,
+    "aabb_min": [
+     -12.05,
+     0.08,
+     154.15
+    ],
+    "aabb_max": [
+     -11.95,
+     2.04,
+     154.25
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_lamp_lantern_post_35",
+    "samples": 7800,
+    "aabb_min": [
+     -37.85,
+     0.08,
+     137.15
+    ],
+    "aabb_max": [
+     -37.75,
+     2.04,
+     137.25
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_lamp_lantern_post_36",
+    "samples": 7800,
+    "aabb_min": [
+     -37.85,
+     0.08,
+     156.45
+    ],
+    "aabb_max": [
+     -37.75,
+     2.04,
+     156.55
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_lamp_lantern_post_37",
+    "samples": 7800,
+    "aabb_min": [
+     -32.25,
+     0.08,
+     137.15
+    ],
+    "aabb_max": [
+     -32.15,
+     2.04,
+     137.25
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_lamp_lantern_post_38",
+    "samples": 7800,
+    "aabb_min": [
+     -32.25,
+     0.08,
+     156.45
+    ],
+    "aabb_max": [
+     -32.15,
+     2.04,
+     156.55
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_bollard_lamp_39",
+    "samples": 1644,
+    "aabb_min": [
+     -51.39,
+     0.07,
+     137.21
+    ],
+    "aabb_max": [
+     -51.21,
+     0.94,
+     137.39
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_bollard_lamp_40",
+    "samples": 1644,
+    "aabb_min": [
+     -51.39,
+     0.07,
+     156.31
+    ],
+    "aabb_max": [
+     -51.21,
+     0.94,
+     156.49
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_bollard_lamp_41",
+    "samples": 1644,
+    "aabb_min": [
+     -18.59,
+     0.07,
+     137.21
+    ],
+    "aabb_max": [
+     -18.41,
+     0.94,
+     137.39
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/P_bollard_lamp_42",
+    "samples": 1644,
+    "aabb_min": [
+     -18.59,
+     0.07,
+     156.31
+    ],
+    "aabb_max": [
+     -18.41,
+     0.94,
+     156.49
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_43",
+    "samples": 969,
+    "aabb_min": [
+     -51.45,
+     0.05,
+     139.55
+    ],
+    "aabb_max": [
+     -50.55,
+     0.9,
+     140.55
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_46",
+    "samples": 969,
+    "aabb_min": [
+     -43.48,
+     0.05,
+     139.56
+    ],
+    "aabb_max": [
+     -42.52,
+     0.9,
+     140.54
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_47",
+    "samples": 969,
+    "aabb_min": [
+     -51.48,
+     0.05,
+     149.56
+    ],
+    "aabb_max": [
+     -50.52,
+     0.9,
+     150.54
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_50",
+    "samples": 969,
+    "aabb_min": [
+     -43.45,
+     0.05,
+     149.55
+    ],
+    "aabb_max": [
+     -42.55,
+     0.9,
+     150.55
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_51",
+    "samples": 969,
+    "aabb_min": [
+     -27.48,
+     0.05,
+     139.57
+    ],
+    "aabb_max": [
+     -26.52,
+     0.9,
+     140.53
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_54",
+    "samples": 969,
+    "aabb_min": [
+     -19.44,
+     0.05,
+     139.55
+    ],
+    "aabb_max": [
+     -18.56,
+     0.9,
+     140.55
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_55",
+    "samples": 969,
+    "aabb_min": [
+     -27.5,
+     0.05,
+     149.6
+    ],
+    "aabb_max": [
+     -26.5,
+     0.9,
+     150.5
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_58",
+    "samples": 969,
+    "aabb_min": [
+     -19.47,
+     0.05,
+     149.56
+    ],
+    "aabb_max": [
+     -18.53,
+     0.9,
+     150.54
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_44",
+    "samples": 429,
+    "aabb_min": [
+     -43.29,
+     0.05,
+     141.66
+    ],
+    "aabb_max": [
+     -42.71,
+     0.55,
+     142.24
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_45",
+    "samples": 429,
+    "aabb_min": [
+     -51.27,
+     0.05,
+     141.65
+    ],
+    "aabb_max": [
+     -50.73,
+     0.55,
+     142.25
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_48",
+    "samples": 429,
+    "aabb_min": [
+     -43.26,
+     0.05,
+     151.65
+    ],
+    "aabb_max": [
+     -42.74,
+     0.55,
+     152.25
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_49",
+    "samples": 429,
+    "aabb_min": [
+     -51.29,
+     0.05,
+     151.66
+    ],
+    "aabb_max": [
+     -50.71,
+     0.55,
+     152.24
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_52",
+    "samples": 429,
+    "aabb_min": [
+     -19.26,
+     0.05,
+     141.65
+    ],
+    "aabb_max": [
+     -18.74,
+     0.55,
+     142.25
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_53",
+    "samples": 429,
+    "aabb_min": [
+     -27.29,
+     0.05,
+     141.66
+    ],
+    "aabb_max": [
+     -26.71,
+     0.55,
+     142.24
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_56",
+    "samples": 429,
+    "aabb_min": [
+     -19.28,
+     0.05,
+     151.65
+    ],
+    "aabb_max": [
+     -18.72,
+     0.55,
+     152.25
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_57",
+    "samples": 429,
+    "aabb_min": [
+     -27.3,
+     0.05,
+     151.68
+    ],
+    "aabb_max": [
+     -26.7,
+     0.55,
+     152.22
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_59",
+    "samples": 429,
+    "aabb_min": [
+     -61.56,
+     0.05,
+     153.05
+    ],
+    "aabb_max": [
+     -61.04,
+     0.55,
+     153.65
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_60",
+    "samples": 429,
+    "aabb_min": [
+     -61.56,
+     0.05,
+     153.35
+    ],
+    "aabb_max": [
+     -61.04,
+     0.55,
+     153.95
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_61",
+    "samples": 429,
+    "aabb_min": [
+     -19.58,
+     0.05,
+     153.05
+    ],
+    "aabb_max": [
+     -19.02,
+     0.55,
+     153.65
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_small_62",
+    "samples": 429,
+    "aabb_min": [
+     -19.58,
+     0.05,
+     153.35
+    ],
+    "aabb_max": [
+     -19.02,
+     0.55,
+     153.95
+    ]
+   }
+  ]
+ },
+ "pass": true
+}

@@ -1,0 +1,87 @@
+--- a/art_pass/districts/alley/alley_builder.gd
++++ b/art_pass/districts/alley/alley_builder.gd
+@@ -53,6 +53,7 @@
+ 			continue                                    # crossing building: dressed with the crossing district
+ 		_dress(b)
+ 	_street()
++	_ground_patches()
+ 	if not _roles.is_empty():
+ 		_structure_props()
+ 	_skyline()
+@@ -337,13 +338,17 @@
+ 		_clad(node, n, plane, fc[2], fc[3], 0.0, band, holes, ground_mat)
+ 		if H > band:
+ 			_clad(node, n, plane, fc[2], fc[3], band, H - 0.45, holes, upper_mat)
+-		_cornice(node, n, plane, fc[2], fc[3], H, trad)
++		_cornice(node, n, plane, fc[2], fc[3], H, trad, float(b.get("cornice_depth", 0.28)))     # R3 (homes): shallow next to flights
+ 		if porch:
+ 			for u in [fc[2] + 0.12, fc[3] - 0.12]:
+ 				_face_box(node, n, plane, u, 0.0, 0.24, band, 0.24, "timber_planks", -0.12)     # porch posts, inside the line
+ 		# upper floors: windows on every face that sees a lane (all four here: the alley has lanes all round)
++		var plain := false                                     # R4 (homes): no windows on "plain_faces" (flights 0.1 m off the wall)
++		for pf in b.get("plain_faces", []):
++			if Vector3(float(pf[0]), 0, float(pf[1])).dot(n) > 0.9:
++				plain = true
+ 		var lv := 1
+-		while lv * 3.1 + 2.6 < H:
++		while lv * 3.1 + 2.6 < H and not plain:
+ 			var y := lv * 3.1 + 0.9
+ 			var span: float = fc[3] - fc[2]
+ 			var count := maxi(1, int((span - 0.8) / 2.6))
+@@ -367,7 +372,7 @@
+ 			for u in [fc[2] + 0.1, fc[3] - 0.1]:
+ 				_face_box(node, n, plane, u, 0.0, 0.2, H - 0.45, 0.14, "timber_planks", 0.1)
+ 	# roof dressing that never sits on the walkable roof: a tank against the cornice on tall roofs only
+-	if H > 8.0:
++	if H > 8.0 and not bool(b.get("roof_is_route", false)):     # R1 (homes): roofs that are routes stay clear
+ 		place(node, "P_roof_antenna", Vector3(cx + w * 0.5 - 0.4, H, cz - d * 0.5 + 0.4))
+ 
+ 
+@@ -472,8 +477,9 @@
+ 			_face_box(node, n, plane, (r[0] + r[1]) * 0.5, r[2], r[1] - r[0], r[3] - r[2], 0.06, m, 0.05)   # clears the old 6 cm display bays
+ 
+ 
+-func _cornice(node: Node3D, n: Vector3, plane: float, u0: float, u1: float, H: float, trad: bool) -> void:
+-	_face_box(node, n, plane, (u0 + u1) * 0.5, H - 0.45, u1 - u0 + 0.5, 0.42, 0.28, "roof_kawara" if trad else "metal_panel", 0.0)
++func _cornice(node: Node3D, n: Vector3, plane: float, u0: float, u1: float, H: float, trad: bool, depth := 0.28) -> void:
++	var ext := 0.25 if depth >= 0.28 else depth              # R3: a shallow cornice also overhangs the corners less
++	_face_box(node, n, plane, (u0 + u1) * 0.5, H - 0.45, u1 - u0 + 2.0 * ext, 0.42, depth, "roof_kawara" if trad else "metal_panel", 0.0)
+ 
+ 
+ ## Lean-to tiled eave along a face at height y (projects 1.1 m, always above head height).
+@@ -530,6 +536,35 @@
+ 			_count += 1
+ 
+ 
++## R2 (homes, park): flat ground skins from the inventory, e.g. lawns and paved paths on the old flat ground.
++## "ground_patches": [{"rect_xz": [x0, z0, x1, z1], "top_y": 0.012, "mat": "lawn" | "paving", "thick": 0.02}]
++## Plain boxes (merged by merge_boxes into a few meshes), top <= 1.2 cm above the old ground, no collision.
++func _ground_patches() -> void:
++	var patches: Array = inv.get("ground_patches", [])
++	if patches.is_empty():
++		return
++	var node := Node3D.new()
++	node.name = "GroundPatches"
++	_root.add_child(node)
++	var paving := _tiling("paving_stone") as StandardMaterial3D
++	paving.uv1_triplanar = true; paving.uv1_world_triplanar = true; paving.uv1_scale = Vector3(0.5, 0.5, 0.5)
++	paving.albedo_color = Color(0.84, 0.87, 0.97)
++	for p in patches:
++		var r: Array = p.rect_xz
++		var t := float(p.get("thick", 0.02))
++		var size := Vector3(float(r[2]) - float(r[0]), t, float(r[3]) - float(r[1]))
++		var mi := MeshInstance3D.new()
++		mi.name = "Patch%d" % node.get_child_count()
++		var bm := BoxMesh.new(); bm.size = size; bm.add_uv2 = true
++		var side := clampi(int(sqrt(size.x * size.z) * 4.0), 16, 512)
++		bm.lightmap_size_hint = Vector2i(side, side)
++		mi.mesh = bm
++		mi.material_override = _role_mat("hill_surface") if str(p.get("mat", "lawn")) == "lawn" else paving
++		mi.gi_mode = GeometryInstance3D.GI_MODE_STATIC
++		mi.position = Vector3((float(r[0]) + float(r[2])) * 0.5, float(p.get("top_y", 0.01)) - t * 0.5, (float(r[1]) + float(r[3])) * 0.5)
++		node.add_child(mi)
++
++
+ # ------------------------------------------------------------------ helpers
+ static func _xf(a: Array) -> Transform3D:
+ 	return Transform3D(Basis(Vector3(a[0], a[1], a[2]), Vector3(a[3], a[4], a[5]), Vector3(a[6], a[7], a[8])), Vector3(a[9], a[10], a[11]))
