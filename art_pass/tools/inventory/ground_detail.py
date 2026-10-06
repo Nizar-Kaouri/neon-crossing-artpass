@@ -29,7 +29,7 @@ MATERIALS = {   # name: tiling texture, albedo tint, uv scale (world triplanar),
     'puddle':        {'tex': 'asphalt',       'tint': '6a6474', 'uv': 0.5,  'rough': 0.06, 'metal': 0.0, 'why': 'puddle marks: dark, wet, reflects the lanterns'},
     'kerb':          {'tex': 'paving_stone',  'tint': 'f2f0ee', 'uv': 1.0,  'rough': 0.8,  'metal': 0.0, 'why': 'granite kerb line at the road edge'},
     'paint':         {'tex': 'plaster_cream', 'tint': 'fcffff', 'uv': 1.0,  'rough': 0.7,  'metal': 0.0, 'why': 'road paint #e8e2da-ish'},
-    'iron':          {'tex': 'metal_panel',   'tint': 'b8b4b0', 'uv': 2.0,  'rough': 0.55, 'metal': 0.4, 'why': 'cast-iron manholes and drain covers'},
+    'iron':          {'tex': 'metal_panel',   'tint': 'a29a92', 'uv': 2.0,  'rough': 0.7,  'metal': 0.15, 'why': 'cast-iron manholes and drain covers'},
 }
 MAT_IDS = list(MATERIALS)
 
