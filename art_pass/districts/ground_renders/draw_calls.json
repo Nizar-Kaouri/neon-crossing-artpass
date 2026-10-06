@@ -1,0 +1,412 @@
+{
+ "alley": {
+  "district_cams": {
+   "changed_pixels": [
+    0.005,
+    0.001,
+    0.0,
+    0.012,
+    0.157,
+    0.019
+   ],
+   "draw_calls_before": [
+    612,
+    658,
+    510,
+    579,
+    598,
+    454
+   ],
+   "draw_calls_after": [
+    618,
+    664,
+    516,
+    585,
+    604,
+    460
+   ],
+   "delta": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ]
+  },
+  "shown": [
+   "cam 5",
+   "cam 6"
+  ]
+ },
+ "crossing": {
+  "district_cams": {
+   "changed_pixels": [
+    0.228,
+    0.0,
+    0.277,
+    0.331,
+    0.0,
+    0.076
+   ],
+   "draw_calls_before": [
+    411,
+    424,
+    402,
+    262,
+    473,
+    541
+   ],
+   "draw_calls_after": [
+    432,
+    445,
+    424,
+    283,
+    495,
+    564
+   ],
+   "delta": [
+    21,
+    21,
+    22,
+    21,
+    22,
+    23
+   ]
+  },
+  "shown": [
+   "cam 3",
+   "cam 4"
+  ]
+ },
+ "shrine": {
+  "district_cams": {
+   "changed_pixels": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.002
+   ],
+   "draw_calls_before": [
+    74,
+    84,
+    83,
+    72,
+    79,
+    75
+   ],
+   "draw_calls_after": [
+    76,
+    86,
+    84,
+    74,
+    80,
+    77
+   ],
+   "delta": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    2
+   ]
+  },
+  "ground_cams": {
+   "changed_pixels": [
+    0.005,
+    0.003
+   ],
+   "draw_calls_before": [
+    97,
+    81
+   ],
+   "draw_calls_after": [
+    99,
+    83
+   ],
+   "delta": [
+    2,
+    2
+   ]
+  },
+  "shown": [
+   "ground cam 1",
+   "ground cam 2"
+  ]
+ },
+ "mall": {
+  "district_cams": {
+   "changed_pixels": [
+    0.0,
+    0.067,
+    0.0,
+    0.0,
+    0.0,
+    0.002
+   ],
+   "draw_calls_before": [
+    206,
+    271,
+    212,
+    176,
+    215,
+    128
+   ],
+   "draw_calls_after": [
+    223,
+    286,
+    220,
+    182,
+    228,
+    145
+   ],
+   "delta": [
+    17,
+    15,
+    8,
+    6,
+    13,
+    17
+   ]
+  },
+  "ground_cams": {
+   "changed_pixels": [
+    0.267,
+    0.286
+   ],
+   "draw_calls_before": [
+    211,
+    201
+   ],
+   "draw_calls_after": [
+    225,
+    207
+   ],
+   "delta": [
+    14,
+    6
+   ]
+  },
+  "shown": [
+   "ground cam 1",
+   "ground cam 2"
+  ]
+ },
+ "station": {
+  "district_cams": {
+   "changed_pixels": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.009
+   ],
+   "draw_calls_before": [
+    212,
+    304,
+    242,
+    301,
+    220,
+    277
+   ],
+   "draw_calls_after": [
+    216,
+    319,
+    257,
+    316,
+    235,
+    298
+   ],
+   "delta": [
+    4,
+    15,
+    15,
+    15,
+    15,
+    21
+   ]
+  },
+  "ground_cams": {
+   "changed_pixels": [
+    0.493,
+    0.436
+   ],
+   "draw_calls_before": [
+    132,
+    265
+   ],
+   "draw_calls_after": [
+    147,
+    277
+   ],
+   "delta": [
+    15,
+    12
+   ]
+  },
+  "shown": [
+   "ground cam 1",
+   "ground cam 2"
+  ]
+ },
+ "underground": {
+  "district_cams": {
+   "changed_pixels": [
+    0.0,
+    0.0,
+    0.011,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "draw_calls_before": [
+    293,
+    223,
+    150,
+    124,
+    303,
+    310
+   ],
+   "draw_calls_after": [
+    296,
+    226,
+    151,
+    126,
+    306,
+    313
+   ],
+   "delta": [
+    3,
+    3,
+    1,
+    2,
+    3,
+    3
+   ]
+  },
+  "ground_cams": {
+   "changed_pixels": [
+    0.001,
+    0.0
+   ],
+   "draw_calls_before": [
+    257,
+    225
+   ],
+   "draw_calls_after": [
+    260,
+    228
+   ],
+   "delta": [
+    3,
+    3
+   ]
+  },
+  "shown": [
+   "ground cam 1",
+   "ground cam 2"
+  ]
+ },
+ "homes": {
+  "district_cams": {
+   "changed_pixels": [
+    0.326,
+    0.275,
+    0.002,
+    0.197,
+    0.014,
+    0.023
+   ],
+   "draw_calls_before": [
+    214,
+    148,
+    220,
+    212,
+    180,
+    190
+   ],
+   "draw_calls_after": [
+    220,
+    154,
+    226,
+    223,
+    186,
+    201
+   ],
+   "delta": [
+    6,
+    6,
+    6,
+    11,
+    6,
+    11
+   ]
+  },
+  "shown": [
+   "cam 1",
+   "cam 2"
+  ]
+ },
+ "park": {
+  "district_cams": {
+   "changed_pixels": [
+    0.0,
+    0.002,
+    0.001,
+    0.003,
+    0.004,
+    0.001
+   ],
+   "draw_calls_before": [
+    221,
+    301,
+    275,
+    309,
+    303,
+    274
+   ],
+   "draw_calls_after": [
+    221,
+    304,
+    276,
+    312,
+    306,
+    277
+   ],
+   "delta": [
+    0,
+    3,
+    1,
+    3,
+    3,
+    3
+   ]
+  },
+  "ground_cams": {
+   "changed_pixels": [
+    0.006,
+    0.029
+   ],
+   "draw_calls_before": [
+    246,
+    130
+   ],
+   "draw_calls_after": [
+    248,
+    132
+   ],
+   "delta": [
+    2,
+    2
+   ]
+  },
+  "shown": [
+   "ground cam 1",
+   "ground cam 2"
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "district": "homes",
+ "boxes": 394,
+ "boxes_per_material": {
+  "asphalt": 46,
+  "kerb": 71,
+  "paint": 32,
+  "iron": 98,
+  "asphalt_patch": 16,
+  "puddle": 131
+ },
+ "meshes_after_merge": 11,
+ "top_y_range_above_level": [
+  0.007,
+  0.019
+ ],
+ "cross_layer_overlaps": 376,
+ "fails": {
+  "height": [],
+  "ground": [],
+  "obstacle": [],
+  "covered": [],
+  "volumes": [],
+  "overlap": []
+ },
+ "fail_counts": {
+  "height": 0,
+  "ground": 0,
+  "obstacle": 0,
+  "covered": 0,
+  "volumes": 0,
+  "overlap": 0
+ },
+ "ok": true
+}

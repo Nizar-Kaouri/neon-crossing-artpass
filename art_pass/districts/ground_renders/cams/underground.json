@@ -1,0 +1,4 @@
+{"cameras": [
+ {"id": 1, "description": "ground pass view: tunnel main corridor, eye 1.7 m at (-77, -20) looking south", "position": [-77.0, -3.3, -20.0], "rotation_degrees": [-14.0, 180.0, 0.0], "fov_degrees": 75.0},
+ {"id": 2, "description": "ground pass view: tunnel main corridor, eye 1.7 m at (-77, 35) looking north", "position": [-77.0, -3.3, 35.0], "rotation_degrees": [-14.0, 0.0, 0.0], "fov_degrees": 75.0}
+]}
