@@ -1,0 +1,227 @@
+{
+ "district": "homes",
+ "triangles": 34636,
+ "checked_triangles": 10514,
+ "routes": 40,
+ "walkable_tops": 105,
+ "openings": 0,
+ "results": {
+  "ROUTE CORRIDOR": [],
+  "STAIR / FLIGHT VOLUME": [],
+  "WALKABLE TOP": [],
+  "OPENING": [],
+  "DRESSING ON OPEN GROUND (allowed, listed)": [
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1472",
+    "samples": 969,
+    "aabb_min": [
+     17.93,
+     0.05,
+     38.61
+    ],
+    "aabb_max": [
+     18.87,
+     0.9,
+     39.59
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1474",
+    "samples": 969,
+    "aabb_min": [
+     17.91,
+     0.05,
+     68.63
+    ],
+    "aabb_max": [
+     18.89,
+     0.9,
+     69.57
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1475",
+    "samples": 969,
+    "aabb_min": [
+     17.9,
+     0.05,
+     54.44
+    ],
+    "aabb_max": [
+     18.9,
+     0.9,
+     55.36
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1476",
+    "samples": 969,
+    "aabb_min": [
+     48.94,
+     0.05,
+     46.6
+    ],
+    "aabb_max": [
+     49.86,
+     0.9,
+     47.6
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1477",
+    "samples": 969,
+    "aabb_min": [
+     48.91,
+     0.05,
+     23.42
+    ],
+    "aabb_max": [
+     49.89,
+     0.9,
+     24.38
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1478",
+    "samples": 969,
+    "aabb_min": [
+     36.9,
+     0.05,
+     68.65
+    ],
+    "aabb_max": [
+     37.9,
+     0.9,
+     69.55
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1479",
+    "samples": 969,
+    "aabb_min": [
+     85.9,
+     0.05,
+     95.64
+    ],
+    "aabb_max": [
+     86.9,
+     0.9,
+     96.56
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1480",
+    "samples": 969,
+    "aabb_min": [
+     85.92,
+     0.05,
+     78.41
+    ],
+    "aabb_max": [
+     86.88,
+     0.9,
+     79.39
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1482",
+    "samples": 969,
+    "aabb_min": [
+     85.96,
+     0.05,
+     23.4
+    ],
+    "aabb_max": [
+     86.84,
+     0.9,
+     24.4
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1484",
+    "samples": 969,
+    "aabb_min": [
+     17.91,
+     0.05,
+     95.62
+    ],
+    "aabb_max": [
+     18.89,
+     0.9,
+     96.58
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1485",
+    "samples": 969,
+    "aabb_min": [
+     17.93,
+     0.05,
+     78.41
+    ],
+    "aabb_max": [
+     18.87,
+     0.9,
+     79.39
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1486",
+    "samples": 969,
+    "aabb_min": [
+     39.91,
+     0.05,
+     95.62
+    ],
+    "aabb_max": [
+     40.89,
+     0.9,
+     96.58
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1483",
+    "samples": 934,
+    "aabb_min": [
+     85.91,
+     0.05,
+     69.63
+    ],
+    "aabb_max": [
+     86.89,
+     0.9,
+     70.48
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1487",
+    "samples": 897,
+    "aabb_min": [
+     40.11,
+     0.05,
+     78.44
+    ],
+    "aabb_max": [
+     40.9,
+     0.9,
+     79.36
+    ]
+   },
+   {
+    "mesh": "Builder/Built/StructureProps/F_shrub_1481",
+    "samples": 324,
+    "aabb_min": [
+     85.99,
+     0.05,
+     41.6
+    ],
+    "aabb_max": [
+     86.85,
+     0.9,
+     41.98
+    ]
+   }
+  ]
+ },
+ "pass": true
+}

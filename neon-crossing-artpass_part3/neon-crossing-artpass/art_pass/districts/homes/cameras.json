@@ -1,0 +1,155 @@
+{
+ "cameras": [
+  {
+   "id": 1,
+   "description": "Northern residential walk, eye 1.7 m, looking east past A3 / V4",
+   "position": [
+    3,
+    1.7,
+    50
+   ],
+   "look_at": [
+    87,
+    1.7,
+    47
+   ],
+   "rotation_degrees": [
+    0.0,
+    -87.95,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_1.png"
+  },
+  {
+   "id": 2,
+   "description": "Apartment lane, eye 1.7 m, looking north at the A3 / V1 service flights",
+   "position": [
+    21.5,
+    1.7,
+    76
+   ],
+   "look_at": [
+    21.5,
+    1.7,
+    25
+   ],
+   "rotation_degrees": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_2.png"
+  },
+  {
+   "id": 3,
+   "description": "Estate lane, eye 1.7 m, looking north past V5 to the residential green",
+   "position": [
+    61,
+    1.7,
+    98
+   ],
+   "look_at": [
+    57,
+    1.7,
+    40
+   ],
+   "rotation_degrees": [
+    0.0,
+    3.95,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_3.png"
+  },
+  {
+   "id": 4,
+   "description": "Southern garden promenade, eye 1.7 m, looking west",
+   "position": [
+    86,
+    1.7,
+    75.5
+   ],
+   "look_at": [
+    0,
+    1.7,
+    73
+   ],
+   "rotation_degrees": [
+    0.0,
+    88.33,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_4.png"
+  },
+  {
+   "id": 5,
+   "description": "V2 roof (y 8.3), eye 10.0 m, looking north-west over the gardens to A3 / V1",
+   "position": [
+    55,
+    10.0,
+    85
+   ],
+   "look_at": [
+    25,
+    2,
+    52
+   ],
+   "rotation_degrees": [
+    -10.17,
+    42.27,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_5.png"
+  },
+  {
+   "id": 6,
+   "description": "Overview from south-east, high",
+   "position": [
+    100,
+    50,
+    112
+   ],
+   "look_at": [
+    45,
+    0,
+    55
+   ],
+   "rotation_degrees": [
+    -32.26,
+    43.98,
+    0.0
+   ],
+   "fov_degrees": 75.0,
+   "resolution": [
+    1600,
+    900
+   ],
+   "file": "before_6.png"
+  }
+ ],
+ "note": "Claude 2026-10-06; viewer keys 1/2/3 = cameras 1/5/6"
+}
