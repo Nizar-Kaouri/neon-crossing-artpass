@@ -1,0 +1,20 @@
+{
+ "district": "station",
+ "scene": "res://art_pass/districts/station/station.tscn",
+ "volumes": {
+  "doorway": 8,
+  "stair_flight": 7,
+  "stair_landing": 13
+ },
+ "meshes_sampled": 21,
+ "intrusions": {},
+ "skyline_cards_crossing_volumes": [
+  "MergedQuads_5"
+ ],
+ "props": {
+  "ok_high": 43,
+  "ok_wall": 0,
+  "ok_flush": 50,
+  "floor_prop": []
+ }
+}

@@ -1,0 +1,11101 @@
+{
+ "schema_version": 1,
+ "district": "station",
+ "source": "layout_dump.json (Claude, cloud: districts/station/station_props.py)",
+ "region": {
+  "x": [
+   -120,
+   -72
+  ],
+  "z": [
+   -90,
+   180
+  ]
+ },
+ "buildings": [
+  {
+   "id": "S01",
+   "kind": "konbini",
+   "name": "Information island north (ticket kiosk)",
+   "footprint": {
+    "centre_xz": [
+     -82.5,
+     -18.0
+    ],
+    "width_m": 19.36,
+    "depth_m": 24.36
+   },
+   "roof": {
+    "roof_y": 4.1
+   },
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -83.0,
+        1.35,
+        -30.18
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    },
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -83.0,
+        1.35,
+        -5.82
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -92.18,
+        1.35,
+        -18.0
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -72.82,
+        1.35,
+        -18.0
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    }
+   ],
+   "dump_shapes": [
+    1847,
+    1848,
+    1849,
+    1850,
+    1851,
+    1852,
+    1853,
+    1854,
+    1855,
+    1856,
+    1857,
+    1858,
+    1859,
+    1860,
+    1861,
+    1862
+   ]
+  },
+  {
+   "id": "S02",
+   "kind": "info_centre",
+   "name": "Information island south",
+   "footprint": {
+    "centre_xz": [
+     -82.5,
+     24.0
+    ],
+    "width_m": 19.36,
+    "depth_m": 24.36
+   },
+   "roof": {
+    "roof_y": 4.1
+   },
+   "street_facing_sides": [
+    {
+     "normal_xz": [
+      0,
+      -1
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -83.0,
+        1.35,
+        11.82
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    },
+    {
+     "normal_xz": [
+      0,
+      1
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -83.0,
+        1.35,
+        36.18
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    },
+    {
+     "normal_xz": [
+      -1,
+      0
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -92.18,
+        1.35,
+        24.0
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    },
+    {
+     "normal_xz": [
+      1,
+      0
+     ],
+     "street": true,
+     "openings": [
+      {
+       "centre_xyz": [
+        -72.82,
+        1.35,
+        24.0
+       ],
+       "width_m": 3.2,
+       "height_m": 2.7,
+       "sill_y": 0.0
+      }
+     ]
+    }
+   ],
+   "dump_shapes": [
+    1863,
+    1864,
+    1865,
+    1866,
+    1867,
+    1868,
+    1869,
+    1870,
+    1871,
+    1872,
+    1873,
+    1874,
+    1875,
+    1876,
+    1877,
+    1878
+   ]
+  }
+ ],
+ "structures": [
+  {
+   "dump_index": 876,
+   "role": "viaduct_deck",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1776",
+   "aabb_min": [
+    -91.0,
+    10.3,
+    -73.0
+   ],
+   "aabb_max": [
+    -73.0,
+    11.0,
+    73.0
+   ]
+  },
+  {
+   "dump_index": 877,
+   "role": "platform",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1778",
+   "aabb_min": [
+    -93.0,
+    10.3,
+    -73.0
+   ],
+   "aabb_max": [
+    -91.0,
+    11.0,
+    23.0
+   ]
+  },
+  {
+   "dump_index": 878,
+   "role": "platform",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1780",
+   "aabb_min": [
+    -93.0,
+    10.3,
+    35.0
+   ],
+   "aabb_max": [
+    -91.0,
+    11.0,
+    73.0
+   ]
+  },
+  {
+   "dump_index": 896,
+   "role": "track_rail",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1816",
+   "aabb_min": [
+    -88.08,
+    11.05,
+    -72.0
+   ],
+   "aabb_max": [
+    -87.92,
+    11.21,
+    72.0
+   ]
+  },
+  {
+   "dump_index": 897,
+   "role": "track_rail",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1818",
+   "aabb_min": [
+    -84.08,
+    11.05,
+    -72.0
+   ],
+   "aabb_max": [
+    -83.92,
+    11.21,
+    72.0
+   ]
+  },
+  {
+   "dump_index": 898,
+   "role": "track_rail",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1820",
+   "aabb_min": [
+    -81.08,
+    11.05,
+    -72.0
+   ],
+   "aabb_max": [
+    -80.92,
+    11.21,
+    72.0
+   ]
+  },
+  {
+   "dump_index": 899,
+   "role": "track_rail",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1822",
+   "aabb_min": [
+    -77.08,
+    11.05,
+    -72.0
+   ],
+   "aabb_max": [
+    -76.92,
+    11.21,
+    72.0
+   ]
+  },
+  {
+   "dump_index": 882,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1788",
+   "aabb_min": [
+    -90.7,
+    0.0,
+    -67.0
+   ],
+   "aabb_max": [
+    -89.3,
+    10.4,
+    -65.0
+   ]
+  },
+  {
+   "dump_index": 883,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1790",
+   "aabb_min": [
+    -76.7,
+    0.0,
+    -67.0
+   ],
+   "aabb_max": [
+    -75.3,
+    10.4,
+    -65.0
+   ]
+  },
+  {
+   "dump_index": 884,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1792",
+   "aabb_min": [
+    -90.7,
+    0.0,
+    -45.0
+   ],
+   "aabb_max": [
+    -89.3,
+    10.4,
+    -43.0
+   ]
+  },
+  {
+   "dump_index": 885,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1794",
+   "aabb_min": [
+    -76.7,
+    0.0,
+    -45.0
+   ],
+   "aabb_max": [
+    -75.3,
+    10.4,
+    -43.0
+   ]
+  },
+  {
+   "dump_index": 886,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1796",
+   "aabb_min": [
+    -90.7,
+    0.0,
+    -21.0
+   ],
+   "aabb_max": [
+    -89.3,
+    10.4,
+    -19.0
+   ]
+  },
+  {
+   "dump_index": 887,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1798",
+   "aabb_min": [
+    -76.7,
+    0.0,
+    -21.0
+   ],
+   "aabb_max": [
+    -75.3,
+    10.4,
+    -19.0
+   ]
+  },
+  {
+   "dump_index": 888,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1800",
+   "aabb_min": [
+    -90.7,
+    0.0,
+    3.0
+   ],
+   "aabb_max": [
+    -89.3,
+    10.4,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 889,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1802",
+   "aabb_min": [
+    -76.7,
+    0.0,
+    3.0
+   ],
+   "aabb_max": [
+    -75.3,
+    10.4,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 890,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1804",
+   "aabb_min": [
+    -90.7,
+    0.0,
+    27.0
+   ],
+   "aabb_max": [
+    -89.3,
+    10.4,
+    29.0
+   ]
+  },
+  {
+   "dump_index": 891,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1806",
+   "aabb_min": [
+    -76.7,
+    0.0,
+    27.0
+   ],
+   "aabb_max": [
+    -75.3,
+    10.4,
+    29.0
+   ]
+  },
+  {
+   "dump_index": 892,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1808",
+   "aabb_min": [
+    -90.7,
+    0.0,
+    51.0
+   ],
+   "aabb_max": [
+    -89.3,
+    10.4,
+    53.0
+   ]
+  },
+  {
+   "dump_index": 893,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1810",
+   "aabb_min": [
+    -76.7,
+    0.0,
+    51.0
+   ],
+   "aabb_max": [
+    -75.3,
+    10.4,
+    53.0
+   ]
+  },
+  {
+   "dump_index": 894,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1812",
+   "aabb_min": [
+    -90.7,
+    0.0,
+    67.0
+   ],
+   "aabb_max": [
+    -89.3,
+    10.4,
+    69.0
+   ]
+  },
+  {
+   "dump_index": 895,
+   "role": "viaduct_column",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1814",
+   "aabb_min": [
+    -76.7,
+    0.0,
+    67.0
+   ],
+   "aabb_max": [
+    -75.3,
+    10.4,
+    69.0
+   ]
+  },
+  {
+   "dump_index": 879,
+   "role": "raised_platform",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1782",
+   "aabb_min": [
+    -103.5,
+    4.9,
+    -59.0
+   ],
+   "aabb_max": [
+    -88.5,
+    5.5,
+    19.0
+   ]
+  },
+  {
+   "dump_index": 880,
+   "role": "raised_platform_roof",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1784",
+   "aabb_min": [
+    -102.5,
+    8.7,
+    -28.0
+   ],
+   "aabb_max": [
+    -89.5,
+    9.3,
+    16.0
+   ]
+  },
+  {
+   "dump_index": 881,
+   "role": "track_canopy_roof",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1786",
+   "aabb_min": [
+    -88.5,
+    13.9,
+    -63.0
+   ],
+   "aabb_max": [
+    -75.5,
+    14.5,
+    -27.0
+   ]
+  },
+  {
+   "dump_index": 1880,
+   "role": "shelter_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3860",
+   "aabb_min": [
+    -92.55,
+    11.0,
+    -60.0
+   ],
+   "aabb_max": [
+    -92.25,
+    13.8,
+    -50.0
+   ]
+  },
+  {
+   "dump_index": 1882,
+   "role": "shelter_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3864",
+   "aabb_min": [
+    -92.55,
+    11.0,
+    35.0
+   ],
+   "aabb_max": [
+    -92.25,
+    13.8,
+    45.0
+   ]
+  },
+  {
+   "dump_index": 1879,
+   "role": "shelter_roof",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3858",
+   "aabb_min": [
+    -92.5,
+    13.75,
+    -60.0
+   ],
+   "aabb_max": [
+    -89.5,
+    14.05,
+    -50.0
+   ]
+  },
+  {
+   "dump_index": 1881,
+   "role": "shelter_roof",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3862",
+   "aabb_min": [
+    -92.5,
+    13.75,
+    35.0
+   ],
+   "aabb_max": [
+    -89.5,
+    14.05,
+    45.0
+   ]
+  },
+  {
+   "dump_index": 10319,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/StationCanopyPost",
+   "aabb_min": [
+    -91.09,
+    11.2,
+    -48.09
+   ],
+   "aabb_max": [
+    -90.91,
+    14.2,
+    -47.91
+   ]
+  },
+  {
+   "dump_index": 10320,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29964",
+   "aabb_min": [
+    -73.09,
+    11.2,
+    -48.09
+   ],
+   "aabb_max": [
+    -72.91,
+    14.2,
+    -47.91
+   ]
+  },
+  {
+   "dump_index": 10321,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29967",
+   "aabb_min": [
+    -91.09,
+    11.2,
+    -12.09
+   ],
+   "aabb_max": [
+    -90.91,
+    14.2,
+    -11.91
+   ]
+  },
+  {
+   "dump_index": 10322,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29969",
+   "aabb_min": [
+    -73.09,
+    11.2,
+    -12.09
+   ],
+   "aabb_max": [
+    -72.91,
+    14.2,
+    -11.91
+   ]
+  },
+  {
+   "dump_index": 10323,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29972",
+   "aabb_min": [
+    -91.09,
+    11.2,
+    26.91
+   ],
+   "aabb_max": [
+    -90.91,
+    14.2,
+    27.09
+   ]
+  },
+  {
+   "dump_index": 10324,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29974",
+   "aabb_min": [
+    -73.09,
+    11.2,
+    26.91
+   ],
+   "aabb_max": [
+    -72.91,
+    14.2,
+    27.09
+   ]
+  },
+  {
+   "dump_index": 10325,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29977",
+   "aabb_min": [
+    -91.09,
+    11.2,
+    62.91
+   ],
+   "aabb_max": [
+    -90.91,
+    14.2,
+    63.09
+   ]
+  },
+  {
+   "dump_index": 10326,
+   "role": "canopy_post",
+   "type": "box",
+   "path": "FullMapNativeRebuild/Collision/@StaticBody3D@29979",
+   "aabb_min": [
+    -73.09,
+    11.2,
+    62.91
+   ],
+   "aabb_max": [
+    -72.91,
+    14.2,
+    63.09
+   ]
+  },
+  {
+   "dump_index": 907,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@1838",
+   "aabb_min": [
+    -103.75,
+    -0.3,
+    -76.5
+   ],
+   "aabb_max": [
+    -100.25,
+    5.5,
+    -60.0
+   ],
+   "width_true": 3.5,
+   "axis": {
+    "origin_xz": [
+     -102.0,
+     -68.25
+    ],
+    "dir_xz": [
+     0.0,
+     1.0
+    ],
+    "mid_across": 0.0,
+    "along_min": -8.25,
+    "along_max": 8.25,
+    "y_low": -0.0,
+    "y_high": 5.5
+   },
+   "plane": [
+    -0.0,
+    0.94868,
+    -0.31623,
+    -24.19142
+   ]
+  },
+  {
+   "dump_index": 900,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@1824",
+   "aabb_min": [
+    -99.75,
+    -0.3,
+    44.0
+   ],
+   "aabb_max": [
+    -96.25,
+    5.5,
+    64.5
+   ],
+   "width_true": 3.5,
+   "axis": {
+    "origin_xz": [
+     -98.0,
+     54.25
+    ],
+    "dir_xz": [
+     -0.0,
+     -1.0
+    ],
+    "mid_across": 0.0,
+    "along_min": -10.25,
+    "along_max": 10.25,
+    "y_low": 0.0,
+    "y_high": 5.5
+   },
+   "plane": [
+    0.0,
+    0.96584,
+    0.25913,
+    -16.71379
+   ]
+  },
+  {
+   "dump_index": 910,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@1844",
+   "aabb_min": [
+    -103.168,
+    5.2,
+    -43.193
+   ],
+   "aabb_max": [
+    -93.203,
+    11.0,
+    -36.198
+   ],
+   "width_true": 3.501,
+   "axis": {
+    "origin_xz": [
+     -98.185,
+     -39.695
+    ],
+    "dir_xz": [
+     0.9137,
+     -0.4063
+    ],
+    "mid_across": -0.0,
+    "along_min": -4.674,
+    "along_max": 4.674,
+    "y_low": 5.5,
+    "y_high": 11.0
+   },
+   "plane": [
+    -0.46333,
+    0.86191,
+    0.20602,
+    -44.42484
+   ]
+  },
+  {
+   "dump_index": 913,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@1850",
+   "aabb_min": [
+    -84.5,
+    10.7,
+    -26.0
+   ],
+   "aabb_max": [
+    -81.5,
+    14.5,
+    -10.2
+   ],
+   "width_true": 3.0,
+   "axis": {
+    "origin_xz": [
+     -83.0,
+     -18.1
+    ],
+    "dir_xz": [
+     -0.0,
+     -1.0
+    ],
+    "mid_across": 0.0,
+    "along_min": -7.9,
+    "along_max": 7.9,
+    "y_low": 11.0,
+    "y_high": 14.5
+   },
+   "plane": [
+    0.0,
+    0.97633,
+    0.21628,
+    -8.53364
+   ]
+  },
+  {
+   "dump_index": 1815,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@3730",
+   "aabb_min": [
+    -90.0,
+    -5.3,
+    45.5
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    61.0
+   ],
+   "width_true": 4.0,
+   "axis": {
+    "origin_xz": [
+     -88.0,
+     53.25
+    ],
+    "dir_xz": [
+     0.0,
+     1.0
+    ],
+    "mid_across": 0.0,
+    "along_min": -7.75,
+    "along_max": 7.75,
+    "y_low": -5.0,
+    "y_high": -0.0
+   },
+   "plane": [
+    -0.0,
+    0.95171,
+    -0.307,
+    18.72717
+   ]
+  },
+  {
+   "dump_index": 1818,
+   "role": "stair_flight",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@3736",
+   "aabb_min": [
+    -82.75,
+    -5.3,
+    -66.0
+   ],
+   "aabb_max": [
+    -79.25,
+    0.0,
+    -48.5
+   ],
+   "width_true": 3.5,
+   "axis": {
+    "origin_xz": [
+     -81.0,
+     -57.25
+    ],
+    "dir_xz": [
+     -0.0,
+     -1.0
+    ],
+    "mid_across": 0.0,
+    "along_min": -8.75,
+    "along_max": 8.75,
+    "y_low": -5.0,
+    "y_high": -0.0
+   },
+   "plane": [
+    0.0,
+    0.96152,
+    0.27472,
+    18.13159
+   ]
+  },
+  {
+   "dump_index": 904,
+   "role": "stair_flight_ramp",
+   "type": "convex",
+   "path": "Collision/@StaticBody3D@1832",
+   "aabb_min": [
+    -99.818,
+    5.2,
+    22.513
+   ],
+   "aabb_max": [
+    -91.992,
+    11.0,
+    41.892
+   ],
+   "width_true": 3.502,
+   "axis": {
+    "origin_xz": [
+     -95.905,
+     32.203
+    ],
+    "dir_xz": [
+     0.2317,
+     -0.9728
+    ],
+    "mid_across": 0.0,
+    "along_min": -9.544,
+    "along_max": 9.544,
+    "y_low": 5.5,
+    "y_high": 11.0
+   },
+   "plane": [
+    -0.06415,
+    0.9609,
+    0.26935,
+    -22.75397
+   ]
+  },
+  {
+   "dump_index": 908,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1840",
+   "aabb_min": [
+    -103.75,
+    5.2,
+    -60.0
+   ],
+   "aabb_max": [
+    -100.25,
+    5.5,
+    -58.2
+   ]
+  },
+  {
+   "dump_index": 909,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1842",
+   "aabb_min": [
+    -103.75,
+    -0.3,
+    -76.95
+   ],
+   "aabb_max": [
+    -100.25,
+    0.0,
+    -76.5
+   ]
+  },
+  {
+   "dump_index": 912,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1848",
+   "aabb_min": [
+    -103.579,
+    5.2,
+    -39.397
+   ],
+   "aabb_max": [
+    -101.747,
+    5.5,
+    -36.015
+   ]
+  },
+  {
+   "dump_index": 903,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1830",
+   "aabb_min": [
+    -100.0,
+    5.2,
+    39.0
+   ],
+   "aabb_max": [
+    -96.0,
+    5.5,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 906,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1836",
+   "aabb_min": [
+    -99.923,
+    5.2,
+    41.081
+   ],
+   "aabb_max": [
+    -96.413,
+    5.5,
+    42.329
+   ]
+  },
+  {
+   "dump_index": 901,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1826",
+   "aabb_min": [
+    -99.75,
+    5.2,
+    42.2
+   ],
+   "aabb_max": [
+    -96.25,
+    5.5,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 902,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1828",
+   "aabb_min": [
+    -99.75,
+    -0.3,
+    64.5
+   ],
+   "aabb_max": [
+    -96.25,
+    0.0,
+    64.95
+   ]
+  },
+  {
+   "dump_index": 905,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1834",
+   "aabb_min": [
+    -95.397,
+    10.7,
+    18.816
+   ],
+   "aabb_max": [
+    -91.113,
+    11.0,
+    23.324
+   ]
+  },
+  {
+   "dump_index": 911,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1846",
+   "aabb_min": [
+    -94.624,
+    10.7,
+    -43.924
+   ],
+   "aabb_max": [
+    -91.558,
+    11.0,
+    -39.994
+   ]
+  },
+  {
+   "dump_index": 914,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1852",
+   "aabb_min": [
+    -84.5,
+    14.2,
+    -27.8
+   ],
+   "aabb_max": [
+    -81.5,
+    14.5,
+    -26.0
+   ]
+  },
+  {
+   "dump_index": 915,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@1854",
+   "aabb_min": [
+    -84.5,
+    10.7,
+    -10.2
+   ],
+   "aabb_max": [
+    -81.5,
+    11.0,
+    -9.75
+   ]
+  },
+  {
+   "dump_index": 1816,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3732",
+   "aabb_min": [
+    -90.0,
+    -0.3,
+    61.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    62.8
+   ]
+  },
+  {
+   "dump_index": 1819,
+   "role": "stair_landing",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3738",
+   "aabb_min": [
+    -82.75,
+    -0.3,
+    -67.8
+   ],
+   "aabb_max": [
+    -79.25,
+    0.0,
+    -66.0
+   ]
+  },
+  {
+   "dump_index": 1862,
+   "role": "info_island_roof",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3824",
+   "aabb_min": [
+    -92.5,
+    3.8,
+    -30.0
+   ],
+   "aabb_max": [
+    -73.5,
+    4.1,
+    -6.0
+   ]
+  },
+  {
+   "dump_index": 1878,
+   "role": "info_island_roof",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3856",
+   "aabb_min": [
+    -92.5,
+    3.8,
+    12.0
+   ],
+   "aabb_max": [
+    -73.5,
+    4.1,
+    36.0
+   ]
+  },
+  {
+   "dump_index": 4016,
+   "role": "platform_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8631",
+   "aabb_min": [
+    -91.625,
+    11.015,
+    -52.7
+   ],
+   "aabb_max": [
+    -90.375,
+    11.465,
+    -51.7
+   ]
+  },
+  {
+   "dump_index": 4017,
+   "role": "platform_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8633",
+   "aabb_min": [
+    -91.625,
+    11.44,
+    -52.675
+   ],
+   "aabb_max": [
+    -90.375,
+    11.6,
+    -51.725
+   ]
+  },
+  {
+   "dump_index": 4018,
+   "role": "platform_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8635",
+   "aabb_min": [
+    -91.625,
+    11.505,
+    -52.7
+   ],
+   "aabb_max": [
+    -90.375,
+    12.055,
+    -52.56
+   ]
+  },
+  {
+   "dump_index": 4019,
+   "role": "platform_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8638",
+   "aabb_min": [
+    -91.625,
+    11.015,
+    42.3
+   ],
+   "aabb_max": [
+    -90.375,
+    11.465,
+    43.3
+   ]
+  },
+  {
+   "dump_index": 4020,
+   "role": "platform_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8640",
+   "aabb_min": [
+    -91.625,
+    11.44,
+    42.325
+   ],
+   "aabb_max": [
+    -90.375,
+    11.6,
+    43.275
+   ]
+  },
+  {
+   "dump_index": 4021,
+   "role": "platform_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8642",
+   "aabb_min": [
+    -91.625,
+    11.505,
+    42.3
+   ],
+   "aabb_max": [
+    -90.375,
+    12.055,
+    42.44
+   ]
+  },
+  {
+   "dump_index": 1844,
+   "role": "map_boundary",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3788",
+   "aabb_min": [
+    -78.2,
+    -5.0,
+    83.8
+   ],
+   "aabb_max": [
+    -77.8,
+    55.0,
+    164.2
+   ]
+  },
+  {
+   "dump_index": 1845,
+   "role": "map_boundary",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3790",
+   "aabb_min": [
+    -112.2,
+    -5.0,
+    83.8
+   ],
+   "aabb_max": [
+    -77.8,
+    55.0,
+    84.2
+   ]
+  },
+  {
+   "dump_index": 1846,
+   "role": "map_boundary",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3792",
+   "aabb_min": [
+    -112.2,
+    -5.0,
+    -84.2
+   ],
+   "aabb_max": [
+    -111.8,
+    55.0,
+    84.2
+   ]
+  },
+  {
+   "dump_index": 1847,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3794",
+   "aabb_min": [
+    -92.175,
+    0.0,
+    -30.0
+   ],
+   "aabb_max": [
+    -91.825,
+    3.8,
+    -19.6
+   ]
+  },
+  {
+   "dump_index": 1848,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3796",
+   "aabb_min": [
+    -92.175,
+    0.0,
+    -16.4
+   ],
+   "aabb_max": [
+    -91.825,
+    3.8,
+    -6.0
+   ]
+  },
+  {
+   "dump_index": 1850,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3800",
+   "aabb_min": [
+    -73.175,
+    0.0,
+    -30.0
+   ],
+   "aabb_max": [
+    -72.825,
+    3.8,
+    -19.6
+   ]
+  },
+  {
+   "dump_index": 1851,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3802",
+   "aabb_min": [
+    -73.175,
+    0.0,
+    -16.4
+   ],
+   "aabb_max": [
+    -72.825,
+    3.8,
+    -6.0
+   ]
+  },
+  {
+   "dump_index": 1853,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3806",
+   "aabb_min": [
+    -92.0,
+    0.0,
+    -30.175
+   ],
+   "aabb_max": [
+    -84.6,
+    3.8,
+    -29.825
+   ]
+  },
+  {
+   "dump_index": 1854,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3808",
+   "aabb_min": [
+    -81.4,
+    0.0,
+    -30.175
+   ],
+   "aabb_max": [
+    -73.0,
+    3.8,
+    -29.825
+   ]
+  },
+  {
+   "dump_index": 1856,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3812",
+   "aabb_min": [
+    -92.0,
+    0.0,
+    -6.175
+   ],
+   "aabb_max": [
+    -84.6,
+    3.8,
+    -5.825
+   ]
+  },
+  {
+   "dump_index": 1857,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3814",
+   "aabb_min": [
+    -81.4,
+    0.0,
+    -6.175
+   ],
+   "aabb_max": [
+    -73.0,
+    3.8,
+    -5.825
+   ]
+  },
+  {
+   "dump_index": 1859,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3818",
+   "aabb_min": [
+    -92.0,
+    0.0,
+    -18.175
+   ],
+   "aabb_max": [
+    -85.0,
+    3.8,
+    -17.825
+   ]
+  },
+  {
+   "dump_index": 1860,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3820",
+   "aabb_min": [
+    -81.0,
+    0.0,
+    -18.175
+   ],
+   "aabb_max": [
+    -73.0,
+    3.8,
+    -17.825
+   ]
+  },
+  {
+   "dump_index": 1863,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3826",
+   "aabb_min": [
+    -92.175,
+    0.0,
+    12.0
+   ],
+   "aabb_max": [
+    -91.825,
+    3.8,
+    22.4
+   ]
+  },
+  {
+   "dump_index": 1864,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3828",
+   "aabb_min": [
+    -92.175,
+    0.0,
+    25.6
+   ],
+   "aabb_max": [
+    -91.825,
+    3.8,
+    36.0
+   ]
+  },
+  {
+   "dump_index": 1866,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3832",
+   "aabb_min": [
+    -73.175,
+    0.0,
+    12.0
+   ],
+   "aabb_max": [
+    -72.825,
+    3.8,
+    22.4
+   ]
+  },
+  {
+   "dump_index": 1867,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3834",
+   "aabb_min": [
+    -73.175,
+    0.0,
+    25.6
+   ],
+   "aabb_max": [
+    -72.825,
+    3.8,
+    36.0
+   ]
+  },
+  {
+   "dump_index": 1869,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3838",
+   "aabb_min": [
+    -92.0,
+    0.0,
+    11.825
+   ],
+   "aabb_max": [
+    -84.6,
+    3.8,
+    12.175
+   ]
+  },
+  {
+   "dump_index": 1870,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3840",
+   "aabb_min": [
+    -81.4,
+    0.0,
+    11.825
+   ],
+   "aabb_max": [
+    -73.0,
+    3.8,
+    12.175
+   ]
+  },
+  {
+   "dump_index": 1872,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3844",
+   "aabb_min": [
+    -92.0,
+    0.0,
+    35.825
+   ],
+   "aabb_max": [
+    -84.6,
+    3.8,
+    36.175
+   ]
+  },
+  {
+   "dump_index": 1873,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3846",
+   "aabb_min": [
+    -81.4,
+    0.0,
+    35.825
+   ],
+   "aabb_max": [
+    -73.0,
+    3.8,
+    36.175
+   ]
+  },
+  {
+   "dump_index": 1875,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3850",
+   "aabb_min": [
+    -92.0,
+    0.0,
+    23.825
+   ],
+   "aabb_max": [
+    -85.0,
+    3.8,
+    24.175
+   ]
+  },
+  {
+   "dump_index": 1876,
+   "role": "info_island_wall",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3852",
+   "aabb_min": [
+    -81.0,
+    0.0,
+    23.825
+   ],
+   "aabb_max": [
+    -73.0,
+    3.8,
+    24.175
+   ]
+  },
+  {
+   "dump_index": 1849,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3798",
+   "aabb_min": [
+    -92.175,
+    2.7,
+    -19.6
+   ],
+   "aabb_max": [
+    -91.825,
+    3.8,
+    -16.4
+   ]
+  },
+  {
+   "dump_index": 1852,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3804",
+   "aabb_min": [
+    -73.175,
+    2.7,
+    -19.6
+   ],
+   "aabb_max": [
+    -72.825,
+    3.8,
+    -16.4
+   ]
+  },
+  {
+   "dump_index": 1855,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3810",
+   "aabb_min": [
+    -84.6,
+    2.7,
+    -30.175
+   ],
+   "aabb_max": [
+    -81.4,
+    3.8,
+    -29.825
+   ]
+  },
+  {
+   "dump_index": 1858,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3816",
+   "aabb_min": [
+    -84.6,
+    2.7,
+    -6.175
+   ],
+   "aabb_max": [
+    -81.4,
+    3.8,
+    -5.825
+   ]
+  },
+  {
+   "dump_index": 1861,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3822",
+   "aabb_min": [
+    -85.0,
+    2.7,
+    -18.175
+   ],
+   "aabb_max": [
+    -81.0,
+    3.8,
+    -17.825
+   ]
+  },
+  {
+   "dump_index": 1865,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3830",
+   "aabb_min": [
+    -92.175,
+    2.7,
+    22.4
+   ],
+   "aabb_max": [
+    -91.825,
+    3.8,
+    25.6
+   ]
+  },
+  {
+   "dump_index": 1868,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3836",
+   "aabb_min": [
+    -73.175,
+    2.7,
+    22.4
+   ],
+   "aabb_max": [
+    -72.825,
+    3.8,
+    25.6
+   ]
+  },
+  {
+   "dump_index": 1871,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3842",
+   "aabb_min": [
+    -84.6,
+    2.7,
+    11.825
+   ],
+   "aabb_max": [
+    -81.4,
+    3.8,
+    12.175
+   ]
+  },
+  {
+   "dump_index": 1874,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3848",
+   "aabb_min": [
+    -84.6,
+    2.7,
+    35.825
+   ],
+   "aabb_max": [
+    -81.4,
+    3.8,
+    36.175
+   ]
+  },
+  {
+   "dump_index": 1877,
+   "role": "info_island_lintel",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3854",
+   "aabb_min": [
+    -85.0,
+    2.7,
+    23.825
+   ],
+   "aabb_max": [
+    -81.0,
+    3.8,
+    24.175
+   ]
+  },
+  {
+   "dump_index": 3968,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8531",
+   "aabb_min": [
+    -89.75,
+    0.015,
+    -24.375
+   ],
+   "aabb_max": [
+    -87.25,
+    0.465,
+    -23.625
+   ]
+  },
+  {
+   "dump_index": 3969,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8533",
+   "aabb_min": [
+    -89.75,
+    0.44,
+    -24.356
+   ],
+   "aabb_max": [
+    -87.25,
+    0.6,
+    -23.644
+   ]
+  },
+  {
+   "dump_index": 3970,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8535",
+   "aabb_min": [
+    -89.75,
+    0.505,
+    -24.393
+   ],
+   "aabb_max": [
+    -87.25,
+    1.055,
+    -24.253
+   ]
+  },
+  {
+   "dump_index": 3977,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8549",
+   "aabb_min": [
+    -78.75,
+    0.015,
+    -24.375
+   ],
+   "aabb_max": [
+    -76.25,
+    0.465,
+    -23.625
+   ]
+  },
+  {
+   "dump_index": 3978,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8551",
+   "aabb_min": [
+    -78.75,
+    0.44,
+    -24.356
+   ],
+   "aabb_max": [
+    -76.25,
+    0.6,
+    -23.644
+   ]
+  },
+  {
+   "dump_index": 3979,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8553",
+   "aabb_min": [
+    -78.75,
+    0.505,
+    -24.393
+   ],
+   "aabb_max": [
+    -76.25,
+    1.055,
+    -24.253
+   ]
+  },
+  {
+   "dump_index": 3986,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8568",
+   "aabb_min": [
+    -89.75,
+    0.015,
+    -12.375
+   ],
+   "aabb_max": [
+    -87.25,
+    0.465,
+    -11.625
+   ]
+  },
+  {
+   "dump_index": 3987,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8570",
+   "aabb_min": [
+    -89.75,
+    0.44,
+    -12.356
+   ],
+   "aabb_max": [
+    -87.25,
+    0.6,
+    -11.644
+   ]
+  },
+  {
+   "dump_index": 3988,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8572",
+   "aabb_min": [
+    -89.75,
+    0.505,
+    -12.393
+   ],
+   "aabb_max": [
+    -87.25,
+    1.055,
+    -12.253
+   ]
+  },
+  {
+   "dump_index": 3989,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8574",
+   "aabb_min": [
+    -78.75,
+    0.015,
+    -12.375
+   ],
+   "aabb_max": [
+    -76.25,
+    0.465,
+    -11.625
+   ]
+  },
+  {
+   "dump_index": 3990,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8576",
+   "aabb_min": [
+    -78.75,
+    0.44,
+    -12.356
+   ],
+   "aabb_max": [
+    -76.25,
+    0.6,
+    -11.644
+   ]
+  },
+  {
+   "dump_index": 3991,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8578",
+   "aabb_min": [
+    -78.75,
+    0.505,
+    -12.393
+   ],
+   "aabb_max": [
+    -76.25,
+    1.055,
+    -12.253
+   ]
+  },
+  {
+   "dump_index": 3992,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8581",
+   "aabb_min": [
+    -89.75,
+    0.015,
+    17.625
+   ],
+   "aabb_max": [
+    -87.25,
+    0.465,
+    18.375
+   ]
+  },
+  {
+   "dump_index": 3993,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8583",
+   "aabb_min": [
+    -89.75,
+    0.44,
+    17.644
+   ],
+   "aabb_max": [
+    -87.25,
+    0.6,
+    18.356
+   ]
+  },
+  {
+   "dump_index": 3994,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8585",
+   "aabb_min": [
+    -89.75,
+    0.505,
+    17.607
+   ],
+   "aabb_max": [
+    -87.25,
+    1.055,
+    17.747
+   ]
+  },
+  {
+   "dump_index": 4001,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8599",
+   "aabb_min": [
+    -78.75,
+    0.015,
+    17.625
+   ],
+   "aabb_max": [
+    -76.25,
+    0.465,
+    18.375
+   ]
+  },
+  {
+   "dump_index": 4002,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8601",
+   "aabb_min": [
+    -78.75,
+    0.44,
+    17.644
+   ],
+   "aabb_max": [
+    -76.25,
+    0.6,
+    18.356
+   ]
+  },
+  {
+   "dump_index": 4003,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8603",
+   "aabb_min": [
+    -78.75,
+    0.505,
+    17.607
+   ],
+   "aabb_max": [
+    -76.25,
+    1.055,
+    17.747
+   ]
+  },
+  {
+   "dump_index": 4010,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8618",
+   "aabb_min": [
+    -89.75,
+    0.015,
+    29.625
+   ],
+   "aabb_max": [
+    -87.25,
+    0.465,
+    30.375
+   ]
+  },
+  {
+   "dump_index": 4011,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8620",
+   "aabb_min": [
+    -89.75,
+    0.44,
+    29.644
+   ],
+   "aabb_max": [
+    -87.25,
+    0.6,
+    30.356
+   ]
+  },
+  {
+   "dump_index": 4012,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8622",
+   "aabb_min": [
+    -89.75,
+    0.505,
+    29.607
+   ],
+   "aabb_max": [
+    -87.25,
+    1.055,
+    29.747
+   ]
+  },
+  {
+   "dump_index": 4013,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8624",
+   "aabb_min": [
+    -78.75,
+    0.015,
+    29.625
+   ],
+   "aabb_max": [
+    -76.25,
+    0.465,
+    30.375
+   ]
+  },
+  {
+   "dump_index": 4014,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8626",
+   "aabb_min": [
+    -78.75,
+    0.44,
+    29.644
+   ],
+   "aabb_max": [
+    -76.25,
+    0.6,
+    30.356
+   ]
+  },
+  {
+   "dump_index": 4015,
+   "role": "island_bench",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8628",
+   "aabb_min": [
+    -78.75,
+    0.505,
+    29.607
+   ],
+   "aabb_max": [
+    -76.25,
+    1.055,
+    29.747
+   ]
+  },
+  {
+   "dump_index": 3971,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8537",
+   "aabb_min": [
+    -89.1,
+    0.84,
+    -21.4
+   ],
+   "aabb_max": [
+    -87.9,
+    0.96,
+    -20.6
+   ]
+  },
+  {
+   "dump_index": 3972,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8539",
+   "aabb_min": [
+    -88.996,
+    0.0,
+    -21.344
+   ],
+   "aabb_max": [
+    -88.916,
+    0.84,
+    -21.264
+   ]
+  },
+  {
+   "dump_index": 3973,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8541",
+   "aabb_min": [
+    -88.996,
+    0.0,
+    -20.736
+   ],
+   "aabb_max": [
+    -88.916,
+    0.84,
+    -20.656
+   ]
+  },
+  {
+   "dump_index": 3974,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8543",
+   "aabb_min": [
+    -88.084,
+    0.0,
+    -21.344
+   ],
+   "aabb_max": [
+    -88.004,
+    0.84,
+    -21.264
+   ]
+  },
+  {
+   "dump_index": 3975,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8545",
+   "aabb_min": [
+    -88.084,
+    0.0,
+    -20.736
+   ],
+   "aabb_max": [
+    -88.004,
+    0.84,
+    -20.656
+   ]
+  },
+  {
+   "dump_index": 3976,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8547",
+   "aabb_min": [
+    -89.052,
+    0.0,
+    -21.36
+   ],
+   "aabb_max": [
+    -87.948,
+    0.8,
+    -20.64
+   ]
+  },
+  {
+   "dump_index": 3980,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8555",
+   "aabb_min": [
+    -78.1,
+    0.84,
+    -21.4
+   ],
+   "aabb_max": [
+    -76.9,
+    0.96,
+    -20.6
+   ]
+  },
+  {
+   "dump_index": 3981,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8557",
+   "aabb_min": [
+    -77.996,
+    0.0,
+    -21.344
+   ],
+   "aabb_max": [
+    -77.916,
+    0.84,
+    -21.264
+   ]
+  },
+  {
+   "dump_index": 3982,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8559",
+   "aabb_min": [
+    -77.996,
+    0.0,
+    -20.736
+   ],
+   "aabb_max": [
+    -77.916,
+    0.84,
+    -20.656
+   ]
+  },
+  {
+   "dump_index": 3983,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8561",
+   "aabb_min": [
+    -77.084,
+    0.0,
+    -21.344
+   ],
+   "aabb_max": [
+    -77.004,
+    0.84,
+    -21.264
+   ]
+  },
+  {
+   "dump_index": 3984,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8563",
+   "aabb_min": [
+    -77.084,
+    0.0,
+    -20.736
+   ],
+   "aabb_max": [
+    -77.004,
+    0.84,
+    -20.656
+   ]
+  },
+  {
+   "dump_index": 3985,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8565",
+   "aabb_min": [
+    -78.052,
+    0.0,
+    -21.36
+   ],
+   "aabb_max": [
+    -76.948,
+    0.8,
+    -20.64
+   ]
+  },
+  {
+   "dump_index": 3995,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8587",
+   "aabb_min": [
+    -89.1,
+    0.84,
+    20.6
+   ],
+   "aabb_max": [
+    -87.9,
+    0.96,
+    21.4
+   ]
+  },
+  {
+   "dump_index": 3996,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8589",
+   "aabb_min": [
+    -88.996,
+    0.0,
+    20.656
+   ],
+   "aabb_max": [
+    -88.916,
+    0.84,
+    20.736
+   ]
+  },
+  {
+   "dump_index": 3997,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8591",
+   "aabb_min": [
+    -88.996,
+    0.0,
+    21.264
+   ],
+   "aabb_max": [
+    -88.916,
+    0.84,
+    21.344
+   ]
+  },
+  {
+   "dump_index": 3998,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8593",
+   "aabb_min": [
+    -88.084,
+    0.0,
+    20.656
+   ],
+   "aabb_max": [
+    -88.004,
+    0.84,
+    20.736
+   ]
+  },
+  {
+   "dump_index": 3999,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8595",
+   "aabb_min": [
+    -88.084,
+    0.0,
+    21.264
+   ],
+   "aabb_max": [
+    -88.004,
+    0.84,
+    21.344
+   ]
+  },
+  {
+   "dump_index": 4000,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8597",
+   "aabb_min": [
+    -89.052,
+    0.0,
+    20.64
+   ],
+   "aabb_max": [
+    -87.948,
+    0.8,
+    21.36
+   ]
+  },
+  {
+   "dump_index": 4004,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8605",
+   "aabb_min": [
+    -78.1,
+    0.84,
+    20.6
+   ],
+   "aabb_max": [
+    -76.9,
+    0.96,
+    21.4
+   ]
+  },
+  {
+   "dump_index": 4005,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8607",
+   "aabb_min": [
+    -77.996,
+    0.0,
+    20.656
+   ],
+   "aabb_max": [
+    -77.916,
+    0.84,
+    20.736
+   ]
+  },
+  {
+   "dump_index": 4006,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8609",
+   "aabb_min": [
+    -77.996,
+    0.0,
+    21.264
+   ],
+   "aabb_max": [
+    -77.916,
+    0.84,
+    21.344
+   ]
+  },
+  {
+   "dump_index": 4007,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8611",
+   "aabb_min": [
+    -77.084,
+    0.0,
+    20.656
+   ],
+   "aabb_max": [
+    -77.004,
+    0.84,
+    20.736
+   ]
+  },
+  {
+   "dump_index": 4008,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8613",
+   "aabb_min": [
+    -77.084,
+    0.0,
+    21.264
+   ],
+   "aabb_max": [
+    -77.004,
+    0.84,
+    21.344
+   ]
+  },
+  {
+   "dump_index": 4009,
+   "role": "island_table",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@8615",
+   "aabb_min": [
+    -78.052,
+    0.0,
+    20.64
+   ],
+   "aabb_max": [
+    -76.948,
+    0.8,
+    21.36
+   ]
+  },
+  {
+   "dump_index": 0,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@24",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 1,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@26",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 2,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@28",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 3,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@30",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 4,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@32",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 5,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@34",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 6,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@36",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 7,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@38",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 8,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@40",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 9,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@42",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 10,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@44",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    5.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 11,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@46",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 12,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@48",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    15.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 13,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@50",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 14,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@52",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    32.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 15,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@54",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 16,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@56",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    33.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 17,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@58",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 18,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@60",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    42.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 19,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@62",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 20,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@64",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    43.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 21,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@66",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    43.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 22,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@68",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    44.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 23,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@70",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    44.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 24,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@72",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    48.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 25,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@74",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    48.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 26,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@76",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    54.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 27,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@78",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    54.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 28,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@80",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    59.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 29,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@82",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    59.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 30,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@84",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    61.5
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 31,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@86",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    61.5
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 32,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@88",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    63.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 33,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@90",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 34,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@92",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    68.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 35,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@94",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 36,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@96",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    70.5
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 37,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@98",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 38,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@100",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    71.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 39,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@102",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 40,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@104",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    74.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 41,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@106",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 42,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@108",
+   "aabb_min": [
+    -112.0,
+    -5.0,
+    78.0
+   ],
+   "aabb_max": [
+    -94.0,
+    -1.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 43,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@110",
+   "aabb_min": [
+    -112.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -94.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 44,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@112",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 45,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@114",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 46,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@116",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 47,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@118",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 48,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@120",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 49,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@122",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 50,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@124",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 51,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@126",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 52,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@128",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 53,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@130",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 54,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@132",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    5.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 55,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@134",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 56,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@136",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    15.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 57,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@138",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 58,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@140",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    32.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 59,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@142",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 60,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@144",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    33.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 61,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@146",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 62,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@148",
+   "aabb_min": [
+    -94.0,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 63,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@150",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 64,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@152",
+   "aabb_min": [
+    -94.0,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 65,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@154",
+   "aabb_min": [
+    -94.0,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 66,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@156",
+   "aabb_min": [
+    -94.0,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 67,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@158",
+   "aabb_min": [
+    -94.0,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 68,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@160",
+   "aabb_min": [
+    -94.0,
+    -6.0,
+    59.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 69,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@162",
+   "aabb_min": [
+    -94.0,
+    -6.0,
+    61.5
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 70,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@164",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    63.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 71,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@166",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 72,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@168",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    68.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 73,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@170",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 74,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@172",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    70.5
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 75,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@174",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 76,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@176",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    71.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 77,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@178",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 78,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@180",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    74.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 79,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@182",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 80,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@184",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    78.0
+   ],
+   "aabb_max": [
+    -86.0,
+    -1.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 81,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@186",
+   "aabb_min": [
+    -94.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -86.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 82,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@188",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 83,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@190",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 84,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@192",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 85,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@194",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 86,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@196",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 87,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@198",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 88,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@200",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 89,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@202",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 90,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@204",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 91,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@206",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    5.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 92,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@208",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 93,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@210",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    15.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 94,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@212",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 95,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@214",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    32.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 96,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@216",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 97,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@218",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    33.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 98,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@220",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 99,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@222",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 100,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@224",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 101,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@226",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 102,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@228",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 103,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@230",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 104,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@232",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 105,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@234",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    59.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 106,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@236",
+   "aabb_min": [
+    -86.0,
+    -6.0,
+    61.5
+   ],
+   "aabb_max": [
+    -82.5,
+    -5.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 107,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@238",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    63.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 108,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@240",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 109,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@242",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    68.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 110,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@244",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 111,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@246",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    70.5
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 112,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@248",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 113,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@250",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    71.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 114,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@252",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 115,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@254",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    74.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 116,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@256",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 117,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@258",
+   "aabb_min": [
+    -86.0,
+    -5.0,
+    78.0
+   ],
+   "aabb_max": [
+    -82.5,
+    -1.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 118,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@260",
+   "aabb_min": [
+    -86.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -82.5,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 119,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@262",
+   "aabb_min": [
+    -82.5,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 120,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@264",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 121,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@266",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 122,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@268",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 123,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@270",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 124,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@272",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 125,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@274",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 126,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@276",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 127,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@278",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 128,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@280",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    5.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 129,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@282",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 130,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@284",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    15.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 131,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@286",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 132,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@288",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    32.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 133,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@290",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 134,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@292",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    33.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 135,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@294",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 136,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@296",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 137,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@298",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 138,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@300",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 139,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@302",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 140,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@304",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 141,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@306",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 142,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@308",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    59.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 143,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@310",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    61.5
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 144,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@312",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    63.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 145,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@314",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 146,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@316",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    68.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 147,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@318",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 148,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@320",
+   "aabb_min": [
+    -82.5,
+    -6.0,
+    70.5
+   ],
+   "aabb_max": [
+    -82.0,
+    -5.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 149,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@322",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 150,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@324",
+   "aabb_min": [
+    -82.5,
+    -5.0,
+    71.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -1.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 151,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@326",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 152,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@328",
+   "aabb_min": [
+    -82.5,
+    -5.0,
+    74.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -1.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 153,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@330",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 154,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@332",
+   "aabb_min": [
+    -82.5,
+    -5.0,
+    78.0
+   ],
+   "aabb_max": [
+    -82.0,
+    -1.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 155,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@334",
+   "aabb_min": [
+    -82.5,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -82.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 156,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@336",
+   "aabb_min": [
+    -82.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 157,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@338",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 158,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@340",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 159,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@342",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 160,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@344",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 161,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@346",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 162,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@348",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 163,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@350",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 164,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@352",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 165,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@354",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    5.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 166,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@356",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 167,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@358",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    15.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 168,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@360",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 169,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@362",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    32.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 170,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@364",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 171,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@366",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    33.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 172,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@368",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 173,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@370",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 174,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@372",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 175,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@374",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 176,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@376",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    43.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 177,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@378",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 178,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@380",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    44.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 179,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@382",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 180,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@384",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    48.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 181,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@386",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 182,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@388",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    54.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 183,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@390",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    59.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 184,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@392",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    59.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 185,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@394",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    61.5
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 186,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@396",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    61.5
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 187,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@398",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    63.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 188,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@400",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 189,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@402",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    68.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 190,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@404",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 191,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@406",
+   "aabb_min": [
+    -82.0,
+    -6.0,
+    70.5
+   ],
+   "aabb_max": [
+    -80.0,
+    -5.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 192,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@408",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 193,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@410",
+   "aabb_min": [
+    -82.0,
+    -5.0,
+    71.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -1.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 194,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@412",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 195,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@414",
+   "aabb_min": [
+    -82.0,
+    -5.0,
+    74.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -1.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 196,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@416",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 197,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@418",
+   "aabb_min": [
+    -82.0,
+    -5.0,
+    78.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -1.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 198,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@420",
+   "aabb_min": [
+    -82.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -80.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 199,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@422",
+   "aabb_min": [
+    -80.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 200,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@424",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 201,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@426",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 202,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@428",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 203,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@430",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 204,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@432",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 205,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@434",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 206,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@436",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 207,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@438",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 208,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@440",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    5.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 209,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@442",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 210,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@444",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    15.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 211,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@446",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 212,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@448",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    32.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 213,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@450",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 214,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@452",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    33.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 215,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@454",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 216,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@456",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 217,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@458",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 218,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@460",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 219,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@462",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    43.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 220,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@464",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 221,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@466",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    44.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 222,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@468",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 223,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@470",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    48.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 224,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@472",
+   "aabb_min": [
+    -80.0,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -78.0,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 225,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@474",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    54.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 226,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@476",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    59.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 227,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@478",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    61.5
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 228,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@480",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 229,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@482",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 230,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@484",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 231,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@486",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 232,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@488",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 233,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@490",
+   "aabb_min": [
+    -80.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -78.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 234,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@492",
+   "aabb_min": [
+    -78.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 235,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@494",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 236,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@496",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 237,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@498",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 238,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@500",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 239,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@502",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 240,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@504",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 241,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@506",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 242,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@508",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 243,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@510",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    5.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 244,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@512",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 245,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@514",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    15.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 246,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@516",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 247,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@518",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    32.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 248,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@520",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 249,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@522",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    33.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 250,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@524",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 251,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@526",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 252,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@528",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 253,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@530",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 254,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@532",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    43.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 255,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@534",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 256,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@536",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    44.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 257,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@538",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 258,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@540",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    48.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 259,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@542",
+   "aabb_min": [
+    -78.0,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 260,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@544",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    54.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 261,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@546",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    59.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 262,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@548",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    61.5
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 263,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@550",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 264,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@552",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 265,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@554",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 266,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@556",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 267,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@558",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 268,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@560",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 269,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@562",
+   "aabb_min": [
+    -78.0,
+    -5.0,
+    84.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -1.0,
+    100.0
+   ]
+  },
+  {
+   "dump_index": 270,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@564",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    84.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    100.0
+   ]
+  },
+  {
+   "dump_index": 271,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@566",
+   "aabb_min": [
+    -78.0,
+    -5.0,
+    100.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -1.0,
+    129.0
+   ]
+  },
+  {
+   "dump_index": 272,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@568",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    100.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    129.0
+   ]
+  },
+  {
+   "dump_index": 273,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@570",
+   "aabb_min": [
+    -78.0,
+    -5.0,
+    129.0
+   ],
+   "aabb_max": [
+    -76.0,
+    -1.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 274,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@572",
+   "aabb_min": [
+    -78.0,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    -76.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 275,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@574",
+   "aabb_min": [
+    -76.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 276,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@576",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 277,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@578",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 278,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@580",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 279,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@582",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 280,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@584",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 281,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@586",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 282,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@588",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 283,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@590",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 284,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@592",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 285,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@594",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    5.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 286,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@596",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 287,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@598",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    15.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 288,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@600",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 289,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@602",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    32.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 290,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@604",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 291,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@606",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    33.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 292,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@608",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 293,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@610",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 294,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@612",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 295,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@614",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 296,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@616",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    43.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 297,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@618",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 298,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@620",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    44.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 299,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@622",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 300,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@624",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    48.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 301,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@626",
+   "aabb_min": [
+    -76.0,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 302,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@628",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    54.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 303,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@630",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    59.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 304,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@632",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    61.5
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 305,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@634",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 306,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@636",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 307,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@638",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 308,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@640",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 309,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@642",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 310,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@644",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 311,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@646",
+   "aabb_min": [
+    -76.0,
+    -5.0,
+    84.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -1.0,
+    100.0
+   ]
+  },
+  {
+   "dump_index": 312,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@648",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    84.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    100.0
+   ]
+  },
+  {
+   "dump_index": 313,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@650",
+   "aabb_min": [
+    -76.0,
+    -5.0,
+    100.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -1.0,
+    129.0
+   ]
+  },
+  {
+   "dump_index": 314,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@652",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    100.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    129.0
+   ]
+  },
+  {
+   "dump_index": 315,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@654",
+   "aabb_min": [
+    -76.0,
+    -5.0,
+    129.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -1.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 316,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@656",
+   "aabb_min": [
+    -76.0,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    -74.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 317,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@658",
+   "aabb_min": [
+    -74.0,
+    -5.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -1.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 318,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@660",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    -84.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    -68.0
+   ]
+  },
+  {
+   "dump_index": 319,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@662",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 320,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@664",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    -68.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    -46.0
+   ]
+  },
+  {
+   "dump_index": 321,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@666",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 322,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@668",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    -46.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    -35.0
+   ]
+  },
+  {
+   "dump_index": 323,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@670",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 324,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@672",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    -35.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    -25.0
+   ]
+  },
+  {
+   "dump_index": 325,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@674",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 326,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@676",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    -25.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "dump_index": 327,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@678",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    5.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 328,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@680",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    5.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    15.0
+   ]
+  },
+  {
+   "dump_index": 329,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@682",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    15.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 330,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@684",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    15.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    32.0
+   ]
+  },
+  {
+   "dump_index": 331,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@686",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    32.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 332,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@688",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    32.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    33.0
+   ]
+  },
+  {
+   "dump_index": 333,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@690",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    33.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 334,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@692",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    33.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 335,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@694",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    42.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 336,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@696",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    42.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    43.0
+   ]
+  },
+  {
+   "dump_index": 337,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@698",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    43.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 338,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@700",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    43.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    44.0
+   ]
+  },
+  {
+   "dump_index": 339,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@702",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    44.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 340,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@704",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    44.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    48.0
+   ]
+  },
+  {
+   "dump_index": 341,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@706",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    48.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 342,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@708",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    48.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    54.0
+   ]
+  },
+  {
+   "dump_index": 343,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@710",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    54.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 344,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@712",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    54.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    59.0
+   ]
+  },
+  {
+   "dump_index": 345,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@714",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    59.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 346,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@716",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    59.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    61.5
+   ]
+  },
+  {
+   "dump_index": 347,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@718",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    61.5
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 348,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@720",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    61.5
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 349,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@722",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    63.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 350,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@724",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    63.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    68.0
+   ]
+  },
+  {
+   "dump_index": 351,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@726",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    68.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 352,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@728",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    68.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    70.5
+   ]
+  },
+  {
+   "dump_index": 353,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@730",
+   "aabb_min": [
+    -74.0,
+    -6.0,
+    70.5
+   ],
+   "aabb_max": [
+    -72.0,
+    -5.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 354,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@732",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    70.5
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    71.0
+   ]
+  },
+  {
+   "dump_index": 355,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@734",
+   "aabb_min": [
+    -74.0,
+    -5.0,
+    71.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -1.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 356,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@736",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    71.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 357,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@738",
+   "aabb_min": [
+    -74.0,
+    -5.0,
+    74.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -1.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 358,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@740",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    74.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 359,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@742",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    78.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 360,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@744",
+   "aabb_min": [
+    -74.0,
+    -5.0,
+    84.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -1.0,
+    100.0
+   ]
+  },
+  {
+   "dump_index": 361,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@746",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    84.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    100.0
+   ]
+  },
+  {
+   "dump_index": 362,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@748",
+   "aabb_min": [
+    -74.0,
+    -5.0,
+    100.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -1.0,
+    129.0
+   ]
+  },
+  {
+   "dump_index": 363,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@750",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    100.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    129.0
+   ]
+  },
+  {
+   "dump_index": 364,
+   "role": "foundation",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@752",
+   "aabb_min": [
+    -74.0,
+    -5.0,
+    129.0
+   ],
+   "aabb_max": [
+    -72.0,
+    -1.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 365,
+   "role": "ground",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@754",
+   "aabb_min": [
+    -74.0,
+    -1.0,
+    129.0
+   ],
+   "aabb_max": [
+    -72.0,
+    0.0,
+    164.0
+   ]
+  },
+  {
+   "dump_index": 1817,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3734",
+   "aabb_min": [
+    -90.0,
+    -5.3,
+    45.05
+   ],
+   "aabb_max": [
+    -86.0,
+    -5.0,
+    45.5
+   ]
+  },
+  {
+   "dump_index": 1820,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3740",
+   "aabb_min": [
+    -82.75,
+    -5.3,
+    -48.5
+   ],
+   "aabb_max": [
+    -79.25,
+    -5.0,
+    -48.05
+   ]
+  },
+  {
+   "dump_index": 1821,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3742",
+   "aabb_min": [
+    -82.35,
+    -5.0,
+    -32.0
+   ],
+   "aabb_max": [
+    -81.65,
+    -0.8,
+    42.0
+   ]
+  },
+  {
+   "dump_index": 1822,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3744",
+   "aabb_min": [
+    -82.35,
+    -5.0,
+    64.0
+   ],
+   "aabb_max": [
+    -81.65,
+    -0.8,
+    70.0
+   ]
+  },
+  {
+   "dump_index": 1823,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3746",
+   "aabb_min": [
+    -78.0,
+    -5.0,
+    -62.35
+   ],
+   "aabb_max": [
+    -72.0,
+    -0.8,
+    -61.65
+   ]
+  },
+  {
+   "dump_index": 1826,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3752",
+   "aabb_min": [
+    -94.35,
+    -5.0,
+    42.0
+   ],
+   "aabb_max": [
+    -93.65,
+    -0.8,
+    63.0
+   ]
+  },
+  {
+   "dump_index": 1827,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3754",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    41.65
+   ],
+   "aabb_max": [
+    -82.0,
+    -0.8,
+    42.35
+   ]
+  },
+  {
+   "dump_index": 1828,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "Collision/@StaticBody3D@3756",
+   "aabb_min": [
+    -94.0,
+    -5.0,
+    62.65
+   ],
+   "aabb_max": [
+    -82.0,
+    -0.8,
+    63.35
+   ]
+  },
+  {
+   "dump_index": 8307,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -80.0,
+    -5.36,
+    59.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 8308,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -80.0,
+    -0.9,
+    59.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -0.6,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 8309,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -80.0,
+    -5.36,
+    78.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -5.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 8310,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -80.0,
+    -0.9,
+    78.0
+   ],
+   "aabb_max": [
+    -74.0,
+    -0.6,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 8313,
+   "role": "foundation",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -74.0,
+    -5.0,
+    59.0
+   ],
+   "aabb_max": [
+    -73.76,
+    -1.0,
+    78.0
+   ]
+  },
+  {
+   "dump_index": 8314,
+   "role": "foundation",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -80.24,
+    -5.0,
+    59.0
+   ],
+   "aabb_max": [
+    -80.0,
+    -1.0,
+    84.0
+   ]
+  },
+  {
+   "dump_index": 8393,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -79.8,
+    -5.0,
+    65.0
+   ],
+   "aabb_max": [
+    -78.8,
+    -3.85,
+    67.0
+   ]
+  },
+  {
+   "dump_index": 8394,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -79.7,
+    -3.85,
+    65.2
+   ],
+   "aabb_max": [
+    -78.9,
+    -3.75,
+    66.8
+   ]
+  },
+  {
+   "dump_index": 8395,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -75.2,
+    -5.0,
+    72.0
+   ],
+   "aabb_max": [
+    -74.2,
+    -3.85,
+    74.0
+   ]
+  },
+  {
+   "dump_index": 8396,
+   "role": "underground (see districts/underground)",
+   "type": "box",
+   "path": "@Node3D@9344/Collision/MallStaticCollision",
+   "aabb_min": [
+    -75.1,
+    -3.85,
+    72.2
+   ],
+   "aabb_max": [
+    -74.3,
+    -3.75,
+    73.8
+   ]
+  }
+ ],
+ "props": [
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -90.75,
+    3.4,
+    -66.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -90.9,
+     3.28,
+     -66.08
+    ],
+    [
+     -90.75,
+     3.53,
+     -65.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -89.25,
+    3.4,
+    -66.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -89.25,
+     3.28,
+     -66.08
+    ],
+    [
+     -89.1,
+     3.53,
+     -65.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -75.25,
+    3.4,
+    -66.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -75.25,
+     3.28,
+     -66.08
+    ],
+    [
+     -75.1,
+     3.53,
+     -65.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -76.75,
+    3.4,
+    -66.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -76.9,
+     3.28,
+     -66.08
+    ],
+    [
+     -76.75,
+     3.53,
+     -65.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -90.75,
+    3.4,
+    -44.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -90.9,
+     3.28,
+     -44.08
+    ],
+    [
+     -90.75,
+     3.53,
+     -43.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -89.25,
+    3.4,
+    -44.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -89.25,
+     3.28,
+     -44.08
+    ],
+    [
+     -89.1,
+     3.53,
+     -43.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -75.25,
+    3.4,
+    -44.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -75.25,
+     3.28,
+     -44.08
+    ],
+    [
+     -75.1,
+     3.53,
+     -43.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -76.75,
+    3.4,
+    -44.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -76.9,
+     3.28,
+     -44.08
+    ],
+    [
+     -76.75,
+     3.53,
+     -43.92
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -90.75,
+    3.4,
+    4.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -90.9,
+     3.28,
+     3.92
+    ],
+    [
+     -90.75,
+     3.53,
+     4.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -89.25,
+    3.4,
+    4.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -89.25,
+     3.28,
+     3.92
+    ],
+    [
+     -89.1,
+     3.53,
+     4.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -75.25,
+    3.4,
+    4.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -75.25,
+     3.28,
+     3.92
+    ],
+    [
+     -75.1,
+     3.53,
+     4.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -76.75,
+    3.4,
+    4.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -76.9,
+     3.28,
+     3.92
+    ],
+    [
+     -76.75,
+     3.53,
+     4.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -90.75,
+    3.4,
+    52.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -90.9,
+     3.28,
+     51.92
+    ],
+    [
+     -90.75,
+     3.53,
+     52.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -89.25,
+    3.4,
+    52.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -89.25,
+     3.28,
+     51.92
+    ],
+    [
+     -89.1,
+     3.53,
+     52.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -75.25,
+    3.4,
+    52.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -75.25,
+     3.28,
+     51.92
+    ],
+    [
+     -75.1,
+     3.53,
+     52.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -76.75,
+    3.4,
+    52.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -76.9,
+     3.28,
+     51.92
+    ],
+    [
+     -76.75,
+     3.53,
+     52.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -90.75,
+    3.4,
+    68.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -90.9,
+     3.28,
+     67.92
+    ],
+    [
+     -90.75,
+     3.53,
+     68.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -89.25,
+    3.4,
+    68.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -89.25,
+     3.28,
+     67.92
+    ],
+    [
+     -89.1,
+     3.53,
+     68.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -75.25,
+    3.4,
+    68.0
+   ],
+   "rot": 90.0,
+   "why": "viaduct column lamp, 3.4 m",
+   "aabb": [
+    [
+     -75.25,
+     3.28,
+     67.92
+    ],
+    [
+     -75.1,
+     3.53,
+     68.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_wall_lamp",
+   "pos": [
+    -76.75,
+    3.4,
+    68.0
+   ],
+   "rot": -90.0,
+   "why": "viaduct column lamp, 3.4 m (under the deck)",
+   "aabb": [
+    [
+     -76.9,
+     3.28,
+     67.92
+    ],
+    [
+     -76.75,
+     3.53,
+     68.08
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -99.0,
+    8.7,
+    -25.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -99.23,
+     8.07,
+     -25.23
+    ],
+    [
+     -98.77,
+     8.71,
+     -24.77
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -99.0,
+    8.7,
+    -17.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -99.23,
+     8.07,
+     -17.73
+    ],
+    [
+     -98.77,
+     8.71,
+     -17.27
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -99.0,
+    8.7,
+    -10.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -99.23,
+     8.07,
+     -10.23
+    ],
+    [
+     -98.77,
+     8.71,
+     -9.77
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -99.0,
+    8.7,
+    -2.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -99.23,
+     8.07,
+     -2.73
+    ],
+    [
+     -98.77,
+     8.71,
+     -2.27
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -99.0,
+    8.7,
+    5.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -99.23,
+     8.07,
+     4.77
+    ],
+    [
+     -98.77,
+     8.71,
+     5.23
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -99.0,
+    8.7,
+    12.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -99.23,
+     8.07,
+     12.27
+    ],
+    [
+     -98.77,
+     8.71,
+     12.73
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -94.0,
+    8.7,
+    -25.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -94.23,
+     8.07,
+     -25.23
+    ],
+    [
+     -93.77,
+     8.71,
+     -24.77
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -94.0,
+    8.7,
+    -17.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -94.23,
+     8.07,
+     -17.73
+    ],
+    [
+     -93.77,
+     8.71,
+     -17.27
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -94.0,
+    8.7,
+    -10.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -94.23,
+     8.07,
+     -10.23
+    ],
+    [
+     -93.77,
+     8.71,
+     -9.77
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -94.0,
+    8.7,
+    -2.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -94.23,
+     8.07,
+     -2.73
+    ],
+    [
+     -93.77,
+     8.71,
+     -2.27
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -94.0,
+    8.7,
+    5.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -94.23,
+     8.07,
+     4.77
+    ],
+    [
+     -93.77,
+     8.71,
+     5.23
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -94.0,
+    8.7,
+    12.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from roof 880",
+   "aabb": [
+    [
+     -94.23,
+     8.07,
+     12.27
+    ],
+    [
+     -93.77,
+     8.71,
+     12.73
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -86.0,
+    13.9,
+    -60.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from canopy roof 881, west track",
+   "aabb": [
+    [
+     -86.23,
+     13.27,
+     -60.23
+    ],
+    [
+     -85.77,
+     13.91,
+     -59.77
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -86.0,
+    13.9,
+    -52.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from canopy roof 881, west track",
+   "aabb": [
+    [
+     -86.23,
+     13.27,
+     -52.73
+    ],
+    [
+     -85.77,
+     13.91,
+     -52.27
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -86.0,
+    13.9,
+    -45.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from canopy roof 881, west track",
+   "aabb": [
+    [
+     -86.23,
+     13.27,
+     -45.23
+    ],
+    [
+     -85.77,
+     13.91,
+     -44.77
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -86.0,
+    13.9,
+    -37.5
+   ],
+   "rot": 0.0,
+   "why": "hangs from canopy roof 881, west track",
+   "aabb": [
+    [
+     -86.23,
+     13.27,
+     -37.73
+    ],
+    [
+     -85.77,
+     13.91,
+     -37.27
+    ]
+   ]
+  },
+  {
+   "piece": "P_lantern_paper",
+   "pos": [
+    -86.0,
+    13.9,
+    -30.0
+   ],
+   "rot": 0.0,
+   "why": "hangs from canopy roof 881, west track",
+   "aabb": [
+    [
+     -86.23,
+     13.27,
+     -30.23
+    ],
+    [
+     -85.77,
+     13.91,
+     -29.77
+    ]
+   ]
+  },
+  {
+   "piece": "M_sign_lightbox_2m",
+   "pos": [
+    -92.0,
+    13.1,
+    -54.0
+   ],
+   "rot": 90.0,
+   "cell": 2,
+   "why": "station name light box on shelter wall",
+   "aabb": [
+    [
+     -92.22,
+     13.1,
+     -56.0
+    ],
+    [
+     -92.0,
+     13.62,
+     -54.0
+    ]
+   ]
+  },
+  {
+   "piece": "M_sign_lightbox_2m",
+   "pos": [
+    -92.0,
+    13.1,
+    41.0
+   ],
+   "rot": 90.0,
+   "cell": 2,
+   "why": "station name light box on shelter wall",
+   "aabb": [
+    [
+     -92.22,
+     13.1,
+     39.0
+    ],
+    [
+     -92.0,
+     13.62,
+     41.0
+    ]
+   ]
+  },
+  {
+   "piece": "A_sign_horizontal_2m",
+   "pos": [
+    -85.0,
+    13.33,
+    -62.7
+   ],
+   "rot": 180.0,
+   "cell": 5,
+   "why": "hanging name board under canopy roof",
+   "aabb": [
+    [
+     -87.0,
+     13.33,
+     -62.7
+    ],
+    [
+     -85.0,
+     13.88,
+     -62.6
+    ]
+   ]
+  },
+  {
+   "piece": "A_sign_horizontal_2m",
+   "pos": [
+    -87.0,
+    13.33,
+    -27.3
+   ],
+   "rot": 0.0,
+   "cell": 5,
+   "why": "hanging name board under canopy roof",
+   "aabb": [
+    [
+     -87.0,
+     13.33,
+     -27.4
+    ],
+    [
+     -85.0,
+     13.88,
+     -27.3
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -71.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -72.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -71.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -68.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -69.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -68.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -65.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -66.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -65.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -62.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -63.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -62.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -59.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -60.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -59.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -56.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -57.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -56.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -53.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -54.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -53.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -50.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -51.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -50.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -47.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -48.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -47.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -44.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -45.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -44.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -41.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -42.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -41.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -38.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -39.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -38.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -35.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -36.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -35.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -32.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -33.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -32.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -29.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -30.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -29.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -8.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -9.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -8.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -5.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -6.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -5.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    -2.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     -3.0
+    ],
+    [
+     -82.6,
+     11.005,
+     -2.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    1.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     0.0
+    ],
+    [
+     -82.6,
+     11.005,
+     1.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    4.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     3.0
+    ],
+    [
+     -82.6,
+     11.005,
+     4.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    7.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     6.0
+    ],
+    [
+     -82.6,
+     11.005,
+     7.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    10.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     9.0
+    ],
+    [
+     -82.6,
+     11.005,
+     10.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    13.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     12.0
+    ],
+    [
+     -82.6,
+     11.005,
+     13.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    16.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     15.0
+    ],
+    [
+     -82.6,
+     11.005,
+     16.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    19.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     18.0
+    ],
+    [
+     -82.6,
+     11.005,
+     19.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    22.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     21.0
+    ],
+    [
+     -82.6,
+     11.005,
+     22.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    25.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     24.0
+    ],
+    [
+     -82.6,
+     11.005,
+     25.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    28.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     27.0
+    ],
+    [
+     -82.6,
+     11.005,
+     28.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    31.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     30.0
+    ],
+    [
+     -82.6,
+     11.005,
+     31.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    34.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     33.0
+    ],
+    [
+     -82.6,
+     11.005,
+     34.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    37.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     36.0
+    ],
+    [
+     -82.6,
+     11.005,
+     37.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    40.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     39.0
+    ],
+    [
+     -82.6,
+     11.005,
+     40.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    43.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     42.0
+    ],
+    [
+     -82.6,
+     11.005,
+     43.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    46.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     45.0
+    ],
+    [
+     -82.6,
+     11.005,
+     46.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    49.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     48.0
+    ],
+    [
+     -82.6,
+     11.005,
+     49.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    52.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     51.0
+    ],
+    [
+     -82.6,
+     11.005,
+     52.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    55.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     54.0
+    ],
+    [
+     -82.6,
+     11.005,
+     55.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    58.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     57.0
+    ],
+    [
+     -82.6,
+     11.005,
+     58.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    61.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     60.0
+    ],
+    [
+     -82.6,
+     11.005,
+     61.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    64.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     63.0
+    ],
+    [
+     -82.6,
+     11.005,
+     64.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    67.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     66.0
+    ],
+    [
+     -82.6,
+     11.005,
+     67.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_ribs_1m",
+   "pos": [
+    -82.9,
+    11.005,
+    70.0
+   ],
+   "rot": 0.0,
+   "why": "express track warning line (deck)",
+   "aabb": [
+    [
+     -82.9,
+     10.905,
+     69.0
+    ],
+    [
+     -82.6,
+     11.005,
+     70.0
+    ]
+   ]
+  },
+  {
+   "piece": "M_sign_lightbox_2m",
+   "pos": [
+    -76.95,
+    2.3,
+    -67.0
+   ],
+   "rot": -90.0,
+   "cell": 6,
+   "why": "\"to underground / mall\" sign facing the north stair well",
+   "aabb": [
+    [
+     -76.95,
+     2.3,
+     -67.0
+    ],
+    [
+     -76.73,
+     2.82,
+     -65.0
+    ]
+   ]
+  },
+  {
+   "piece": "M_sign_lightbox_2m",
+   "pos": [
+    -89.05,
+    2.3,
+    53.0
+   ],
+   "rot": 90.0,
+   "cell": 6,
+   "why": "\"to underground / mall\" sign facing the south stair well",
+   "aabb": [
+    [
+     -89.27,
+     2.3,
+     51.0
+    ],
+    [
+     -89.05,
+     2.82,
+     53.0
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -102.75,
+    0.005,
+    -77.2
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -103.75,
+     -0.095,
+     -77.5
+    ],
+    [
+     -102.75,
+     0.005,
+     -77.2
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -101.875,
+    0.005,
+    -77.2
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -102.875,
+     -0.095,
+     -77.5
+    ],
+    [
+     -101.875,
+     0.005,
+     -77.2
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -101.0,
+    0.005,
+    -77.2
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -102.0,
+     -0.095,
+     -77.5
+    ],
+    [
+     -101.0,
+     0.005,
+     -77.2
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -100.125,
+    0.005,
+    -77.2
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -101.125,
+     -0.095,
+     -77.5
+    ],
+    [
+     -100.125,
+     0.005,
+     -77.2
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -98.75,
+    0.005,
+    65.5
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -99.75,
+     -0.095,
+     65.2
+    ],
+    [
+     -98.75,
+     0.005,
+     65.5
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -97.875,
+    0.005,
+    65.5
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -98.875,
+     -0.095,
+     65.2
+    ],
+    [
+     -97.875,
+     0.005,
+     65.5
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -97.0,
+    0.005,
+    65.5
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -98.0,
+     -0.095,
+     65.2
+    ],
+    [
+     -97.0,
+     0.005,
+     65.5
+    ]
+   ]
+  },
+  {
+   "piece": "G_tactile_dots_1m",
+   "pos": [
+    -96.125,
+    0.005,
+    65.5
+   ],
+   "rot": 90.0,
+   "why": "stair foot warning dots",
+   "aabb": [
+    [
+     -97.125,
+     -0.095,
+     65.2
+    ],
+    [
+     -96.125,
+     0.005,
+     65.5
+    ]
+   ]
+  }
+ ],
+ "lights_in_or_affecting_region": [
+  {
+   "position": [
+    -91.10000000000001,
+    3.2,
+    -66.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -74.89999999999999,
+    3.2,
+    -66.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -91.10000000000001,
+    3.2,
+    -44.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -74.89999999999999,
+    3.2,
+    -44.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -91.10000000000001,
+    3.2,
+    4.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -74.89999999999999,
+    3.2,
+    4.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -91.10000000000001,
+    3.2,
+    52.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -74.89999999999999,
+    3.2,
+    52.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -91.10000000000001,
+    3.2,
+    68.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -74.89999999999999,
+    3.2,
+    68.0
+   ],
+   "kind": "column lamp"
+  },
+  {
+   "position": [
+    -96.5,
+    6.9,
+    -20.0
+   ],
+   "kind": "raised platform lantern glow"
+  },
+  {
+   "position": [
+    -96.5,
+    6.9,
+    0.0
+   ],
+   "kind": "raised platform lantern glow"
+  }
+ ],
+ "district_lights": [
+  {
+   "p": [
+    -86.0,
+    13.0,
+    -60.0
+   ],
+   "col": "ffc27a",
+   "e": 1.4,
+   "r": 7.0
+  },
+  {
+   "p": [
+    -86.0,
+    13.0,
+    -52.5
+   ],
+   "col": "ffc27a",
+   "e": 1.4,
+   "r": 7.0
+  },
+  {
+   "p": [
+    -86.0,
+    13.0,
+    -45.0
+   ],
+   "col": "ffc27a",
+   "e": 1.4,
+   "r": 7.0
+  },
+  {
+   "p": [
+    -86.0,
+    13.0,
+    -37.5
+   ],
+   "col": "ffc27a",
+   "e": 1.4,
+   "r": 7.0
+  },
+  {
+   "p": [
+    -86.0,
+    13.0,
+    -30.0
+   ],
+   "col": "ffc27a",
+   "e": 1.4,
+   "r": 7.0
+  },
+  {
+   "p": [
+    -91.5,
+    13.4,
+    -55.0
+   ],
+   "col": "ffd2a0",
+   "e": 1.2,
+   "r": 6.0
+  },
+  {
+   "p": [
+    -91.5,
+    13.4,
+    40.0
+   ],
+   "col": "ffd2a0",
+   "e": 1.2,
+   "r": 6.0
+  }
+ ],
+ "express": {
+  "actor": "Gameplay/StationExpress2/ExpressCollision",
+  "track_x": -79.0,
+  "cars": 3,
+  "car_size": [
+   2.8,
+   2.6,
+   12.0
+  ],
+  "body_y": [
+   11.23,
+   13.83
+  ],
+  "note": "moving AnimatableBody (station_train.gd); its visual is game-side, see BUILDER_REQUESTS.md"
+ },
+ "known_limits": "buildings = the 2 info islands only (doors measured from the wall gaps); district_lights need builder request R2"
+}
